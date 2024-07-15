@@ -1,0 +1,25 @@
+---
+title: "About me"
+published-title: "Page Last Updated"
+date: "15 July 2024"
+date-format: "D MMMM YYYY"
+format: html
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+![](images/SEA-MLS.jpg){width=3in}
+:::
+
+::: {.g-col-8}
+25, Husband, Cat Parent and Visioner.
+
+Lifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.
+
+Aspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.
+
+Aby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, "You ultimately need to do what your heart feels is right" - Master of Masters, Kingdom Hearts.
+:::
+ 
+:::

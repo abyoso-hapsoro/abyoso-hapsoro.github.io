@@ -1,0 +1,45 @@
+---
+title: "Miscellaneous"
+published-title: "Page Last Updated"
+date: "15 July 2024"
+date-format: "D MMMM YYYY"
+format: html
+---
+
+## Interests
+- Environment Conservation
+- Astrobiology
+- Animal Welfare
+- Mental Health
+- Financial Market Analysis
+
+## Hobbies
+- Video Games
+- Chess
+- Anime
+- Board Games
+- Writing, with over 76 unpublished stories
+- Card Games
+
+## Random stuff
+- My favorite color is <span style="background-color:#2cb037;">#2cb037</span>!
+- Bearing the INFJ personality type
+- I am a former debater! I used to specialize in Asian Parliamentary format with focus on English-based debates. This experience gives me a strong foundation of considering pros and cons of any topic making me highly-adaptable in terms of industry or Subject Matter Expertise
+
+## Non-Code/Writing Creations
+::: {layout-ncol=2}
+![](images/Xyba-Logo.ico){width=350}
+
+First personal logo created in 2017 to be the icon for my first Tkinter app, a <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Basic%20Python/Guessing%20Game">number guessing game</a>. Have been used as personal logo since though new personal logo is planned.
+
+![](images/Xyba_Project-Cover.jpg){width=350}
+
+Document cover created using CorelDRAW in 2016 for <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Mathematics%20(No%20Code)">Project Xyba</a>, a question solution sharing project, during bachelor studies. Corner art made by <a href="https://danbooru.donmai.us/posts?tags=mishima_kurone">Mishima Kurone</a>.
+:::
+
+## Full Name with Honorifics
+R. Abyoso Hapsoro Nurhadi, S.Si., AWP
+
+- R.: Raden → Hereditary Title indicating descendance of Javanese nobility (22 October 1998)
+- S.Si.: Sarjana Sains → Indonesia equivalent of the Bachelor of Science title (27 July 2022)
+- AWP: Associate Wealth Planner → Associate title awarded for junior financial planning expertise (15 January 2019)

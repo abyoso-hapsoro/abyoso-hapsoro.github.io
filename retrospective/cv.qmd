@@ -1,0 +1,11 @@
+---
+title: "Curriculum Vitae"
+published-title: "Content Last Updated"
+date: "29 June 2024"
+date-format: "D MMMM YYYY"
+format: html
+---
+
+```{=html}
+<embed src="../docs/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px"/>
+```
