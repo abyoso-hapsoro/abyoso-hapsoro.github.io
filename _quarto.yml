@@ -1,12 +1,15 @@
 project:
   type: website
-  output-dir: _render
+  output-dir: docs
   preview:
     port: 8080
 
 website:
   title: "Aby's Portfolio"
   favicon: "images/Xyba-Logo.ico"
+  site-url: "https://abyoso-hapsoro.github.io/"
+  repo-url: "https://github.com/abyoso-hapsoro/abyoso-hapsoro.github.io"
+  repo-actions: [source]
 
   page-footer:
     right: "This page is built with 💚 using [Quarto](https://quarto.org/)."
