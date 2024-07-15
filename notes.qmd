@@ -11,12 +11,13 @@ Website currently running on version 0.7.2
 ## Milestones
 <details open>
   <summary>July 2024</summary>
-  v0.7.1 - Released first version of static website with limited content and functionality
+  v0.7.2b - Released finalized first version of static website with limited content and functionality
 </details>
 
 ## Changelog
 <details open>
   <summary>July 2024</summary>
+  v0.7.2b - Rerendered v0.7.1 to v0.7.2<br>
   v0.7.2 - Corrected bottom to top in a section<br>
   v0.7.1 - Fixed initial deployment<br>
   v0.7.0 - Initial release
