@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _render
+  preview:
+    port: 8080
+
+website:
+  title: "Aby's Portfolio"
+  favicon: "images/Xyba-Logo.ico"
+
+  page-footer:
+    right: "This page is built with 💚 using [Quarto](https://quarto.org/)."
+    left: "&copy; Abyoso Hapsoro Nurhadi, 2024"
+  
+  sidebar:
+    pinned: true
+    align: center
+    tools:
+    - icon: envelope
+      href: mailto:abyoso.hapsoro@alumni.ui.ac.id
+      text: "Mail"
+    - icon: linkedin
+      href: https://linkedin.com/in/abyoso-hapsoro/
+      text: "LinkedIn"
+    - icon: github
+      href: https://github.com/abyoso-hapsoro
+      text: "GitHub"
+
+    style: "docked"
+    search: false
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Homepage
+      - about.qmd
+      - section: retrospective/retrospective.qmd
+        contents:
+          - retrospective/cv.qmd
+          - retrospective/certifications.qmd
+          - href: retrospective/education.qmd
+            text: Education (U/C)
+          - href: retrospective/experience.qmd
+            text: Experience (U/C)
+          - href: retrospective/achievements.qmd
+            text: Achievements (U/C)
+      - section: projects/projects.qmd
+        contents:
+          - projects/mlaids.qmd
+          - href: projects/others.qmd
+            text: Other projects (U/C)
+      # - section: writings/writings.qmd
+      #   contents:
+      #     - writings/publications.qmd
+      #     - writings/articles.qmd
+      #     - writings/unpublished.qmd
+      - misc.qmd
+      - notes.qmd
+
+      # When maintenance is required, comment the above from "home.qmd" to "notes.qmd" and uncomment the following
+      # - maintenance.qmd
+
+format:
+  html:
+    highlight-style: solarized
+    theme: cosmo
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    toc: true

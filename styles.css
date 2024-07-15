@@ -1,0 +1,10 @@
+/* css styles */
+
+.image-container {
+  margin-top: 15px; /* Adjust the value as needed for the top margin */
+}
+
+.image-container img {
+  display: block;
+  margin-bottom: 15px; /* Adjust the value as needed for the spacing between images */
+}

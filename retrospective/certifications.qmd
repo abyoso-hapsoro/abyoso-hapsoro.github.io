@@ -1,0 +1,73 @@
+---
+title: "Certifications"
+published-title: "Page Last Updated"
+date: "15 July 2024"
+date-format: "D MMMM YYYY"
+format: html
+---
+
+::: {layout="[25,75]"}
+
+![](../images/TFDC.png){width=200}
+
+## TensorFlow Developer Certificate
+Issued by TensorFlow<br>
+Issued: August 2022, <span style="color:green;">Expires: August 2025</span><br>
+📄 <a href="https://www.credential.net/230aa967-dca4-48fb-bcf2-ed7b36cf4ffa">View Certificate</a>
+
+![](../images/Pro5.png){width=200}
+
+## Machine Learning Engineer Certificate
+Issued by Pro5, formerly Mangtas<br>
+Issued: November 2023<br>
+📄 <a href="https://storage.mangtas.com/public/certificates/ML-cert-6755451-Abyoso_HapsoroNurhadi-11-11-23_11_37.pdf">View Certificate</a>
+
+![](../images/dicoding.jpeg){width=200}
+
+## Machine Learning Mastery Evaluation Certificate
+Issued by Dicoding Indonesia<br>
+Issued: September 2022, <span style="color:green;">Expires: September 2025</span><br>
+📄 <a href="https://www.dicoding.com/certificates/NVP7K2044ZR0">View Certificate</a>
+
+![](../images/WQU_Applied_Data_Science.png){width=200}
+
+## Applied Data Science Badge
+Issued by WorldQuant University<br>
+Issued: March 2023<br>
+🔰 <a href="https://www.credly.com/badges/1207fbc2-8c60-4488-8461-20ac1ef9c05a">View Badge</a>
+
+![](../images/Oracle_ML-2021.png){width=200}
+
+## Oracle Machine Learning using Autonomous Database 2021 Certified Specialist
+Issued by Oracle<br>
+Issued: February 2022, <span style="color:red;">Expired: February 2024</span><br>
+🔰 <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=69813BFEB506FB54971A754676E6EFED3B78BBBDC080860208BA9E5E9B0CE964">View Badge</a>
+
+![](../images/IELTS_Academic.png){width=200}
+
+## IELTS Academic CEFR C1
+Issued by Indonesia Australia Language Foundation<br>
+Issued: February 2023, <span style="color:green;">Expires: February 2025</span><br>
+📋 <a href="https://drive.google.com/file/d/1QLzKqE_PyYRjZM6_H_jBvCFi0rvyMDxC/view">View Report</a>
+
+![](../images/PAI.png){width=200}
+
+## A10: Financial Mathematics
+Issued by The Society of Actuaries of Indonesia<br>
+Issued: November 2018<br>
+📄 <a href="https://drive.google.com/file/d/1qreCytzms4n1o9bF35o45IwF-VebgBwA/view">View Certificate</a>
+
+![](../images/AWP.png){width=200}
+
+## Associate Wealth Planner Credential
+Issued by Financial Planning Standards Board Indonesia<br>
+Issued: January 2019<br>
+📄 <a href="https://drive.google.com/file/d/1xNWOlHtpVu9byYjmRLZF2kE9r9wl_vNY/view">View Certificate</a>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="/>
+
+## Various Skill Certificates
+60+ certificates from various issuers<br>
+🗄️ <a href="https://docs.google.com/spreadsheets/d/14aNwfzvHy0VHpx1wYgmBIBxiFFVCGIBXQV4qIAjWuvU/edit?gid=0#gid=0">View Collection</a>
+
+:::

@@ -1,0 +1,51 @@
+---
+title: "Abyoso Hapsoro Nurhadi"
+subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
+published-title: "Page Last Updated"
+date: "15 July 2024"
+date-format: "D MMMM YYYY"
+format: html
+execute:
+    echo: false
+---
+
+<!-- Placeholder Banner -->
+![](images/Crystal_of_Knowledge.jpg){width=100%}
+
+<!-- Animated Hello World -->
+```{=html}
+<h3 id="hello" style="margin: 0; padding: 0; outline: none;"></h3>
+
+<script>
+    var idx = 0;
+    var txt = 'Hello, World!';
+    var speed = 350;
+    var delay = 3500;
+
+    function typeWriter() {
+        if (idx < txt.length) {
+            document.getElementById("hello").innerHTML += txt.charAt(idx);
+            idx++;
+            setTimeout(typeWriter, speed);
+        } else {
+            setTimeout(resetAndTypeAgain, delay);
+        }
+    }
+
+    function resetAndTypeAgain() {
+        document.getElementById("hello").innerHTML = '';
+        idx = 0;
+        typeWriter();
+    }
+
+    // Start the typewriter effect
+    window.onload = function() {
+        document.getElementById("hello").innerHTML = '';
+        typeWriter();
+    }
+</script>
+
+<!-- Introduction -->
+Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~
+
+I am a medior-level developer experienced in building Machine Learning for research, products and various other applications.

@@ -1,0 +1,321 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abyoso Hapsoro Nurhadi",
+    "section": "",
+    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer experienced in building Machine Learning for research, products and various other applications.",
+    "crumbs": [
+      "Homepage"
+    ]
+  },
+  {
+    "objectID": "writings/writings.html",
+    "href": "writings/writings.html",
+    "title": "Written Work",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "writings/publications.html",
+    "href": "writings/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "retrospective/retrospective.html",
+    "href": "retrospective/retrospective.html",
+    "title": "Retrospective",
+    "section": "",
+    "text": "This section includes a curated retrospective of myself. Some subsections are U/C meaning they are still under construction.",
+    "crumbs": [
+      "Retrospective"
+    ]
+  },
+  {
+    "objectID": "retrospective/education.html",
+    "href": "retrospective/education.html",
+    "title": "\nPage under construction, sorry about that!\n",
+    "section": "",
+    "text": "Page under construction, sorry about that!\n\nYou can learn more about Aby’s education background here in the Education section.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "crumbs": [
+      "Retrospective",
+      "Education (U/C)"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#tensorflow-developer-certificate",
+    "href": "retrospective/certifications.html#tensorflow-developer-certificate",
+    "title": "Certifications",
+    "section": "TensorFlow Developer Certificate",
+    "text": "TensorFlow Developer Certificate\nIssued by TensorFlow Issued: August 2022, Expires: August 2025 📄 View Certificate",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#machine-learning-engineer-certificate",
+    "href": "retrospective/certifications.html#machine-learning-engineer-certificate",
+    "title": "Certifications",
+    "section": "Machine Learning Engineer Certificate",
+    "text": "Machine Learning Engineer Certificate\nIssued by Pro5, formerly Mangtas Issued: November 2023 📄 View Certificate",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#machine-learning-mastery-evaluation-certificate",
+    "href": "retrospective/certifications.html#machine-learning-mastery-evaluation-certificate",
+    "title": "Certifications",
+    "section": "Machine Learning Mastery Evaluation Certificate",
+    "text": "Machine Learning Mastery Evaluation Certificate\nIssued by Dicoding Indonesia Issued: September 2022, Expires: September 2025 📄 View Certificate",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#applied-data-science-badge",
+    "href": "retrospective/certifications.html#applied-data-science-badge",
+    "title": "Certifications",
+    "section": "Applied Data Science Badge",
+    "text": "Applied Data Science Badge\nIssued by WorldQuant University Issued: March 2023 🔰 View Badge",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#oracle-machine-learning-using-autonomous-database-2021-certified-specialist",
+    "href": "retrospective/certifications.html#oracle-machine-learning-using-autonomous-database-2021-certified-specialist",
+    "title": "Certifications",
+    "section": "Oracle Machine Learning using Autonomous Database 2021 Certified Specialist",
+    "text": "Oracle Machine Learning using Autonomous Database 2021 Certified Specialist\nIssued by Oracle Issued: February 2022, Expired: February 2024 🔰 View Badge",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#ielts-academic-cefr-c1",
+    "href": "retrospective/certifications.html#ielts-academic-cefr-c1",
+    "title": "Certifications",
+    "section": "IELTS Academic CEFR C1",
+    "text": "IELTS Academic CEFR C1\nIssued by Indonesia Australia Language Foundation Issued: February 2023, Expires: February 2025 📋 View Report",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#a10-financial-mathematics",
+    "href": "retrospective/certifications.html#a10-financial-mathematics",
+    "title": "Certifications",
+    "section": "A10: Financial Mathematics",
+    "text": "A10: Financial Mathematics\nIssued by The Society of Actuaries of Indonesia Issued: November 2018 📄 View Certificate",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#associate-wealth-planner-credential",
+    "href": "retrospective/certifications.html#associate-wealth-planner-credential",
+    "title": "Certifications",
+    "section": "Associate Wealth Planner Credential",
+    "text": "Associate Wealth Planner Credential\nIssued by Financial Planning Standards Board Indonesia Issued: January 2019 📄 View Certificate",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "retrospective/certifications.html#various-skill-certificates",
+    "href": "retrospective/certifications.html#various-skill-certificates",
+    "title": "Certifications",
+    "section": "Various Skill Certificates",
+    "text": "Various Skill Certificates\n60+ certificates from various issuers 🗄️ View Collection",
+    "crumbs": [
+      "Retrospective",
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Featured Projects",
+    "section": "",
+    "text": "This section highlights featured non-private projects. Most of these are taken from past-works. Some subsections are U/C meaning they are still under construction.",
+    "crumbs": [
+      "Featured Projects"
+    ]
+  },
+  {
+    "objectID": "projects/mlaids.html",
+    "href": "projects/mlaids.html",
+    "title": "ML, AI and DS projects",
+    "section": "",
+    "text": "Twitter Analytics Dashboard\n    Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.\n    Tech Stack: Python, HTML, Flask, scikit-learn\n     View Code\n    📅 November 2021\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Schizophrenia Early Detection Prototype\n    Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.\n    Tech Stack: Python, MATLAB, scikit-learn, scipy\n    📅 April 2019   \n    Note: Bottom image was edited from the linguistics of schizophrenia\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Quadcopter Flight Path Identification\n    Project for IT Today IPB 2019 Data Science Competition, hosted in Kaggle. Implemented a Regression Chain achieving 0.00317 mean haversine distance.\n    Tech Stack: Python, scikit-learn\n     View Code\n    📅 August 2019",
+    "crumbs": [
+      "Featured Projects",
+      "ML, AI and DS projects"
+    ]
+  },
+  {
+    "objectID": "misc.html",
+    "href": "misc.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "Environment Conservation\nAstrobiology\nAnimal Welfare\nMental Health\nFinancial Market Analysis",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#interests",
+    "href": "misc.html#interests",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "Environment Conservation\nAstrobiology\nAnimal Welfare\nMental Health\nFinancial Market Analysis",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#hobbies",
+    "href": "misc.html#hobbies",
+    "title": "Miscellaneous",
+    "section": "Hobbies",
+    "text": "Hobbies\n\nVideo Games\nChess\nAnime\nBoard Games\nWriting, with over 76 unpublished stories\nCard Games",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#random-stuff",
+    "href": "misc.html#random-stuff",
+    "title": "Miscellaneous",
+    "section": "Random stuff",
+    "text": "Random stuff\n\nMy favorite color is #2cb037!\nBearing the INFJ personality type\nI am a former debater! I used to specialize in Asian Parliamentary format with focus on English-based debates. This experience gives me a strong foundation of considering pros and cons of any topic making me highly-adaptable in terms of industry or Subject Matter Expertise",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#non-codewriting-creations",
+    "href": "misc.html#non-codewriting-creations",
+    "title": "Miscellaneous",
+    "section": "Non-Code/Writing Creations",
+    "text": "Non-Code/Writing Creations\n\n\n\n\n\n\n\n\n\nFirst personal logo created in 2017 to be the icon for my first Tkinter app, a number guessing game. Have been used as personal logo since though new personal logo is planned.\n\n\n\n\n\n\n\nDocument cover created using CorelDRAW in 2016 for Project Xyba, a question solution sharing project, during bachelor studies. Corner art made by Mishima Kurone.",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#full-name-with-honorifics",
+    "href": "misc.html#full-name-with-honorifics",
+    "title": "Miscellaneous",
+    "section": "Full Name with Honorifics",
+    "text": "Full Name with Honorifics\nR. Abyoso Hapsoro Nurhadi, S.Si., AWP\n\nR.: Raden → Hereditary Title indicating descendance of Javanese nobility (22 October 1998)\nS.Si.: Sarjana Sains → Indonesia equivalent of the Bachelor of Science title (27 July 2022)\nAWP: Associate Wealth Planner → Associate title awarded for junior financial planning expertise (15 January 2019)",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "25, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
+    "crumbs": [
+      "About me"
+    ]
+  },
+  {
+    "objectID": "maintenance.html",
+    "href": "maintenance.html",
+    "title": "Aby's Portfolio",
+    "section": "",
+    "text": "Website currently under maintenance, sorry about that!"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Release Notes",
+    "section": "",
+    "text": "Website currently running on version 0.7.0",
+    "crumbs": [
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "notes.html#milestones",
+    "href": "notes.html#milestones",
+    "title": "Release Notes",
+    "section": "Milestones",
+    "text": "Milestones\n\n\nJuly 2024\n\n\nv0.7.0 - Released first version of static website with limited content and functionality",
+    "crumbs": [
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "notes.html#changelog",
+    "href": "notes.html#changelog",
+    "title": "Release Notes",
+    "section": "Changelog",
+    "text": "Changelog\n\n\nJuly 2024\n\n\nv0.7.0 - Initial release",
+    "crumbs": [
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "projects/others.html",
+    "href": "projects/others.html",
+    "title": "\nPage under construction, sorry about that!\n",
+    "section": "",
+    "text": "Page under construction, sorry about that!\n\nYou can explore Aby’s other projects in past-works.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "crumbs": [
+      "Featured Projects",
+      "Other projects (U/C)"
+    ]
+  },
+  {
+    "objectID": "retrospective/achievements.html",
+    "href": "retrospective/achievements.html",
+    "title": "\nPage under construction, sorry about that!\n",
+    "section": "",
+    "text": "Page under construction, sorry about that!\n\nYou can learn more about Aby’s achievements here in the Honors & Awards section.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "crumbs": [
+      "Retrospective",
+      "Achievements (U/C)"
+    ]
+  },
+  {
+    "objectID": "retrospective/experience.html",
+    "href": "retrospective/experience.html",
+    "title": "\nPage under construction, sorry about that!\n",
+    "section": "",
+    "text": "Page under construction, sorry about that!\n\nYou can learn more about Aby’s work experience here in the Experience section.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "crumbs": [
+      "Retrospective",
+      "Experience (U/C)"
+    ]
+  },
+  {
+    "objectID": "writings/articles.html",
+    "href": "writings/articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "writings/unpublished.html",
+    "href": "writings/unpublished.html",
+    "title": "Unpublished",
+    "section": "",
+    "text": "TBA"
+  }
+]

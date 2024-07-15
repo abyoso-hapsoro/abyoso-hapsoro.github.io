@@ -1,0 +1,21 @@
+---
+title: "Release Notes"
+published-title: "Page Last Updated"
+date: "15 July 2024"
+date-format: "D MMMM YYYY"
+format: html
+---
+
+Website currently running on version 0.7.0
+
+## Milestones
+<details open>
+  <summary>July 2024</summary>
+  <p>v0.7.0 - Released first version of static website with limited content and functionality</p>
+</details>
+
+## Changelog
+<details open>
+  <summary>July 2024</summary>
+  <p>v0.7.0 - Initial release</p>
+</details>
