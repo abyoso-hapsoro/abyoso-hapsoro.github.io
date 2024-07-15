@@ -6,7 +6,7 @@ date-format: "D MMMM YYYY"
 format: html
 ---
 
-Website currently running on version 0.7.0
+Website currently running on version 0.7.2
 
 ## Milestones
 <details open>
@@ -17,6 +17,7 @@ Website currently running on version 0.7.0
 ## Changelog
 <details open>
   <summary>July 2024</summary>
+  v0.7.2 - Corrected bottom to top in a section<br>
   v0.7.1 - Fixed initial deployment<br>
   v0.7.0 - Initial release
 </details>
