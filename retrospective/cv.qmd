@@ -7,5 +7,5 @@ format: html
 ---
 
 ```{=html}
-<embed src="../docs/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px"/>
+<embed src="../files/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px"/>
 ```

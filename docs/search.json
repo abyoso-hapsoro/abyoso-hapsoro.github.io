@@ -256,7 +256,7 @@
     "href": "notes.html#milestones",
     "title": "Release Notes",
     "section": "Milestones",
-    "text": "Milestones\n\n\nJuly 2024\n\n\nv0.7.0 - Released first version of static website with limited content and functionality",
+    "text": "Milestones\n\n\nJuly 2024\n\nv0.7.1 - Released first version of static website with limited content and functionality",
     "crumbs": [
       "Release Notes"
     ]
@@ -266,7 +266,7 @@
     "href": "notes.html#changelog",
     "title": "Release Notes",
     "section": "Changelog",
-    "text": "Changelog\n\n\nJuly 2024\n\n\nv0.7.0 - Initial release",
+    "text": "Changelog\n\n\nJuly 2024\n\nv0.7.1 - Fixed initial deployment v0.7.0 - Initial release",
     "crumbs": [
       "Release Notes"
     ]
