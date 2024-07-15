@@ -1,0 +1,13 @@
+---
+format: html
+---
+
+<h1>Page under construction, sorry about that!</h1>
+
+You can learn more about Aby's education background <a href="https://www.linkedin.com/in/abyoso-hapsoro/">here</a> in the Education section.
+
+Enjoy this cute animation in the meantime~
+
+![](../images/Piplup.gif){width=80%}
+
+<a href="https://www.youtube.com/watch?v=TUS6KQOzRVA">Source</a>
