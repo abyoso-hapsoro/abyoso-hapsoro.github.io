@@ -1,3 +1,6 @@
-/.quarto/
+.quarto/
 maintenance.qmd
-/writings/
+docs/maintenance.qmd
+writings/
+docs/writings
+/.quarto/
