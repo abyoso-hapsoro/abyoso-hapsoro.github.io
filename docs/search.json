@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Abyoso Hapsoro Nurhadi",
     "section": "",
-    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer experienced in building Machine Learning for research, products and various other applications.",
+    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.\n\n\n\n\n\n\n\nMy Availability\n\n\n\n\n\n🚀 Available for Hire\n\n\n\nLooking for Researcher/Scientist/Engineer roles in Machine Learning, Artificial Intelligence or Data Science. Also open to Mathematics-focused roles including teaching\n\n\nPrefer fully remote opportunities but open to hybrid working in Jakarta Metropolitan Area\n\n\n\n\n\n🔬 Available for Research Collaborations\n\n\nOpen to international collaboration in research for almost any industry (my preferences)\n\n\n\n\n\nFeel free to drop a message!  My Mail  My LinkedIn\n\nYou can request my services here",
     "crumbs": [
       "Homepage"
     ]
@@ -36,12 +36,12 @@
   {
     "objectID": "retrospective/education.html",
     "href": "retrospective/education.html",
-    "title": "\nPage under construction, sorry about that!\n",
+    "title": "Education",
     "section": "",
-    "text": "Page under construction, sorry about that!\n\nYou can learn more about Aby’s education background here in the Education section.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "text": "Formal\n  Supplementary\n  Others\n\n\n\n  \n    \n      \n        2016-2022\n        Bachelor of Science\n        Majored in Mathematics. Specialized in Computational Mathematics\n        University of Indonesia\n        GPA: 3.42/4.00, High Merit\n      \n      \n    \n  \n  \n  \n    \n      \n        2013-2016\n        High School Diploma\n        Majored in Mathematics and Natural Sciences\n        SMA Negeri 11 Jakarta\n        Grade: 46.30/60.00, Top 3 Graduate\n      \n      \n    \n  \n\n  \n    \n      \n        2010-2013\n        Middle School Diploma\n        Majored in Bilingual Education\n        SMP Negeri 236 Jakarta\n        Grade: 36.65/40.00, Top 10 Graduate\n      \n      \n    \n  \n\n\n\n  To be added\n\n\n\n  To be added",
     "crumbs": [
       "Retrospective",
-      "Education (U/C)"
+      "Education"
     ]
   },
   {
@@ -229,7 +229,7 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "25, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
+    "text": "25, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
     "crumbs": [
       "About me"
     ]
@@ -246,7 +246,7 @@
     "href": "notes.html",
     "title": "Release Notes",
     "section": "",
-    "text": "Website currently running on version 0.7.2",
+    "text": "Website currently running on version 0.8.0",
     "crumbs": [
       "Release Notes"
     ]
@@ -256,7 +256,7 @@
     "href": "notes.html#milestones",
     "title": "Release Notes",
     "section": "Milestones",
-    "text": "Milestones\n\n\nJuly 2024\n\nv0.7.2b - Released finalized first version of static website with limited content and functionality",
+    "text": "Milestones\n\n\nJuly 2024\n\n\n\n\n\n\n\n\n\n\nv0.8.0\n\n\nRevamped website and added content\n\n\n\n\nv0.7.2b\n\n\nReleased finalized first version of static website with limited content and functionality",
     "crumbs": [
       "Release Notes"
     ]
@@ -266,7 +266,7 @@
     "href": "notes.html#changelog",
     "title": "Release Notes",
     "section": "Changelog",
-    "text": "Changelog\n\n\nJuly 2024\n\nv0.7.2b - Rerendered v0.7.1 to v0.7.2 v0.7.2 - Corrected bottom to top in a section v0.7.1 - Fixed initial deployment v0.7.0 - Initial release",
+    "text": "Changelog\n\n\nJuly 2024\n\n\n\n\n\n\n\n\n\n\nv0.8.0\n\n\nChanged website theme, centralized YAML options, added new sections\n\n\n\n\nv0.7.2b\n\n\nRerendered v0.7.1 to v0.7.2\n\n\n\n\nv0.7.2\n\n\nCorrected bottom to top in a section\n\n\n\n\nv0.7.1\n\n\nFixed initial deployment\n\n\n\n\nv0.7.0\n\n\nInitial release",
     "crumbs": [
       "Release Notes"
     ]

@@ -38,14 +38,13 @@ website:
       - about.qmd
       - section: retrospective/retrospective.qmd
         contents:
-          - retrospective/cv.qmd
           - retrospective/certifications.qmd
-          - href: retrospective/education.qmd
-            text: Education (U/C)
+          - retrospective/education.qmd
           - href: retrospective/experience.qmd
             text: Experience (U/C)
           - href: retrospective/achievements.qmd
             text: Achievements (U/C)
+          - retrospective/cv.qmd
       - section: projects/projects.qmd
         contents:
           - projects/mlaids.qmd
@@ -62,10 +61,14 @@ website:
       # When maintenance is required, comment the above from "home.qmd" to "notes.qmd" and uncomment the following
       # - maintenance.qmd
 
+# Set default YAML options
+published-title: "Page Last Updated"
+date-format: "D MMMM YYYY"
+date: today
 format:
   html:
     highlight-style: solarized
-    theme: cosmo
+    theme: minty
     css: styles.css
     code-copy: true
     code-overflow: wrap
