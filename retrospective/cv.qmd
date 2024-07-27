@@ -2,8 +2,6 @@
 title: "Curriculum Vitae"
 published-title: "Content Last Updated"
 date: "29 June 2024"
-date-format: "D MMMM YYYY"
-format: html
 ---
 
 ```{=html}

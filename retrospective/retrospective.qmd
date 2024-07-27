@@ -1,9 +1,6 @@
 ---
 title: "Retrospective"
-published-title: "Page Last Updated"
 date: "15 July 2024"
-date-format: "D MMMM YYYY"
-format: html
 ---
 
 This section includes a curated retrospective of myself. Some subsections are U/C meaning they are still under construction.

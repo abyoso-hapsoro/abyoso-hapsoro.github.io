@@ -1,10 +1,102 @@
-/* css styles */
-
 .image-container {
-  margin-top: 15px; /* Adjust the value as needed for the top margin */
+  margin-top: 15px;
 }
 
 .image-container img {
   display: block;
-  margin-bottom: 15px; /* Adjust the value as needed for the spacing between images */
+  margin-bottom: 15px;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  background-color: #c2ad78;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 10px 10px 0 0;
+  margin-right: 0px;
+}
+
+.tab button:hover {
+  background-color: lightgray;
+}
+
+.tab button.active {
+  background-color: #78c2ad;
+  color: white;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  border-radius: 10px 10px 5px 5px;
+}
+
+.education-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.education-card {
+  background-color: #cab5e7;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  opacity: 0; /* Initial state for animation */
+  transform: translateY(20px); /* Initial state for animation */
+  transition: opacity 1s ease, transform 1s ease; /* Apply transition */
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.education-card img {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+}
+
+.education-card div {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 140px); /* Adjusted width considering larger image */
+}
+
+.daterange {
+  font-weight: bold;
+  color: #985ee3;
+}
+
+.degree {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.specialization {
+  font-size: 0.8em;
+}
+
+.institution {
+  font-size: 1.1em;
+}
+
+.gpa {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.education-card.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
