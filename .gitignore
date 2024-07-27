@@ -1,6 +1,5 @@
-.quarto/
+/.quarto/
 maintenance.qmd
 docs/maintenance.qmd
 writings/
 docs/writings
-/.quarto/
