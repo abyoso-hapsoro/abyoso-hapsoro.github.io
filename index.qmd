@@ -1,10 +1,7 @@
 ---
 title: "Abyoso Hapsoro Nurhadi"
 subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
-published-title: "Page Last Updated"
-date: "15 July 2024"
-date-format: "D MMMM YYYY"
-format: html
+date: "27 July 2024"
 execute:
     echo: false
 ---
@@ -44,8 +41,34 @@ execute:
         typeWriter();
     }
 </script>
+```
 
 <!-- Introduction -->
 Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~
 
-I am a medior-level developer experienced in building Machine Learning for research, products and various other applications.
+I am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.
+
+<!-- Activities and Availability -->
+::: {.callout-tip}
+## My Availability
+
+<details open>
+  <summary>🚀 Available for Hire</summary>
+  <ul>
+    <li>Looking for Researcher/Scientist/Engineer roles in Machine Learning, Artificial Intelligence or Data Science. Also open to Mathematics-focused roles including teaching</li>
+    <li>Prefer fully remote opportunities but open to hybrid working in [Jakarta Metropolitan Area](https://en.wikipedia.org/wiki/Jakarta_metropolitan_area)</li>
+  </ul>
+</details>
+<details>
+  <summary>🔬 Available for Research Collaborations</summary>
+  <p>Open to international collaboration in research for almost any industry ([my preferences](misc.qmd))</p>
+</details>
+:::
+
+<!-- Contact -->
+Feel free to drop a message!
+<br><i class="bi bi-envelope"></i> [My Mail](mailto:abyoso.hapsoro@alumni.ui.ac.id)
+<br><i class="bi bi-linkedin"></i> [My LinkedIn](https://linkedin.com/in/abyoso-hapsoro/)
+
+<!-- Others -->
+You can request my services [here](https://www.upwork.com/freelancers/~019ea8417195ee8d06)

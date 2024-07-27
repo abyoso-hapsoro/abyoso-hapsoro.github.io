@@ -1,24 +1,56 @@
 ---
 title: "Release Notes"
-published-title: "Page Last Updated"
 date: "15 July 2024"
-date-format: "D MMMM YYYY"
-format: html
 ---
 
-Website currently running on version 0.7.2
+Website currently running on version 0.8.0
 
 ## Milestones
 <details open>
   <summary>July 2024</summary>
-  v0.7.2b - Released finalized first version of static website with limited content and functionality
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.8.0</td>
+      <td>Revamped website and added content</td>
+    </tr>
+    <tr>
+      <td>v0.7.2b</td>
+      <td>Released finalized first version of static website with limited content and functionality</td>
+    </tr>
+  </table>
 </details>
 
 ## Changelog
 <details open>
   <summary>July 2024</summary>
-  v0.7.2b - Rerendered v0.7.1 to v0.7.2<br>
-  v0.7.2 - Corrected bottom to top in a section<br>
-  v0.7.1 - Fixed initial deployment<br>
-  v0.7.0 - Initial release
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.8.0</td>
+      <td>Changed website theme, centralized YAML options, added new sections</td>
+    </tr>
+    <tr>
+      <td>v0.7.2b</td>
+      <td>Rerendered v0.7.1 to v0.7.2</td>
+    </tr>
+    <tr>
+      <td>v0.7.2</td>
+      <td>Corrected bottom to top in a section</td>
+    </tr>
+    <tr>
+      <td>v0.7.1</td>
+      <td>Fixed initial deployment</td>
+    </tr>
+    <tr>
+      <td>v0.7.0</td>
+      <td>Initial release</td>
+    </tr>
+  </table>
 </details>
