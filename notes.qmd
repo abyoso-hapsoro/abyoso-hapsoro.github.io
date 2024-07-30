@@ -32,6 +32,10 @@ Website currently running on version 0.8.1b
       <th></th>
     </tr>
     <tr>
+      <td>v0.8.2</td>
+      <td>Corrected typo in Education section</td>
+    </tr>
+    <tr>
       <td>v0.8.1b</td>
       <td>Deployment hotfix: rerender</td>
     </tr>
