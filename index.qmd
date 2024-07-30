@@ -1,7 +1,7 @@
 ---
 title: "Abyoso Hapsoro Nurhadi"
 subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
-date: "27 July 2024"
+date: "30 July 2024"
 execute:
     echo: false
 ---
@@ -71,4 +71,4 @@ Feel free to drop a message!
 <br><i class="bi bi-linkedin"></i> [My LinkedIn](https://linkedin.com/in/abyoso-hapsoro/)
 
 <!-- Others -->
-You can request my services [here](https://www.upwork.com/freelancers/~019ea8417195ee8d06)
+You can request my services through the contacts above or at [Upwork](https://www.upwork.com/freelancers/~019ea8417195ee8d06)

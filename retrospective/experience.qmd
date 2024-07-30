@@ -1,9 +1,372 @@
-<h1>Page under construction, sorry about that!</h1>
+---
+title: "Experience"
+date: 30 July 2024"
+---
 
-You can learn more about Aby's work experience <a href="https://www.linkedin.com/in/abyoso-hapsoro/">here</a> in the Experience section.
+```{=html}
+<div class="tab">
+  <button class="tablinks" onclick="openExp(event, 'corwrk')" id="defaultOpen">Core</button>
+  <button class="tablinks" onclick="openExp(event, 'teachn')">Teaching</button>
+  <button class="tablinks" onclick="openExp(event, 'resrch')">Research</button>
+  <button class="tablinks" onclick="openExp(event, 'conslt')">Consulting</button>
+  <button class="tablinks" onclick="openExp(event, 'others')">Others</button>
+</div>
 
-Enjoy this cute animation in the meantime~
+<!-- Core Work -->
+<div id="corwrk" class="tabcontent">
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Dec 2023-Jun 2024</span>
+      <span class="experience-location">Singapore</span>
+    </div>
+    <div class="experience-role">Data Science Engineer</div>
+    <div class="experience-arrangement">Full-Time, Remote</div>
+    <div class="experience-company">KiteSense</div>
+    <div class="experience-topics">
+      <span title="Natural Language Processing"><u>NLP</u></span>,
+      <span title="Large Language Models"><u>LLM</u></span>,
+      <span title="Retrieval-Augmented Generation"><u>RAG</u></span>
+    </div>
+    <div class="experience-stack">
+      Python,
+      PyTorch,
+      PostgreSQL,
+      <span title="Amazon Web Services"><u>AWS</u></span>,
+      <span title="Google Cloud Platform"><u>GCP</u></span>,
+      Vertex AI,
+      GitHub,
+      LaTeX
+    </div>
+    <img class="experience-logo" src="../images/KiteSense.png">
+  </div>
 
-![](../images/Piplup.gif){width=80%}
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Sep 2022 - Sep 2023</span>
+      <span class="experience-location">Singapore</span>
+    </div>
+    <div class="experience-role">Data Engineer</div>
+    <div class="experience-arrangement">Full-Time, Remote</div>
+    <div class="experience-company">EdgeProp Singapore</div>
+    <div class="experience-topics">
+      <span title="Natural Language Processing"><u>NLP</u></span>,
+      <span title="Large Language Models"><u>LLM</u></span>,
+      Chatbot,
+      Selenium,
+      API Crawling
+    </div>
+    <div class="experience-stack">
+      Python,
+      PyTorch,
+      PHP,
+      MySQL,
+      MongoDB,
+      <span title="Amazon Web Services"><u>AWS</u></span>,
+      Google Data Studio,
+      Postman API
+    </div>
+    <img class="experience-logo" src="https://scontent.fcgk24-2.fna.fbcdn.net/v/t39.30808-1/347622765_1446363226173277_7807583616205767384_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=QYBiKFzAXzYQ7kNvgGQP3-S&_nc_ht=scontent.fcgk24-2.fna&oh=00_AYCPauubcWjMnF7rZYjzADaQebRhMAFAmeVaVO1XY5sSuA&oe=66AE0287">
+  </div>
 
-<a href="https://www.youtube.com/watch?v=TUS6KQOzRVA">Source</a>
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jan 2019 - Jan 2020</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Head of Laboratory Assistants</div>
+    <div class="experience-arrangement">Part-Time, Onsite</div>
+    <div class="experience-company">Department of Mathematics, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jul 2019 - Aug 2019</span>
+      <span class="experience-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="experience-role">Artificial Intelligence Engineeer Intern</div>
+    <div class="experience-arrangement">Internship, Onsite</div>
+    <div class="experience-company">Konvergen AI</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/Konvergen_AI.png">
+  </div>
+</div>
+
+<!-- Teaching Work -->
+<div id="teachn" class="tabcontent">
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jan 2023 - Jul 2023</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Machine Learning Instructor</div>
+    <div class="experience-arrangement">Part-Time, Remote</div>
+    <div class="experience-company">Bangkit Academy</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/Bangkit.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Sep 2018 - Jan 2020</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Laboratory Assistant</div>
+    <div class="experience-arrangement">Part-Time, Onsite</div>
+    <div class="experience-company">Department of Mathematics, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Aug 2018 - Aug 2019</span>
+      <span class="experience-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="experience-role">Mathematics Tutor</div>
+    <div class="experience-arrangement">Part-Time, Onsite</div>
+    <div class="experience-company">Primagama Tutoring Agency</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/Primagama.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Feb 2018 - Jun 2019</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Lecturer Assistant</div>
+    <div class="experience-arrangement">Part-Time, Onsite</div>
+    <div class="experience-company">Department of Mathematics, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jul 2017 - Jan 2018</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Laboratory Assistant Intern</div>
+    <div class="experience-arrangement">Internship, Onsite</div>
+    <div class="experience-company">Department of Mathematics, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+  </div>
+</div>
+
+<!-- Research Work -->
+<div id="resrch" class="tabcontent">
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Nov 2019 - Dec 2019</span>
+      <span class="experience-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="experience-role">Research Associate Intern</div>
+    <div class="experience-arrangement">Internship, Onsite</div>
+    <div class="experience-company">Indonesia Medical Education and Research Institute</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/IMERI.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Apr 2019 - Jul 2019</span>
+      <span class="experience-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="experience-role">Research Assistant</div>
+    <div class="experience-arrangement">Contract, Hybrid</div>
+    <div class="experience-company">Faculty of Medicine, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/FKUI.png">
+  </div>
+</div>
+
+<!-- Consulting Work -->
+<div id="conslt" class="tabcontent">
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Feb 2019 - Jan 2020</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Data Consultant</div>
+    <div class="experience-arrangement">Freelance, Hybrid</div>
+    <div class="experience-company">Klinik Data, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/Klinik_Data.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Sep 2018 - Jan 2020</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Mathematical Learning Center Assistant</div>
+    <div class="experience-arrangement">Part-Time, Onsite</div>
+    <div class="experience-company">Department of Mathematics, University of Indonesia</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+  </div>
+</div>
+
+<!-- Others -->
+<div id="others" class="tabcontent">
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Sep 2023 - Dec 2023</span>
+      <span class="experience-location">Worldwide</span>
+    </div>
+    <div class="experience-role">Freelance Machine Learning Engineer</div>
+    <div class="experience-arrangement">Self-Employed, Remote</div>
+    <div class="experience-company">Upwork</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewWviN7O6ryCUvog0cEtRDDVebtZrEPWt6A&s">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jul 2018 - Aug 2018</span>
+      <span class="experience-location">Maharashtra, India</span>
+    </div>
+    <div class="experience-role">Aptitude Content Verification Intern</div>
+    <div class="experience-arrangement">Internship, Remote</div>
+    <div class="experience-company">Talent Battle</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="../images/TalentBattle.png">
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <span class="experience-daterange">Jul 2017 - Aug 2017</span>
+      <span class="experience-location">West Java, Indonesia</span>
+    </div>
+    <div class="experience-role">Sales Associate</div>
+    <div class="experience-arrangement">Contract, Onsite</div>
+    <div class="experience-company">Superyogie Toys</div>
+    <div class="experience-topics">
+      TBA
+    </div>
+    <div class="experience-stack">
+      TBA
+    </div>
+    <img class="experience-logo" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("defaultOpen").click();
+  });
+
+  function openExp(event, expCat) {
+    var idx, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (idx = 0; idx < tabcontent.length; idx++) {
+      tabcontent[idx].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (idx = 0; idx < tablinks.length; idx++) {
+      tablinks[idx].className = tablinks[idx].className.replace(' active', '');
+    }
+
+    document.getElementById(expCat).style.display = 'block';
+    event.currentTarget.className += ' active';
+
+    // Reset the animation
+    resetAnimation(expCat);
+  }
+
+  function resetAnimation(expCat) {
+    const cards = document.querySelectorAll(`#${expCat} .experience-card`);
+    let delay = 0;
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationDelay = `${delay}s`;
+          entry.target.classList.add('visible');
+          delay += 0.5; // Increment delay for the next card
+          observer.unobserve(entry.target); // Stop observing once it has been animated
+        } else {
+          delay = 0; // Reset delay for non-visible cards
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    cards.forEach(card => {
+      card.classList.remove('visible');
+      observer.observe(card);
+    });
+  }
+</script>
+```

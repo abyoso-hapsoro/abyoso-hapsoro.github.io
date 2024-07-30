@@ -40,8 +40,9 @@ website:
         contents:
           - retrospective/certifications.qmd
           - retrospective/education.qmd
-          - href: retrospective/experience.qmd
-            text: Experience (U/C)
+          - retrospective/experience.qmd
+          - href: retrospective/training.qmd
+            text: Training (U/C)
           - href: retrospective/achievements.qmd
             text: Achievements (U/C)
           - retrospective/cv.qmd
