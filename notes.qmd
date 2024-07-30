@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.1
+Website currently running on version 0.8.1b
 
 ## Milestones
 <details open>
@@ -32,6 +32,10 @@ Website currently running on version 0.8.1
       <th></th>
     </tr>
     <tr>
+      <td>v0.8.1b</td>
+      <td>Deployment hotfix: rerender</td>
+    </tr>
+    <tr>
       <td>v0.8.1</td>
       <td>Added Experience section, populated content in Education section</td>
     </tr>
@@ -41,7 +45,7 @@ Website currently running on version 0.8.1
     </tr>
     <tr>
       <td>v0.7.2b</td>
-      <td>Rerendered v0.7.1 to v0.7.2</td>
+      <td>Deployment hotfix: rerender</td>
     </tr>
     <tr>
       <td>v0.7.2</td>
@@ -49,7 +53,7 @@ Website currently running on version 0.8.1
     </tr>
     <tr>
       <td>v0.7.1</td>
-      <td>Initial deployment hotfix</td>
+      <td>Deployment hotfix: resolved multiple issues</td>
     </tr>
     <tr>
       <td>v0.7.0</td>
