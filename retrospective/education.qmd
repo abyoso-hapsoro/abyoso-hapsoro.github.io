@@ -115,7 +115,7 @@ date: "30 July 2024"
     </div>
     <div class="education-concentration" style="font-size:1.05em">Mathematics, Natural Sciences, Social Sciences and Language</div>
     <div class="education-detail">Onsite tutoring covering most school subjects</div>
-    <div class="education-institution">Institution</div>
+    <div class="education-institution">Primagama Tutoring Agency</div>
     <div class="education-gpa">2nd in Primagama competition for 10th graders majoring Mathematics and Natural Sciences</div>
     <img class="education-logo" src="../images/Primagama.png">
   </div>
