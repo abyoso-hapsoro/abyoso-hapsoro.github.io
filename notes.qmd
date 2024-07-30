@@ -1,9 +1,8 @@
 ---
 title: "Release Notes"
-date: "15 July 2024"
 ---
 
-Website currently running on version 0.8.0
+Website currently running on version 0.8.1
 
 ## Milestones
 <details open>
@@ -15,7 +14,7 @@ Website currently running on version 0.8.0
     </tr>
     <tr>
       <td>v0.8.0</td>
-      <td>Revamped website and added content</td>
+      <td>Revamped website with interactive content</td>
     </tr>
     <tr>
       <td>v0.7.2b</td>
@@ -33,8 +32,12 @@ Website currently running on version 0.8.0
       <th></th>
     </tr>
     <tr>
+      <td>v0.8.1</td>
+      <td>Added Experience section, populated content in Education section</td>
+    </tr>
+    <tr>
       <td>v0.8.0</td>
-      <td>Changed website theme, centralized YAML options, added new sections</td>
+      <td>Changed website theme, centralized YAML options, added Education section</td>
     </tr>
     <tr>
       <td>v0.7.2b</td>
@@ -42,11 +45,11 @@ Website currently running on version 0.8.0
     </tr>
     <tr>
       <td>v0.7.2</td>
-      <td>Corrected bottom to top in a section</td>
+      <td>Corrected typo in Project section</td>
     </tr>
     <tr>
       <td>v0.7.1</td>
-      <td>Fixed initial deployment</td>
+      <td>Initial deployment hotfix</td>
     </tr>
     <tr>
       <td>v0.7.0</td>

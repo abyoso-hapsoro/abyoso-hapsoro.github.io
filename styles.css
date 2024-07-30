@@ -1,3 +1,4 @@
+/* Container for images */
 .image-container {
   margin-top: 15px;
 }
@@ -7,6 +8,7 @@
   margin-bottom: 15px;
 }
 
+/* Interactive tab navigation */
 .tab {
   overflow: hidden;
 }
@@ -41,62 +43,171 @@
   border-radius: 10px 10px 5px 5px;
 }
 
-.education-section {
-  width: 100%;
-  max-width: 800px;
-  margin: 10px auto;
-}
-
+/* Styling for Education section */
 .education-card {
-  background-color: #cab5e7;
+  background-color: #78c2ad;
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
+  margin-bottom: 10px;
+  position: relative;
   opacity: 0; /* Initial state for animation */
   transform: translateY(20px); /* Initial state for animation */
-  transition: opacity 1s ease, transform 1s ease; /* Apply transition */
-  margin-bottom: 10px; /* Reduced margin-bottom */
-}
-
-.education-card img {
-  width: 120px;
-  height: 120px;
-  margin-left: 20px;
-}
-
-.education-card div {
-  display: flex;
-  flex-direction: column;
-  width: calc(100% - 140px); /* Adjusted width considering larger image */
-}
-
-.daterange {
-  font-weight: bold;
-  color: #985ee3;
-}
-
-.degree {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.specialization {
-  font-size: 0.8em;
-}
-
-.institution {
-  font-size: 1.1em;
-}
-
-.gpa {
-  font-size: 0.9em;
-  color: #333;
 }
 
 .education-card.visible {
-  opacity: 1;
-  transform: translateY(0);
+  animation: floatIn 1s forwards;
 }
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.education-daterange::before {
+  content: '📅 ';
+}
+
+.education-location::before {
+  content: '📌 ';
+}
+
+.education-daterange, .education-location {
+  width: 50%;
+  font-weight: bold;
+  color: #111111;
+}
+
+.education-degree, .education-concentration {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.education-specialization, .education-detail {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #eeeeee;
+}
+
+.education-institution {
+  font-size: 1.1em;
+  color: #111111;
+}
+
+.education-gpa {
+  font-size: 0.9em;
+  color: #111111;
+}
+
+.education-logo {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Styling for Experience section */
+.experience-card {
+  background-color: #78c2ad;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  opacity: 0; /* Initial state for animation */
+  transform: translateY(20px); /* Initial state for animation */
+}
+
+.experience-card.visible {
+  animation: floatIn 1s forwards;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.experience-daterange::before {
+  content: '📅 ';
+}
+
+.experience-location::before {
+  content: '📌 ';
+}
+
+.experience-daterange, .experience-location {
+  width: 50%;
+  font-weight: bold;
+  color: #111111;
+}
+
+.experience-role {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.experience-arrangement {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #eeeeee;
+}
+
+.experience-company {
+  font-size: 1.1em;
+  color: #111111;
+}
+
+.experience-topics::before {
+  content: 'Topics: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
+.experience-topics {
+  font-size: 0.9em;
+  color: #111111;
+}
+
+.experience-stack::before {
+  content: 'Stack: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
+.experience-stack {
+  font-size: 0.9em;
+  color: #111111;
+}
+
+.experience-logo {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Keyframe animation for floating in effect */
+@keyframes floatIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Highlighting
+.highlight {
+  background-color: #cab5e7;
+}
+*/
