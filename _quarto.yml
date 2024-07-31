@@ -68,6 +68,9 @@ date-format: "D MMMM YYYY"
 date: today
 format:
   html:
+    # includes:
+    #   in-header:
+    #     - ./redirect.js
     highlight-style: solarized
     theme: minty
     css: styles.css

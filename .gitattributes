@@ -1,9 +1,10 @@
 index.qmd linguist-language=JavaScript
 about.qmd linguist-language=HTML
-retrospective/retrospective.qmd linguist-language=HTML
+retrospective/retrospective.qmd linguist-language=JavaScript
 retrospective/certifications.qmd linguist-language=HTML
 retrospective/education.qmd linguist-language=JavaScript
 retrospective/experience.qmd linguist-language=JavaScript
+retrospective/training.qmd linguist-language=JavaScript
 retrospective/achievements.qmd linguist-language=HTML
 retrospective/cv.qmd linguist-language=HTML
 projects/projects.qmd linguist-language=HTML
