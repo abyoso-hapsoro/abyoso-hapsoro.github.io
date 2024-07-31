@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-30">
+<meta name="dcterms.date" content="2024-07-31">
 
 <title>Education – Aby’s Portfolio</title>
 <style>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">30 July 2024</p>
+      <p class="date">31 July 2024</p>
     </div>
   </div>
   
@@ -321,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
       <span class="education-location">West Java, Indonesia</span>
     </div>
     <div class="education-concentration">Back End Development</div>
-    <div class="education-detail">Remote scholarship program held in collaboration with <span title="Amazon Web Services"><u>AWS</u></span> to build back-end apps</div>
+    <div class="education-detail">Remote scholarship program held in collaboration with <span title="Amazon Web Services"><u style="cursor:help">AWS</u></span> to build back-end apps</div>
     <div class="education-institution">Dicoding Indonesia</div>
     <img class="education-logo" src="https://dicoding-web-img.sgp1.digitaloceanspaces.com/original/jobs/dos:company_logo_dicoding_indonesia_050423140704.jpg" style="top:12px">
   </div>
@@ -369,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
       <span class="education-location">West Java, Indonesia</span>
     </div>
     <div class="education-concentration">Chess</div>
-    <div class="education-detail">Onsite chess school recognized by <span title="Fédération Internationale des Échecs"><u>FIDE</u></span> co-founded by Grand Master Utut Adianto</div>
+    <div class="education-detail">Onsite chess school recognized by <span title="Fédération Internationale des Échecs"><u style="cursor:help">FIDE</u></span> co-founded by Grand Master Utut Adianto</div>
     <div class="education-institution">Sekolah Catur Utut Adianto</div>
     <div class="education-gpa">16th in Under Age 8 group of the 7th ASEAN Age Group Chess Championship</div>
     <img class="education-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmBy1ycYtpwvxJZD_mSqAdxdgKBkxRRXWvg&amp;s">
@@ -432,11 +432,14 @@ ul.task-list li input[type="checkbox"] {
     var targetCard = document.getElementById(eduCard);
     targetCard.scrollIntoView({behavior: "smooth", block: "center"});
     
-    // Highlight the card for 3 seconds
-    // targetCard.classList.add("highlight");
-    // setTimeout(function() {
-    //   targetCard.classList.remove("highlight");
-    // }, 3000);
+    // Delay for 0.75 seconds before adding highlight
+    setTimeout(function() {
+      // Highlight the card for 2 seconds
+      targetCard.classList.add("highlight");
+      setTimeout(function() {
+        targetCard.classList.remove("highlight");
+      }, 2000);
+    }, 750);
   }
 </script>
 

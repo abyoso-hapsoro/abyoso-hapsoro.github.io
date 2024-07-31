@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-15">
+<meta name="dcterms.date" content="2024-07-31">
 
 <title>Retrospective – Aby’s Portfolio</title>
 <style>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">15 July 2024</p>
+      <p class="date">31 July 2024</p>
     </div>
   </div>
   
@@ -233,7 +233,105 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section includes a curated retrospective of myself. Some subsections are U/C meaning they are still under construction.</p>
+<p>This section features a retrospective of myself. Some subsections are marked ‘U/C’ meaning they are still under construction.</p>
+<h2 class="anchored">
+My skillset
+</h2>
+<p>The following is an overview of my skills in terms of YoE (Years of Experience) which summarize the subsections. Each skill can be expanded for more details.</p>
+<div class="skillset">
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)" id="defaultOpen">Python</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="5" style="max-width:100%"></div>
+    </div>
+    <div class="skill-dropdown">
+      <div class="subskill-name">scikit-learn</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="3" style="max-width:60%"></div>
+      </div>
+      <div class="subskill-name">TensorFlow <span title="Certified"><a href="../retrospective/certifications.html" style="cursor:pointer;text-decoration:none">⭐</a></span></div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="2" style="max-width:40%"></div>
+      </div>
+      <div class="subskill-name">PyTorch</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="2" style="max-width:40%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)">R</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
+    </div>
+    <div class="skill-dropdown">
+      TBA
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)">SQL</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="2" style="max-width:40%"></div>
+    </div>
+    <div class="skill-dropdown">
+      <div class="subskill-name">MySQL</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="1" style="max-width:50%"></div>
+      </div>
+      <div class="subskill-name">PostgreSQL</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="<1" style="max-width:25%"></div>
+      </div>
+      <div class="subskill-name">MongoDB</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="<1" style="max-width:25%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)">PHP</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
+    </div>
+    <div class="skill-dropdown">
+      TBA
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)">JS</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="<1" style="max-width:10%"></div>
+    </div>
+    <div class="skill-dropdown">
+      TBA
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name" onclick="toggleDropdown(this)">Go</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="<1" style="max-width:10%"></div>
+    </div>
+    <div class="skill-dropdown">
+      TBA
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("defaultOpen").click();
+  });
+
+  function toggleDropdown(skillNameElement) {
+    const skill = skillNameElement.parentElement;
+    skill.classList.toggle('active');
+  }
+</script>
 
 
 

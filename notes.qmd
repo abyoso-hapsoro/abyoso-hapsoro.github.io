@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.1b
+Website currently running on version 0.8.3
 
 ## Milestones
 <details open>
@@ -32,8 +32,12 @@ Website currently running on version 0.8.1b
       <th></th>
     </tr>
     <tr>
+      <td>v0.8.3</td>
+      <td>Rewording multiple files, created retrospective skeleton, added highlighting with limited scope</td>
+    </tr>
+    <tr>
       <td>v0.8.2</td>
-      <td>Corrected typo in Education section</td>
+      <td>Corrected typo in Education subsection</td>
     </tr>
     <tr>
       <td>v0.8.1b</td>
@@ -41,11 +45,11 @@ Website currently running on version 0.8.1b
     </tr>
     <tr>
       <td>v0.8.1</td>
-      <td>Added Experience section, populated content in Education section</td>
+      <td>Added Experience subsection, populated content in Education subsection</td>
     </tr>
     <tr>
       <td>v0.8.0</td>
-      <td>Changed website theme, centralized YAML options, added Education section</td>
+      <td>Changed website theme, centralized YAML options, added Education subsection</td>
     </tr>
     <tr>
       <td>v0.7.2b</td>
@@ -53,7 +57,7 @@ Website currently running on version 0.8.1b
     </tr>
     <tr>
       <td>v0.7.2</td>
-      <td>Corrected typo in Project section</td>
+      <td>Corrected typo in MLAIDS subsection</td>
     </tr>
     <tr>
       <td>v0.7.1</td>
