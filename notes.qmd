@@ -2,9 +2,10 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.3
+Website currently running on version 0.8.4
 
-## Milestones
+```{=html}
+<h2>Milestones</h2>
 <details open>
   <summary>July 2024</summary>
   <table>
@@ -18,13 +19,27 @@ Website currently running on version 0.8.3
     </tr>
     <tr>
       <td>v0.7.2b</td>
-      <td>Released finalized first version of static website with limited content and functionality</td>
+      <td>Released finalized first version of static website with limited content</td>
     </tr>
   </table>
 </details>
 
-## Changelog
-<details open>
+<h2>Changelog</h2>
+<details>
+  <summary>August 2024</summary>
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.8.4</td>
+      <td> Populated Retrospective content, reorder CSS properties using concentric principles</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>July 2024</summary>
   <table>
     <tr>
@@ -33,7 +48,7 @@ Website currently running on version 0.8.3
     </tr>
     <tr>
       <td>v0.8.3</td>
-      <td>Rewording multiple files, created retrospective skeleton, added highlighting with limited scope</td>
+      <td>Reword multiple files, created Retrospective skeleton, added some highlighting</td>
     </tr>
     <tr>
       <td>v0.8.2</td>
@@ -69,3 +84,25 @@ Website currently running on version 0.8.3
     </tr>
   </table>
 </details>
+
+<script>
+  // Fetch all the details element
+  const details = document.querySelectorAll("details");
+
+  // Add the onclick listeners
+  details.forEach((detail) => {
+    detail.addEventListener("toggle", () => {
+      if (detail.open) setTargetDetail(detail);
+    });
+  });
+
+  // Close all the details that are not targetDetail
+  function setTargetDetail(targetDetail) {
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.open = false;
+      }
+    });
+  }
+</script>
+```

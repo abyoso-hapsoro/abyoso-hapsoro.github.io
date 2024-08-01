@@ -38,14 +38,14 @@ website:
       - about.qmd
       - section: retrospective/retrospective.qmd
         contents:
-          - retrospective/certifications.qmd
           - retrospective/education.qmd
           - retrospective/experience.qmd
           - href: retrospective/training.qmd
             text: Training (U/C)
+          - retrospective/cv.qmd
+          - retrospective/certifications.qmd
           - href: retrospective/achievements.qmd
             text: Achievements (U/C)
-          - retrospective/cv.qmd
       - section: projects/projects.qmd
         contents:
           - projects/mlaids.qmd
