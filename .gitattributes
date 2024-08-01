@@ -11,4 +11,4 @@ projects/projects.qmd linguist-language=HTML
 projects/mlaids.qmd linguist-language=HTML
 projects/others.qmd linguist-language=HTML
 misc.qmd linguist-language=HTML
-notes.qmd linguist-language=HTML
+notes.qmd linguist-language=JavaScript
