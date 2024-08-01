@@ -3,18 +3,6 @@ th, td {
   text-align: left;
 }
 
-/* Add highlighting */
-.highlight {
-  display: block;
-  position: relative;
-  visibility: visible;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  background-color: #cab5e7;
-  transition: background-color 0.5s ease-in-out;
-}
-
 /* Skill chart */
 .skillset {
   display: block;
@@ -418,6 +406,13 @@ th, td {
   position: relative;
   visibility: visible;
   margin-bottom: 15px;
+}
+
+/* Add highlighting */
+.highlight {
+  z-index: 1;
+  background-color: #cab5e7;
+  transition: background-color 0.5s ease-in-out;
 }
 
 /* Keyframe animations */
