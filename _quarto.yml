@@ -44,8 +44,7 @@ website:
             text: Training (U/C)
           - retrospective/cv.qmd
           - retrospective/certifications.qmd
-          - href: retrospective/achievements.qmd
-            text: Achievements (U/C)
+          - retrospective/achievements.qmd
       - section: projects/projects.qmd
         contents:
           - projects/mlaids.qmd

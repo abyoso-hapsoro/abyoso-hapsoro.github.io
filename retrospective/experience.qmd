@@ -273,7 +273,7 @@ date: 31 July 2024"
   </div>
 </div>
 
-<!-- Others -->
+<!-- Other Work -->
 <div id="others" class="tabcontent">
   <div class="experience-card">
     <div class="experience-header">
