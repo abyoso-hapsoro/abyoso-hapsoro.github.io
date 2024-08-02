@@ -11,6 +11,7 @@ date: "31 July 2024"
   <button class="tablinks" onclick="openEdu(event, 'others')">Others</button>
 </div>
 
+<!-- Formal Education -->
 <div id="formal" class="tabcontent">
   <div class="education-card" id="bachelor">
     <div class="education-header">
@@ -49,6 +50,7 @@ date: "31 July 2024"
   </div>
 </div>
 
+<!-- Semi-Formal Education -->
 <div id="smifrm" class="tabcontent">
   <div class="education-card">
     <div class="education-header">
@@ -85,6 +87,7 @@ date: "31 July 2024"
   </div>
 </div>
 
+<!-- Supplementary Education -->
 <div id="suplem" class="tabcontent">
   <div class="education-card">
     <div class="education-header">
@@ -133,6 +136,7 @@ date: "31 July 2024"
   </div>
 </div>
 
+<!-- Other Education -->
 <div id="others" class="tabcontent">
   <div class="education-card">
     <div class="education-header">
