@@ -304,6 +304,22 @@ th, td {
   width: 120px;
 }
 
+.education-source {
+  font-size: 0.9em;
+  color: #111111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
+
+.education-source::before {
+  content: '📂 Type: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
 /* Styling for Experience subsection */
 .experience-card {
   display: flex;
@@ -391,6 +407,22 @@ th, td {
   top: 20px;
   right: 20px;
   width: 120px;
+}
+
+.experience-source {
+  font-size: 0.9em;
+  color: #111111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
+
+.experience-source::before {
+  content: '📂 Category: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
 }
 
 /* Styling for Achievements subsection */
@@ -511,53 +543,66 @@ th, td {
   width: 80px;
 }
 
-/*
-WIP: Sorting
-  #sort-buttons {
-    margin-bottom: 10px;
-  }
+.achievement-source {
+  font-size: 0.9em;
+  color: #111111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
 
-  #sort-buttons .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+.achievement-source::before {
+  content: '📂 Level: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
 
-  #sort-buttons .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
+/* Sorting */
+#sort-buttons {
+  margin-bottom: 10px;
+  margin-right: 12px;
+  text-align: right;
+}
 
-  #sort-buttons .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+#sort-buttons .dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  #sort-buttons .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+#sort-buttons .dropbtn {
+  background-color: #5cbb82;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-  #sort-buttons .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+#sort-buttons .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px #000033;
+  text-align: left;
+  z-index: 1;
+}
 
-  #sort-buttons .dropdown:hover .dropdown-content {
-    display: block;
-  }
+#sort-buttons .dropdown-content a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-  #sort-buttons .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
+#sort-buttons .dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+#sort-buttons .dropdown-content.show {
+  display: block;
+}
 
 /* Container for images */
 .image-container {

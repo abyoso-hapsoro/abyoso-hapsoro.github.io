@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-08-02">
+<meta name="dcterms.date" content="2024-08-03">
 
 <title>Achievements – Aby’s Portfolio</title>
 <style>
@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2 August 2024</p>
+      <p class="date">3 August 2024</p>
     </div>
   </div>
   
@@ -233,31 +233,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- Sort Achievements -->
+<div id="sort-buttons">
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleSort()">Sort by <span id="sortArrow">▼</span></button>
+    <div class="dropdown-content" id="dropdownContent">
+      <!--
+      <a href="#" onclick="resetSort()">Default</a>
+      <a href="#" onclick="sortAch('date', 'asc')">Date (Ascending)</a>
+      <a href="#" onclick="sortAch('placement', 'asc')">Placement: Ascending</a>
+      -->
+      <a href="#" onclick="sortAch('date', 'desc')">Date</a>
+      <a href="#" onclick="sortAch('placement', 'desc')">Placement</a>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement Tabs -->
 <div class="tab">
+  <button class="tablinks" onclick="openAch(event, 'feature')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
   <button class="tablinks" onclick="openAch(event, 'intrntl')">International</button>
   <button class="tablinks" onclick="openAch(event, 'ntional')">National</button>
   <button class="tablinks" onclick="openAch(event, 'univsty')">University</button>
-  <button class="tablinks" onclick="openAch(event, 'faculty')" id="defaultOpen">Faculty</button>
+  <button class="tablinks" onclick="openAch(event, 'faculty')">Faculty</button>
   <button class="tablinks" onclick="openAch(event, 'dprtmnt')">Department</button>
 </div>
 
-<!--
-WIP: Sorting
-  <div id="sort-buttons">
-    <div class="dropdown">
-      <button class="dropbtn">Sort</button>
-      <div class="dropdown-content">
-        <a href="#" onclick="sortAch('date', 'asc')">Date Ascending</a>
-        <a href="#" onclick="sortAch('date', 'desc')">Date Descending</a>
-        <a href="#" onclick="sortAch('placement', 'asc')">Placement Ascending</a>
-        <a href="#" onclick="sortAch('placement', 'desc')">Placement Descending</a>
-      </div>
-    </div>
-  </div>
--->
+<!-- Featured Achievements -->
+<div id="feature" class="tabcontent"></div>
 
 <!-- Achievements at International/Multinational Level -->
-<div id="intrntl" class="tabcontent">
+<div id="intrntl" class="tabcontent" level="International">
   <div class="achievement-card" onclick="toggleDropdown(this)">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Prefinalist</div>
@@ -272,7 +278,7 @@ WIP: Sorting
     </div>
   </div>
 
-  <div class="achievement-card" onclick="toggleDropdown(this)">
+  <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="2">
     <div class="achievement-header">
       <div class="achievement-placement" place="1st">1st Winner</div>
       <div class="achievement-date">Sep 2018</div>
@@ -288,8 +294,8 @@ WIP: Sorting
 </div>
 
 <!-- Achievements at National Level -->
-<div id="ntional" class="tabcontent">
-  <div class="achievement-card" onclick="toggleDropdown(this)">
+<div id="ntional" class="tabcontent" level="National">
+  <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="4">
     <div class="achievement-header">
       <div class="achievement-placement" place="1st">Top 20</div>
       <div class="achievement-date">Aug 2022</div>
@@ -323,7 +329,7 @@ WIP: Sorting
     <img class="achievement-logo" src="../images/IQC-2019.png">
   </div>
 
-  <div class="achievement-card" onclick="toggleDropdown(this)">
+  <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="3">
     <div class="achievement-header">
       <div class="achievement-placement" place="3rd">3rd Winner</div>
       <div class="achievement-date">Apr 2019</div>
@@ -350,11 +356,91 @@ WIP: Sorting
       <div class="achievement-details">Solved undergraduate level calculus problems with question material ranging from first year to third year, including topics in pure mathematics specialty.</div>
     </div>
   </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="2nd">Silver Award</div>
+      <div class="achievement-date">August 2018</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: July 2018</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">May 2018</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: April 2018</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Jan 2018</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: December 2017</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Dec 2017</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: November 2017</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Aug 2017</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: July 2017</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Jan 2017</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: December 2016</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Dec 2016</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: November 2016</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="3rd">Bronze Award</div>
+      <div class="achievement-date">Nov 2016</div>
+    </div>
+    <div class="achievement-event">Kontes Terbuka Olimpiade Matematika: October 2016</div>
+    <div class="achievement-issuer">Indonesia Mathematics Olympiad Team</div>
+    <img class="achievement-logo" src="../images/KTOM.png">
+  </div>
 </div>
 
 <!-- Achievements at University Level -->
-<div id="univsty" class="tabcontent">
-  <div class="achievement-card" onclick="toggleDropdown(this)">
+<div id="univsty" class="tabcontent" level="University">
+  <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="5">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
       <div class="achievement-date">Nov 2019</div>
@@ -383,8 +469,8 @@ WIP: Sorting
 </div>
 
 <!-- Achievements at Faculty Level -->
-<div id="faculty" class="tabcontent">
-  <div class="achievement-card" onclick="toggleDropdown(this)">
+<div id="faculty" class="tabcontent" level="Faculty">
+  <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="1">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Finalist</div>
       <div class="achievement-date">Mar 2019</div>
@@ -396,16 +482,36 @@ WIP: Sorting
       <div class="achievement-details">One of two selected finalists representing Department of Mathematics. Every participant has previously proven themselves through outstanding achievements. The selection evaluated based on several categories such as writing a scientific article, presentations and English speech.</div>
     </div>
   </div>
+  
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="1st">1st Winner</div>
+      <div class="achievement-date">May 2018</div>
+    </div>
+    <div class="achievement-event">English Debating Competition, <span title="Student Scientific Olympiad"><u style="cursor:help">OIM</u></span> <span title="Faculty of Mathematics and Natural Sciences"><u style="cursor:help">FMIPA</u></span> <span title="University of Indonesia"><u style="cursor:help">UI</u></span> 2018</div>
+    <div class="achievement-issuer"><span title="Student Executive Board"><u style="cursor:help">BEM</u></span> <span title="Faculty of Mathematics and Natural Sciences"><u style="cursor:help">FMIPA</u></span>, University of Indonesia</div>
+    <img class="achievement-logo" src="../images/OIM_MIPA-2018.png">
+  </div>
+
+  <div class="achievement-card no-dropdown">
+    <div class="achievement-header">
+      <div class="achievement-placement" place="1st">1st Winner</div>
+      <div class="achievement-date">May 2018</div>
+    </div>
+    <div class="achievement-event"><span title="Student Creativity Program - Scientific Article"><u style="cursor:help">PKM-AI</u></span>, <span title="Student Scientific Olympiad"><u style="cursor:help">OIM</u></span> <span title="Faculty of Mathematics and Natural Sciences"><u style="cursor:help">FMIPA</u></span> <span title="University of Indonesia"><u style="cursor:help">UI</u></span> 2018</div>
+    <div class="achievement-issuer"><span title="Student Executive Board"><u style="cursor:help">BEM</u></span> <span title="Faculty of Mathematics and Natural Sciences"><u style="cursor:help">FMIPA</u></span>, University of Indonesia</div>
+    <img class="achievement-logo" src="../images/OIM_MIPA-2018.png">
+  </div>
 </div>
 
 <!-- Achievements at Department Level -->
-<div id="dprtmnt" class="tabcontent">
+<div id="dprtmnt" class="tabcontent" level="Department">
   <div class="achievement-card no-dropdown">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
       <div class="achievement-date">Nov 2018</div>
     </div>
-    <div class="achievement-event">Code and Logic Competition, OIM Matek 2018</div>
+    <div class="achievement-event">Code and Logic Competition, <span title="Student Scientific Olympiad"><u style="cursor:help">OIM</u></span> Matek 2018</div>
     <div class="achievement-issuer">Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia</div>
     <img class="achievement-logo" src="../images/OIM_Matek-2018.png">
   </div>
@@ -415,7 +521,7 @@ WIP: Sorting
       <div class="achievement-placement" place="2nd">2nd Winner &amp; Best of Batch 2016</div>
       <div class="achievement-date">Dec 2017</div>
     </div>
-    <div class="achievement-event">Code and Logic Competition, OIM Matek 2017</div>
+    <div class="achievement-event">Code and Logic Competition, <span title="Student Scientific Olympiad"><u style="cursor:help">OIM</u></span> Matek 2017</div>
     <div class="achievement-issuer">Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia</div>
     <img class="achievement-logo" src="../images/OIM_Matek-2017.png">
   </div>
@@ -423,7 +529,64 @@ WIP: Sorting
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // Get featured tab to populate
+    const featuredTab = document.getElementById('feature');
+    
+    // Select all tabcontent divs
+    const tabContents = document.querySelectorAll('.tabcontent');
+
+    // WIP: Store the original order of cards
+    // const originalOrder = {};
+
+    // Collect all featured cards from all tab contents
+    const allFeaturedCards = [];
+
+    tabContents.forEach(content => {
+      // Select cards that should be featured within each tabcontent
+      const featuredCards = Array.from(content.querySelectorAll('.achievement-card[featured="true"]'));
+      allFeaturedCards.push(...featuredCards);
+    });
+
+    // Sort all featured cards based on the feature-order attribute
+    allFeaturedCards.sort((a, b) => {
+      return parseInt(a.getAttribute('feature-order')) - parseInt(b.getAttribute('feature-order'));
+    });
+
+    allFeaturedCards.forEach(card => {
+      // Clone each featured card
+      const clone = card.cloneNode(true);
+      
+      // Edit data in card
+      clone.style.backgroundColor = '#5cbb82';
+      clone.style.paddingBottom = '38px';
+
+      // Add level to card
+      const sourceDiv = document.createElement('div');
+      sourceDiv.className = 'achievement-source';
+      sourceDiv.textContent = `${card.parentElement.getAttribute('level')}`;
+      clone.appendChild(sourceDiv);
+
+      // Append clone to the featured tab
+      featuredTab.appendChild(clone);
+    });
+
+    // WIP: Get the original order of cards
+    // const cards = Array.from(content.getElementsByClassName('achievement-card'));
+    // originalOrder[content.id] = cards.map(card => card.outerHTML);
+
+    // Open featured tab
     document.getElementById("defaultOpen").click();
+  });
+
+  document.addEventListener('click', function(event) {
+    if (!event.target.matches('.dropbtn') && !event.target.matches('.dropdown-content a')) {
+      const dropdownContent = document.getElementById('dropdownContent');
+      const sortArrow = document.getElementById('sortArrow');
+      if (dropdownContent.classList.contains('show')) {
+        dropdownContent.classList.remove('show');
+        sortArrow.innerHTML = '&#9660;';
+      }
+    }
   });
 
   function openAch(event, achCat) {
@@ -483,9 +646,14 @@ WIP: Sorting
     cardElement.classList.toggle('active');
   }
 
-/*
-WIP: Sorting
-  function sortAch(criteria) {
+  function toggleSort() {
+    const dropdownContent = document.getElementById('dropdownContent');
+    const sortArrow = document.getElementById('sortArrow');
+    dropdownContent.classList.toggle('show');
+    sortArrow.innerHTML = dropdownContent.classList.contains('show') ? '&#9650;' : '&#9660;';
+  }
+
+  function sortAch(criteria, order) {
     const tabcontent = document.querySelectorAll('.tabcontent');
     tabcontent.forEach(content => {
       const cards = Array.from(content.getElementsByClassName('achievement-card'));
@@ -494,23 +662,34 @@ WIP: Sorting
         if (criteria === 'date') {
           const dateA = new Date(a.querySelector('.achievement-date').textContent);
           const dateB = new Date(b.querySelector('.achievement-date').textContent);
-          return dateA - dateB;
+          return order === 'asc' ? dateA - dateB : dateB - dateA;
         } else if (criteria === 'placement') {
-          const placementA = a.querySelector('.achievement-placement').textContent;
-          const placementB = b.querySelector('.achievement-placement').textContent;
-          return getPlacementValue(placementA) - getPlacementValue(placementB);
+          const placementA = a.querySelector('.achievement-placement').getAttribute('place');
+          const placementB = b.querySelector('.achievement-placement').getAttribute('place');
+          return order === 'asc' ? getPlacementValue(placementA) - getPlacementValue(placementB) : getPlacementValue(placementB) - getPlacementValue(placementA);
         }
-    });
+      });
 
-    cards.forEach(card => content.appendChild(card));
+      cards.forEach(card => content.appendChild(card));
     });
   }
 
   function getPlacementValue(placement) {
-    if (placement === '1st') return 1;
-    if (placement === '2nd') return 2;
-    if (placement === '3rd') return 3;
-    return 4;
+    if (placement === '1st') return 4;
+    if (placement === '2nd') return 3;
+    if (placement === '3rd') return 2;
+    return 1;
+  }
+
+/*
+WIP: Reset sorting to default order
+  function resetSort() {
+    const tabcontent = document.querySelectorAll('.tabcontent');
+
+    tabcontent.forEach(content => {
+      const originalCards = originalOrder[content.id];
+      content.innerHTML = originalCards.join('');
+    });
   }
 */
 </script>

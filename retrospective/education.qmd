@@ -1,19 +1,24 @@
 ---
 title: "Education"
-date: "31 July 2024"
+date: "3 August 2024"
 ---
 
 ```{=html}
+<!-- Education Tabs -->
 <div class="tab">
-  <button class="tablinks" onclick="openEdu(event, 'formal')" id="defaultOpen">Formal</button>
+  <button class="tablinks" onclick="openEdu(event, 'featrd')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
+  <button class="tablinks" onclick="openEdu(event, 'formal')" id="formalTab">Formal</button>
   <button class="tablinks" onclick="openEdu(event, 'smifrm')">Semi-Formal</button>
   <button class="tablinks" onclick="openEdu(event, 'suplem')">Supplementary</button>
   <button class="tablinks" onclick="openEdu(event, 'others')">Others</button>
 </div>
 
+<!-- Featured Achievements -->
+<div id="featrd" class="tabcontent"></div>
+
 <!-- Formal Education -->
-<div id="formal" class="tabcontent">
-  <div class="education-card" id="bachelor">
+<div id="formal" class="tabcontent" type="Formal">
+  <div class="education-card" id="bachelor" featured="true" feature-order="1">
     <div class="education-header">
       <span class="education-daterange">Jul 2016 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -51,8 +56,8 @@ date: "31 July 2024"
 </div>
 
 <!-- Semi-Formal Education -->
-<div id="smifrm" class="tabcontent">
-  <div class="education-card">
+<div id="smifrm" class="tabcontent" type="Semi-Formal">
+  <div class="education-card" featured="true" feature-order="2">
     <div class="education-header">
       <span class="education-daterange">Mar 2022 - Mar 2023</span>
       <span class="education-location">Louisiana, USA</span>
@@ -63,7 +68,7 @@ date: "31 July 2024"
     <img class="education-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY1Gx3ClcyzzH0nKzdNyidO7ijjbx6oT2HHQ&s" style="top:12px">
   </div>
 
-  <div class="education-card">
+  <div class="education-card" featured="true" feature-order="3">
     <div class="education-header">
       <span class="education-daterange">Jan 2022 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -75,7 +80,7 @@ date: "31 July 2024"
     <img class="education-logo" src="../images/Bangkit.png">
   </div>
 
-  <div class="education-card">
+  <div class="education-card" featured="true" feature-order="5">
     <div class="education-header">
       <span class="education-daterange">Jun 2019 - Jul 2019</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -88,7 +93,7 @@ date: "31 July 2024"
 </div>
 
 <!-- Supplementary Education -->
-<div id="suplem" class="tabcontent">
+<div id="suplem" class="tabcontent" type="Supplementary">
   <div class="education-card">
     <div class="education-header">
       <span class="education-daterange">Oct 2022 - Jan 2023</span>
@@ -100,7 +105,7 @@ date: "31 July 2024"
     <img class="education-logo" src="https://dicoding-web-img.sgp1.digitaloceanspaces.com/original/jobs/dos:company_logo_dicoding_indonesia_050423140704.jpg" style="top:12px">
   </div>
 
-  <div class="education-card">
+  <div class="education-card" featured="true" feature-order="4">
     <div class="education-header">
       <span class="education-daterange">Sep 2022 - Oct 2022</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -137,7 +142,7 @@ date: "31 July 2024"
 </div>
 
 <!-- Other Education -->
-<div id="others" class="tabcontent">
+<div id="others" class="tabcontent" type="Other">
   <div class="education-card">
     <div class="education-header">
       <span class="education-daterange">2004 - 2006</span>
@@ -153,6 +158,48 @@ date: "31 July 2024"
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // Get featured tab to populate
+    const featuredTab = document.getElementById('featrd');
+    
+    // Select all tabcontent divs
+    const tabContents = document.querySelectorAll('.tabcontent');
+
+    // Collect all featured cards from all tab contents
+    const allFeaturedCards = [];
+
+    tabContents.forEach(content => {
+      // Select cards that should be featured within each tabcontent
+      const featuredCards = Array.from(content.querySelectorAll('.education-card[featured="true"]'));
+      allFeaturedCards.push(...featuredCards);
+    });
+
+    // Sort all featured cards based on the feature-order attribute
+    allFeaturedCards.sort((a, b) => {
+      return parseInt(a.getAttribute('feature-order')) - parseInt(b.getAttribute('feature-order'));
+    });
+
+    allFeaturedCards.forEach(card => {
+      // Clone each featured card
+      const clone = card.cloneNode(true);
+      
+      // Edit data in card
+      if(card.hasAttribute('id')) {
+        clone.removeAttribute('id');
+      } 
+      clone.style.backgroundColor = '#5cbb82';
+      clone.style.paddingBottom = '38px';
+
+      // Add type to card
+      const sourceDiv = document.createElement('div');
+      sourceDiv.className = 'education-source';
+      sourceDiv.textContent = `${card.parentElement.getAttribute('type')}`;
+      clone.appendChild(sourceDiv);
+
+      // Append clone to the featured tab
+      featuredTab.appendChild(clone);
+    });
+
+    // Open featured tab
     document.getElementById("defaultOpen").click();
   });
 
@@ -202,7 +249,7 @@ date: "31 July 2024"
   }
 
   function switchToFormalTab(eduCard) {
-    document.getElementById("defaultOpen").click();
+    document.getElementById("formalTab").click();
     
     var targetCard = document.getElementById(eduCard);
     targetCard.scrollIntoView({behavior: "smooth", block: "center"});

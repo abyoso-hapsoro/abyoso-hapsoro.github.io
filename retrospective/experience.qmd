@@ -1,20 +1,25 @@
 ---
 title: "Experience"
-date: 31 July 2024"
+date: 3 August 2024"
 ---
 
 ```{=html}
+<!-- Experience Tabs -->
 <div class="tab">
-  <button class="tablinks" onclick="openExp(event, 'corwrk')" id="defaultOpen">Core</button>
+  <button class="tablinks" onclick="openExp(event, 'featrd')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
+  <button class="tablinks" onclick="openExp(event, 'corwrk')">Core</button>
   <button class="tablinks" onclick="openExp(event, 'teachn')">Teaching</button>
   <button class="tablinks" onclick="openExp(event, 'resrch')">Research</button>
   <button class="tablinks" onclick="openExp(event, 'conslt')">Consulting</button>
   <button class="tablinks" onclick="openExp(event, 'others')">Others</button>
 </div>
 
+<!-- Featured Achievements -->
+<div id="featrd" class="tabcontent"></div>
+
 <!-- Core Work -->
-<div id="corwrk" class="tabcontent">
-  <div class="experience-card">
+<div id="corwrk" class="tabcontent" category="Core">
+  <div class="experience-card" featured="true" feature-order="1">
     <div class="experience-header">
       <span class="experience-daterange">Dec 2023-Jun 2024</span>
       <span class="experience-location">Singapore</span>
@@ -40,7 +45,7 @@ date: 31 July 2024"
     <img class="experience-logo" src="../images/KiteSense.png">
   </div>
 
-  <div class="experience-card">
+  <div class="experience-card" featured="true" feature-order="2">
     <div class="experience-header">
       <span class="experience-daterange">Sep 2022 - Sep 2023</span>
       <span class="experience-location">Singapore</span>
@@ -65,10 +70,10 @@ date: 31 July 2024"
       Google Data Studio,
       Postman API
     </div>
-    <img class="experience-logo" src="https://scontent.fcgk24-2.fna.fbcdn.net/v/t39.30808-1/347622765_1446363226173277_7807583616205767384_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=QYBiKFzAXzYQ7kNvgGQP3-S&_nc_ht=scontent.fcgk24-2.fna&oh=00_AYCPauubcWjMnF7rZYjzADaQebRhMAFAmeVaVO1XY5sSuA&oe=66AE0287">
+    <img class="experience-logo" src="../images/EdgeProp.jpeg">
   </div>
 
-  <div class="experience-card">
+  <div class="experience-card" featured="true" feature-order="4">
     <div class="experience-header">
       <span class="experience-daterange">Jan 2019 - Jan 2020</span>
       <span class="experience-location">West Java, Indonesia</span>
@@ -112,8 +117,8 @@ date: 31 July 2024"
 </div>
 
 <!-- Teaching Work -->
-<div id="teachn" class="tabcontent">
-  <div class="experience-card">
+<div id="teachn" class="tabcontent" category="Teaching">
+  <div class="experience-card" featured="true" feature-order="3">
     <div class="experience-header">
       <span class="experience-daterange">Jan 2023 - Jul 2023</span>
       <span class="experience-location">West Java, Indonesia</span>
@@ -200,7 +205,7 @@ date: 31 July 2024"
 </div>
 
 <!-- Research Work -->
-<div id="resrch" class="tabcontent">
+<div id="resrch" class="tabcontent" category="Research">
   <div class="experience-card">
     <div class="experience-header">
       <span class="experience-daterange">Nov 2019 - Dec 2019</span>
@@ -218,7 +223,7 @@ date: 31 July 2024"
     <img class="experience-logo" src="../images/IMERI.png">
   </div>
 
-  <div class="experience-card">
+  <div class="experience-card" featured="true" feature-order="5">
     <div class="experience-header">
       <span class="experience-daterange">Apr 2019 - Jul 2019</span>
       <span class="experience-location">Jakarta, Indonesia</span>
@@ -237,7 +242,7 @@ date: 31 July 2024"
 </div>
 
 <!-- Consulting Work -->
-<div id="conslt" class="tabcontent">
+<div id="conslt" class="tabcontent" category="Consulting">
   <div class="experience-card">
     <div class="experience-header">
       <span class="experience-daterange">Feb 2019 - Jan 2020</span>
@@ -274,7 +279,7 @@ date: 31 July 2024"
 </div>
 
 <!-- Other Work -->
-<div id="others" class="tabcontent">
+<div id="others" class="tabcontent" category="Other">
   <div class="experience-card">
     <div class="experience-header">
       <span class="experience-daterange">Sep 2023 - Dec 2023</span>
@@ -329,6 +334,45 @@ date: 31 July 2024"
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // Get featured tab to populate
+    const featuredTab = document.getElementById('featrd');
+    
+    // Select all tabcontent divs
+    const tabContents = document.querySelectorAll('.tabcontent');
+
+    // Collect all featured cards from all tab contents
+    const allFeaturedCards = [];
+
+    tabContents.forEach(content => {
+      // Select cards that should be featured within each tabcontent
+      const featuredCards = Array.from(content.querySelectorAll('.experience-card[featured="true"]'));
+      allFeaturedCards.push(...featuredCards);
+    });
+
+    // Sort all featured cards based on the feature-order attribute
+    allFeaturedCards.sort((a, b) => {
+      return parseInt(a.getAttribute('feature-order')) - parseInt(b.getAttribute('feature-order'));
+    });
+
+    allFeaturedCards.forEach(card => {
+      // Clone each featured card
+      const clone = card.cloneNode(true);
+      
+      // Edit data in card
+      clone.style.backgroundColor = '#5cbb82';
+      clone.style.paddingBottom = '38px';
+
+      // Add category to card
+      const sourceDiv = document.createElement('div');
+      sourceDiv.className = 'experience-source';
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
+      clone.appendChild(sourceDiv);
+
+      // Append clone to the featured tab
+      featuredTab.appendChild(clone);
+    });
+
+    // Open featured tab
     document.getElementById("defaultOpen").click();
   });
 

@@ -2,11 +2,11 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.5
+Website currently running on version 0.8.6
 
 ```{=html}
 <h2>Milestones</h2>
-<details open>
+<details>
   <summary>July 2024</summary>
   <table>
     <tr>
@@ -25,12 +25,16 @@ Website currently running on version 0.8.5
 </details>
 
 <h2>Changelog</h2>
-<details>
+<details open>
   <summary>August 2024</summary>
   <table>
     <tr>
       <th></th>
       <th></th>
+    </tr>
+    <tr>
+      <td>v0.8.6</td>
+      <td>Added featured tab in multiple Retrospective subsections, added experimental sorting</td>
     </tr>
     <tr>
       <td>v0.8.5</td>

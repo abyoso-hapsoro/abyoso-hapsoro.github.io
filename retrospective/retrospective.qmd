@@ -1,6 +1,6 @@
 ---
 title: "Retrospective"
-date: "1 August 2024"
+date: "3 August 2024"
 ---
 
 This section features a retrospective of myself. Some subsections are marked 'U/C' meaning they are still under construction.
@@ -89,9 +89,17 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
       <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
     </div>
     <div class="skill-dropdown">
-      <div class="subskill-name">Drupal</div>
+      <div class="subskill-name">MySQLi</div>
       <div class="subskill-bar">
         <div class="subskill-yoe" yoe="1" style="max-width:100%"></div>
+      </div>
+      <div class="subskill-name">Drupal</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="<1" style="max-width:50%"></div>
+      </div>
+      <div class="subskill-name">Watchdog</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="<1" style="max-width:50%"></div>
       </div>
     </div>
   </div>
@@ -104,14 +112,22 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   </div>
 
   <div class="skill">
-    <div class="skill-name" onclick="toggleDropdown(this)">JS</div>
+    <div class="skill-name" onclick="toggleDropdown(this)">JavaScript</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="<1" style="max-width:10%"></div>
+      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
     </div>
     <div class="skill-dropdown">
+      <div class="subskill-name">HTML</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="1" style="max-width:100%"></div>
+      </div>
+      <div class="subskill-name">CSS</div>
+      <div class="subskill-bar">
+        <div class="subskill-yoe" yoe="<1" style="max-width:50%"></div>
+      </div>
       <div class="subskill-name">Node JS</div>
       <div class="subskill-bar">
-        <div class="subskill-yoe" yoe="<1" style="max-width:100%"></div>
+        <div class="subskill-yoe" yoe="<1" style="max-width:50%"></div>
       </div>
     </div>
   </div>
