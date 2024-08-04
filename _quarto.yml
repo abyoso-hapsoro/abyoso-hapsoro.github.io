@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Aby's Portfolio"
-  favicon: "images/Xyba-Logo.ico"
+  favicon: "misc/Xyba-Logo.ico"
   site-url: "https://abyoso-hapsoro.github.io/"
   repo-url: "https://github.com/abyoso-hapsoro/abyoso-hapsoro.github.io"
   repo-actions: [source]
@@ -42,6 +42,8 @@ website:
           - retrospective/experience.qmd
           - href: retrospective/training.qmd
             text: Training (U/C)
+          - href: retrospective/organization.qmd
+            text: Organization (U/C)
           - retrospective/cv.qmd
           - retrospective/certifications.qmd
           - retrospective/achievements.qmd
@@ -73,6 +75,7 @@ format:
     highlight-style: solarized
     theme: minty
     css: styles.css
+    link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
     toc: true

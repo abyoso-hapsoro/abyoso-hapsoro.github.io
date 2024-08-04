@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-15">
+<meta name="dcterms.date" content="2024-08-04">
 
 <title>Miscellaneous – Aby’s Portfolio</title>
 <style>
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/Xyba-Logo.ico" rel="icon">
+<link href="./misc/Xyba-Logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -144,6 +144,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./retrospective/organization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organization (U/C)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./retrospective/cv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Curriculum Vitae</span></a>
   </div>
@@ -231,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">15 July 2024</p>
+      <p class="date">4 August 2024</p>
     </div>
   </div>
   
@@ -243,6 +249,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- EXPERIMENTAL: Background Music -->
+<audio id="BGM" loop="" style="display: none;">
+  <source src="misc/Dearly_Beloved-KHDDD.mp3" type="audio/mpeg">
+</audio>
+<div class="audio-controls">
+  <div>Dearly Beloved (KHDDD)</div>
+  <div class="audio-buttons">
+    <button class="play-button" id="play-button">▶️</button>
+    <button class="mute-button" id="mute-button">🔊</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById('BGM');
+    var playButton = document.getElementById('play-button');
+    var muteButton = document.getElementById('mute-button');
+
+    // Handle play/pause button
+    playButton.addEventListener('click', function() {
+      if (audio.paused) {
+        audio.play();
+        playButton.textContent = '⏸️';
+      } else {
+        audio.pause();
+        playButton.textContent = '▶️';
+      }
+    });
+
+    // Handle mute/unmute button
+    muteButton.addEventListener('click', function() {
+      if (audio.muted) {
+        audio.muted = false;
+        muteButton.textContent = '🔊';
+      } else {
+        audio.muted = true;
+        muteButton.textContent = '🔇';
+      }
+    });
+  });
+</script>
+<!-- Miscellaneous -->
 <section id="interests" class="level2">
 <h2 class="anchored" data-anchor-id="interests">Interests</h2>
 <ul>
@@ -280,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/Xyba-Logo.ico" class="img-fluid" width="350"></p>
+<p><img src="misc/Xyba-Logo.ico" class="img-fluid" width="350"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <p>First personal logo created in 2017 to be the icon for my first Tkinter app, a <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Basic%20Python/Guessing%20Game">number guessing game</a>. Have been used as personal logo since though new personal logo is planned.</p>
@@ -288,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/Xyba_Project-Cover.jpg" class="img-fluid" width="350"></p>
+<p><img src="misc/Xyba_Project-Cover.jpg" class="img-fluid" width="350"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <p>Document cover created using CorelDRAW in 2016 for <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Mathematics%20(No%20Code)">Project Xyba</a>, a question solution sharing project, during bachelor studies. Corner art made by <a href="https://danbooru.donmai.us/posts?tags=mishima_kurone">Mishima Kurone</a>.</p>
@@ -415,6 +463,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
