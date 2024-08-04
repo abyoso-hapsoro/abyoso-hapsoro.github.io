@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-date: "15 July 2024"
+date: "4 August 2024"
 ---
 
 ::: {layout="[25,75]"}
@@ -68,3 +68,14 @@ Issued: January 2019<br>
 🗄️ <a href="https://docs.google.com/spreadsheets/d/14aNwfzvHy0VHpx1wYgmBIBxiFFVCGIBXQV4qIAjWuvU/edit?gid=0#gid=0">View Collection</a>
 
 :::
+
+```{=html}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('a:not(.sidebar-link)').forEach(link => {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  });
+</script>
+```
