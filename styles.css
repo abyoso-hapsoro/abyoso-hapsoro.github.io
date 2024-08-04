@@ -425,6 +425,9 @@ th, td {
   color: #111111;
 }
 
+/* Styling for Organization subsection */
+
+
 /* Styling for Achievements subsection */
 .achievement-card {
   display: flex;
@@ -521,6 +524,33 @@ th, td {
   text-align: justify;
 }
 
+.achievement-dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.achievement-representation, .achievement-link {
+  display: inline-block;
+  width: 50%;
+  color: #111111;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.achievement-representation[represent="self"]::before{
+  content: '👤 Represented: ';
+}
+
+.achievement-representation[represent="group"]::before{
+  content: '👥 Represented: ';
+}
+
+.achievement-link::before {
+  content: '📄 ';
+}
+
 .achievement-arrangement {
   color: #000000;
   margin-bottom: 20px;
@@ -604,6 +634,13 @@ th, td {
   display: block;
 }
 
+/* Add highlighting */
+.highlight {
+  z-index: 1;
+  background-color: #cab5e7;
+  transition: background-color 0.5s ease-in-out;
+}
+
 /* Container for images */
 .image-container {
   display: block;
@@ -619,11 +656,36 @@ th, td {
   margin-bottom: 15px;
 }
 
-/* Add highlighting */
-.highlight {
+/* Miscellaneous */
+.audio-controls {
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  top: 230px;
+  right: 20px;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
   z-index: 1;
-  background-color: #cab5e7;
-  transition: background-color 0.5s ease-in-out;
+}
+
+.audio-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.play-button, .mute-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+}
+.play-button:focus, .mute-button:focus {
+  outline: none;
 }
 
 /* Keyframe animations */

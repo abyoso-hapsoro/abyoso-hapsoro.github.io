@@ -1,8 +1,53 @@
 ---
 title: "Miscellaneous"
-date: "15 July 2024"
+date: "4 August 2024"
 ---
 
+<!-- EXPERIMENTAL: Background Music -->
+```{=html}
+<audio id="BGM" loop style="display: none;">
+  <source src="misc/Dearly_Beloved-KHDDD.mp3" type="audio/mpeg">
+</audio>
+<div class="audio-controls">
+  <div>Dearly Beloved (KHDDD)</div>
+  <div class="audio-buttons">
+    <button class="play-button" id="play-button">▶️</button>
+    <button class="mute-button" id="mute-button">🔊</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById('BGM');
+    var playButton = document.getElementById('play-button');
+    var muteButton = document.getElementById('mute-button');
+
+    // Handle play/pause button
+    playButton.addEventListener('click', function() {
+      if (audio.paused) {
+        audio.play();
+        playButton.textContent = '⏸️';
+      } else {
+        audio.pause();
+        playButton.textContent = '▶️';
+      }
+    });
+
+    // Handle mute/unmute button
+    muteButton.addEventListener('click', function() {
+      if (audio.muted) {
+        audio.muted = false;
+        muteButton.textContent = '🔊';
+      } else {
+        audio.muted = true;
+        muteButton.textContent = '🔇';
+      }
+    });
+  });
+</script>
+```
+
+<!-- Miscellaneous -->
 ## Interests
 - Environment Conservation
 - Astrobiology
@@ -25,11 +70,11 @@ date: "15 July 2024"
 
 ## Non-Code/Writing Creations
 ::: {layout-ncol=2}
-![](images/Xyba-Logo.ico){width=350}
+![](misc/Xyba-Logo.ico){width=350}
 
 First personal logo created in 2017 to be the icon for my first Tkinter app, a <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Basic%20Python/Guessing%20Game">number guessing game</a>. Have been used as personal logo since though new personal logo is planned.
 
-![](images/Xyba_Project-Cover.jpg){width=350}
+![](misc/Xyba_Project-Cover.jpg){width=350}
 
 Document cover created using CorelDRAW in 2016 for <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Mathematics%20(No%20Code)">Project Xyba</a>, a question solution sharing project, during bachelor studies. Corner art made by <a href="https://danbooru.donmai.us/posts?tags=mishima_kurone">Mishima Kurone</a>.
 :::

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-08-03">
+<meta name="dcterms.date" content="2024-08-04">
 
 <title>Release Notes – Aby’s Portfolio</title>
 <style>
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/Xyba-Logo.ico" rel="icon">
+<link href="./misc/Xyba-Logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -144,6 +144,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./retrospective/organization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organization (U/C)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./retrospective/cv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Curriculum Vitae</span></a>
   </div>
@@ -221,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">3 August 2024</p>
+      <p class="date">4 August 2024</p>
     </div>
   </div>
   
@@ -233,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Website currently running on version 0.8.6</p>
+<p>Website currently running on version 0.8.7</p>
 <h2 class="anchored">Milestones</h2>
 <details>
   <summary>July 2024</summary>
@@ -268,14 +274,18 @@ ul.task-list li input[type="checkbox"] {
 <td data-quarto-table-cell-role="th"></td>
 </tr>
 <tr class="even">
-<td>v0.8.6</td>
-<td>Added featured tab in multiple Retrospective subsections, added experimental sorting</td>
+<td>v0.8.7</td>
+<td>Links now open in new tab, populated Achievements subsection, added <span title="Experimental"><u>exp</u></span> BGM</td>
 </tr>
 <tr class="odd">
+<td>v0.8.6</td>
+<td>Added featured tab in multiple Retrospective subsections, added <span title="Experimental"><u>exp</u></span> sorting</td>
+</tr>
+<tr class="even">
 <td>v0.8.5</td>
 <td>Added Achievement subsection, added comments on multiple files</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>v0.8.4</td>
 <td>Populated Retrospective section, reorder CSS properties using concentric principles</td>
 </tr>
@@ -464,6 +474,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
