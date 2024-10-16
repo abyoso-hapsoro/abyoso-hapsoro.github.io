@@ -1,7 +1,7 @@
 ---
 title: "Abyoso Hapsoro Nurhadi"
 subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
-date: "4 August 2024"
+date: "16 October 2024"
 execute:
   echo: false
 ---
@@ -52,22 +52,13 @@ I am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced
 ::: {.callout-tip}
 ## My Availability
 
+<details>
+  <summary>❌ Not Available for Hire</summary>
+</details>
+<details>
+  <summary>❌ Not Available to Teach</summary>
+</details>
 <details open>
-  <summary>🚀 Available for Hire</summary>
-  <ul>
-    <li>Looking for Researcher/Scientist/Engineer roles in Machine Learning, Artificial Intelligence or Data Science. Also open to Mathematics-focused roles including teaching</li>
-    <li>Prefer fully remote opportunities (open worldwide) but flexible to hybrid/onsite arrangement in [Jakarta Metropolitan Area](https://en.wikipedia.org/wiki/Jakarta_metropolitan_area)</li>
-  </ul>
-</details>
-<details>
-  <summary>🏫 Available to Teach</summary>
-  <ul>
-    <li>Open to teaching Mathematics for Middle School and High School students</li>
-    <li>For Indonesians, find me at [Superprof](https://www.superprof.co.id/guru-dengan-pengalaman-mengajar-matematika-untuk-smp-dan-sma-dengan-latar-belakang-matematika-pengajaran-saya-menitikberatkan.html)</li>
-    <li>For non-Indonesians, contact me through the contacts below to arrange a session</li>
-  </ul>
-</details>
-<details>
   <summary>🔬 Available for Research Collaborations</summary>
   Open to international collaboration in research for almost any industry ([my preferences](misc.qmd))
 </details>

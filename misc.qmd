@@ -1,6 +1,6 @@
 ---
 title: "Miscellaneous"
-date: "4 August 2024"
+date: "16 October 2024"
 ---
 
 <!-- EXPERIMENTAL: Background Music -->
@@ -9,6 +9,7 @@ date: "4 August 2024"
   <source src="misc/Dearly_Beloved-KHDDD.mp3" type="audio/mpeg">
 </audio>
 <div class="audio-controls">
+  <div style="color:#a57ddc; font-size:10px;"><b>*Experimental*</b></div>
   <div>Dearly Beloved (KHDDD)</div>
   <div class="audio-buttons">
     <button class="play-button" id="play-button">▶️</button>

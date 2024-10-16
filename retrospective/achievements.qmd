@@ -1,10 +1,11 @@
 ---
 title: "Achievements"
-date: "4 August 2024"
+date: "16 October 2024"
 ---
 
 ```{=html}
 <!-- EXPERIMENTAL: Sort Achievements -->
+<p style="color:#a57ddc; font-size:10px; position:absolute; right:262px; top:171px"><b>*Experimental*</b></p>
 <div id="sort-buttons">
   <div class="dropdown">
     <button class="dropbtn" onclick="toggleSort()">Sort by <span id="sortArrow">&#9660;</span></button>
@@ -12,10 +13,10 @@ date: "4 August 2024"
       <!--
       <a href="#" onclick="resetSort()">Default</a>
       <a href="#" onclick="sortAch('date', 'asc')">Date (Ascending)</a>
-      <a href="#" onclick="sortAch('placement', 'asc')">Placement: Ascending</a>
+      <a href="#" onclick="sortAch('placement', 'asc')">Placement (Ascending)</a>
       -->
-      <a href="#" onclick="sortAch('date', 'desc')">Date</a>
-      <a href="#" onclick="sortAch('placement', 'desc')">Placement</a>
+      <a href="#" onclick="sortAch('date', 'desc', event)">Date</a>
+      <a href="#" onclick="sortAch('placement', 'desc', event)">Placement</a>
     </div>
   </div>
 </div>
@@ -332,7 +333,6 @@ date: "4 August 2024"
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // BUGGED: Set all links to open in new tab
     document.querySelectorAll('a:not(.sidebar-link)').forEach(link => {
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
@@ -462,7 +462,10 @@ date: "4 August 2024"
     sortArrow.innerHTML = dropdownContent.classList.contains('show') ? '&#9650;' : '&#9660;';
   }
 
-  function sortAch(criteria, order) {
+  function sortAch(criteria, order, event) {
+    // prevent opening a new tab when sorting
+    event.preventDefault();
+    
     const tabcontent = document.querySelectorAll('.tabcontent');
     tabcontent.forEach(content => {
       const cards = Array.from(content.getElementsByClassName('achievement-card'));
