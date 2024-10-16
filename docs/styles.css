@@ -314,7 +314,7 @@ th, td {
 }
 
 .education-source::before {
-  content: '📂 Type: ';
+  content: '📂 Category: ';
   font-size: 0.9em;
   font-weight: bold;
   color: #111111;

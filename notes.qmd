@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.7
+Website currently running on version 0.8.8
 
 ```{=html}
 <h2>Milestones</h2>
@@ -26,6 +26,20 @@ Website currently running on version 0.8.7
 
 <h2>Changelog</h2>
 <details open>
+  <summary>October 2024</summary>
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.8.8</td>
+      <td>Updated <span title="Home Page"><u>HP</u></span>, populated Experience subsection, fixed sorting bug, added <span title="Experimental"><u>exp</u></span> tags</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>August 2024</summary>
   <table>
     <tr>
@@ -96,6 +110,14 @@ Website currently running on version 0.8.7
     </tr>
   </table>
 </details>
+
+<h2>Addendum</h2>
+Versioning for this website (vX.Y.Z) is presented as follows:
+<ul>
+  <li>X = major release, affects entire website</li>
+  <li>Y = minor release, affects features or elements</li>
+  <li>Z = release number, affects content</li>
+</ul>
 
 <script>
   // Fetch all the details element
