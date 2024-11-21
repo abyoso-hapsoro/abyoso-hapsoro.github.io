@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: "27 July 2024"
+date: "21 November 2024"
 ---
 
 ::: {.grid}
@@ -10,7 +10,7 @@ date: "27 July 2024"
 :::
 
 ::: {.g-col-8}
-25, Husband, Cat Parent and Visioner.
+26, Husband, Cat Parent and Visioner.
 
 Lifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from [University of Indonesia](https://www.ui.ac.id/en/) with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.
 
