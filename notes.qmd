@@ -2,10 +2,24 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.8.9
+Website currently running on version 0.9.0
 
 ```{=html}
 <h2>Milestones</h2>
+<details>
+  <summary>December 2024</summary>
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.9.0</td>
+      <td>Launched search feature</td>
+    </tr>
+  </table>
+</details>
+
 <details>
   <summary>July 2024</summary>
   <table>
@@ -26,6 +40,20 @@ Website currently running on version 0.8.9
 
 <h2>Changelog</h2>
 <details open>
+  <summary>December 2024</summary>
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.9.0</td>
+      <td>Integrate searching feature, added educator <span title="Curriculum Vitae"><u>CV</u></span></td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>November 2024</summary>
   <table>
     <tr>

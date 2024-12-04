@@ -5,5 +5,42 @@ date: "20 November 2024"
 ---
 
 ```{=html}
-<embed src="../files/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px"/>
+<!-- CV Tabs -->
+<div class="tab">
+  <button class="tablinks" onclick="openCV(event, 'general')" id="defaultOpen">General</button>
+  <button class="tablinks" onclick="openCV(event, 'eductor')">Educator</button>
+</div>
+
+<!-- General CV -->
+<div id="general" class="tabcontent">
+  <embed src="../files/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px"/>
+</div>
+
+<!-- Educator CV -->
+<div id="eductor" class="tabcontent">
+  <embed src="../files/CV_Abyoso Hapsoro N.pdf" height="2100px" width="800px"/>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("defaultOpen").click();
+  });
+
+  function openCV(event, cvCat) {
+    var idx, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (idx = 0; idx < tabcontent.length; idx++) {
+      tabcontent[idx].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (idx = 0; idx < tablinks.length; idx++) {
+      tablinks[idx].className = tablinks[idx].className.replace(' active', '');
+    }
+
+    document.getElementById(cvCat).style.display = "block";
+    event.currentTarget.className += ' active';
+  }
+</script>
 ```

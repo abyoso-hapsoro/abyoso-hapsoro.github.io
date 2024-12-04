@@ -84,6 +84,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../retrospective/retrospective.html">Retrospective</a></li><li class="breadcrumb-item"><a href="../retrospective/cv.html">Curriculum Vitae</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -101,6 +104,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
     </div>
       </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -239,7 +247,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<embed src="../files/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px">
+<!-- CV Tabs -->
+<div class="tab">
+  <button class="tablinks" onclick="openCV(event, 'general')" id="defaultOpen">General</button>
+  <button class="tablinks" onclick="openCV(event, 'eductor')">Educator</button>
+</div>
+
+<!-- General CV -->
+<div id="general" class="tabcontent">
+  <embed src="../files/CV_Abyoso Hapsoro Nurhadi.pdf" height="2100px" width="800px">
+</div>
+
+<!-- Educator CV -->
+<div id="eductor" class="tabcontent">
+  <embed src="../files/CV_Abyoso Hapsoro N.pdf" height="2100px" width="800px">
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("defaultOpen").click();
+  });
+
+  function openCV(event, cvCat) {
+    var idx, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (idx = 0; idx < tabcontent.length; idx++) {
+      tabcontent[idx].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (idx = 0; idx < tablinks.length; idx++) {
+      tablinks[idx].className = tablinks[idx].className.replace(' active', '');
+    }
+
+    document.getElementById(cvCat).style.display = "block";
+    event.currentTarget.className += ' active';
+  }
+</script>
 
 
 
