@@ -1,13 +1,12 @@
 [
   {
-    "objectID": "retrospective/cv.html",
-    "href": "retrospective/cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Release Notes",
     "section": "",
-    "text": "General\n  Educator",
+    "text": "Website currently running on version 0.9.1\nMilestones\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.0\nRevamped website with interactive content\n\n\nv0.7.2b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.1\nPopulate topic and stacks in Experience subsection. Fix comments for featuring\n\n\nv0.9.0\nIntegrate searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.8.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.8.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.8.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.8.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.8.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.8.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.8.2\nCorrected typo in Education subsection\n\n\nv0.8.1b\nDeployment hotfix: rerender\n\n\nv0.8.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.8.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.7.2b\nDeployment hotfix: rerender\n\n\nv0.7.2\nCorrected typo in MLAIDS subsection\n\n\nv0.7.1\nDeployment hotfix: resolved multiple issues\n\n\nv0.7.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
     "crumbs": [
-      "Retrospective",
-      "Curriculum Vitae"
+      "Release Notes"
     ]
   },
   {
@@ -55,126 +54,6 @@
     "crumbs": [
       "Retrospective",
       "Education"
-    ]
-  },
-  {
-    "objectID": "retrospective/achievements.html",
-    "href": "retrospective/achievements.html",
-    "title": "Achievements",
-    "section": "",
-    "text": "*Experimental*\n\n  \n    Sort by ▼\n    \n      \n      Date\n      Placement\n    \n  \n\n\n\n\n  Featured\n  International\n  National\n  University\n  Faculty\n  Department\n\n\n\n\n\n\n\n  \n    \n      Prefinalist\n      Oct 2018\n    \n    International Youth Math Challenge 2018\n    International Youth Math Challenge\n    \n    \n      \n        Self\n        View Certificate\n      \n      Remote individual mathematics competition.\n      While I did pass the preliminary and qualified for the prefinals, I did not participate in it due to lack of resources to match the requirement at the time.\n    \n  \n\n  \n    \n      1st Winner\n      Sep 2018\n    \n    Mathematics Modeling Competition, MCF\n    Himatika, Bandung Institute of Technology\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Onsite team modeling competition. Team member of 3, programmer.\n      Implemented a time series trend seasonal model using Python and R to for product sales estimation and conclusive evidence on the order of profitable products.\n    \n  \n\n\n\n\n  \n    \n      Top 20\n      Aug 2022\n    \n    Kalibrr Code Festival 2022\n    Kalibrr\n    \n    \n      \n        Self\n        View Certificate\n      \n      Remote individual coding competitition.\n      Obtained highest placement (Top 20) out of 10000+ participants after 2 rounds using Go or JavaScript. The final round was held on HackerRank where I used Go for all problems. More info here.\n    \n  \n\n  \n    \n      4th Place\n      Oct 2019\n    \n    Data Analysis Competition, Informatics Festival 2019\n    Himatif, FMIPA, Padjadjaran University\n    \n  \n\n  \n    \n      Top 10 & Gold Level\n      Jun 2019\n    \n    International Quant Championship 2019\n    WorldQuant Virtual Research Center\n    \n  \n\n  \n    \n      3rd Winner\n      Apr 2019\n    \n    3rd Open Innovation, IMERI FK UI\n    Indonesia Medical Education and Research Institute\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Team innovation (product/prototype) competition presented onsite. Team member of 3, lead programmer.\n      Designed and implemented an early Schizophrenia factor determiner prototype using Python by syntactical analysis and speech semantics of human conversation.\n    \n  \n\n  \n    \n      Semifinalist\n      Sep 2018\n    \n    Calculus Cup X\n    BEM Matematika, Jakarta State University\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Onsite team mathematics competition. Team member of 3.\n      Solved undergraduate level calculus problems with question material ranging from first year to third year, including topics in pure mathematics specialty.\n    \n  \n\n  \n    \n      Silver Award\n      August 2018\n    \n    Kontes Terbuka Olimpiade Matematika: July 2018\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      May 2018\n    \n    Kontes Terbuka Olimpiade Matematika: April 2018\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Jan 2018\n    \n    Kontes Terbuka Olimpiade Matematika: December 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Dec 2017\n    \n    Kontes Terbuka Olimpiade Matematika: November 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Aug 2017\n    \n    Kontes Terbuka Olimpiade Matematika: July 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Jan 2017\n    \n    Kontes Terbuka Olimpiade Matematika: December 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Dec 2016\n    \n    Kontes Terbuka Olimpiade Matematika: November 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Nov 2016\n    \n    Kontes Terbuka Olimpiade Matematika: October 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n\n\n\n  \n    \n      2nd Winner\n      Nov 2019\n    \n    Internal Problem Solving Contest 2019\n    Pekan Ristek, Fasilkom, University of Indonesia\n    \n    \n      \n        FMIPA UI\n        View Certificate\n      \n      Onsite team coding competition. Team leader of 3.\n      Solved four difficult problems on the topics of fractional part, constrained sums, substring manipulation and graph theory using preferred coding language of choice.\n    \n  \n\n  \n    \n      Honorable Mention\n      Nov 2017\n    \n    Internal Problem Solving Contest 2017\n    Pekan Ristek, Fasilkom, University of Indonesia\n    \n    \n      \n        FMIPA UI\n        View Certificate\n      \n      Onsite team coding competition. Joined as an individual.\n    \n  \n\n\n\n\n  \n    \n      Finalist\n      Mar 2019\n    \n    Most Outstanding Student Selection 2019, FMIPA UI\n    Dean of FMIPA, University of Indonesia\n    \n    \n      \n        Department of Mathematics, UI\n        View Certificate\n      \n      One of two selected finalists representing Department of Mathematics. Every participant has previously proven themselves through outstanding achievements. The selection evaluated based on several categories such as writing a scientific article, presentations and English speech.\n    \n  \n  \n  \n    \n      1st Winner\n      May 2018\n    \n    English Debating Competition, OIM FMIPA UI 2018\n    BEM FMIPA, University of Indonesia\n    \n  \n\n  \n    \n      1st Winner\n      May 2018\n    \n    PKM-AI, OIM FMIPA UI 2018\n    BEM FMIPA, University of Indonesia\n    \n  \n\n\n\n\n  \n    \n      2nd Winner\n      Nov 2018\n    \n    Code and Logic Competition, OIM Matek 2018\n    Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia\n    \n  \n\n  \n    \n      2nd Winner & Best of Batch 2016\n      Dec 2017\n    \n    Code and Logic Competition, OIM Matek 2017\n    Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia",
-    "crumbs": [
-      "Retrospective",
-      "Achievements"
-    ]
-  },
-  {
-    "objectID": "projects/others.html",
-    "href": "projects/others.html",
-    "title": "\nPage under construction, sorry about that!\n",
-    "section": "",
-    "text": "Page under construction, sorry about that!\n\nYou can explore Aby’s other projects in past-works.\nEnjoy this cute animation in the meantime~\n\nSource",
-    "crumbs": [
-      "Featured Projects",
-      "Other projects (U/C)"
-    ]
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Release Notes",
-    "section": "",
-    "text": "Website currently running on version 0.9.0\nMilestones\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.0\nRevamped website with interactive content\n\n\nv0.7.2b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.0\nIntegrate searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.8.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.8.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.8.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.8.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.8.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.8.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.8.2\nCorrected typo in Education subsection\n\n\nv0.8.1b\nDeployment hotfix: rerender\n\n\nv0.8.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.8.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.7.2b\nDeployment hotfix: rerender\n\n\nv0.7.2\nCorrected typo in MLAIDS subsection\n\n\nv0.7.1\nDeployment hotfix: resolved multiple issues\n\n\nv0.7.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
-    "crumbs": [
-      "Release Notes"
-    ]
-  },
-  {
-    "objectID": "maintenance.html",
-    "href": "maintenance.html",
-    "title": "Aby's Portfolio",
-    "section": "",
-    "text": "Website currently under maintenance, sorry about that!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
-    "crumbs": [
-      "About me"
-    ]
-  },
-  {
-    "objectID": "misc.html#interests",
-    "href": "misc.html#interests",
-    "title": "Miscellaneous",
-    "section": "Interests",
-    "text": "Interests\n\nEnvironment Conservation\nAstrobiology\nAnimal Welfare\nMental Health\nFinancial Market Analysis",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "misc.html#hobbies",
-    "href": "misc.html#hobbies",
-    "title": "Miscellaneous",
-    "section": "Hobbies",
-    "text": "Hobbies\n\nVideo Games\nChess\nAnime\nBoard Games\nWriting, with over 76 unpublished stories\nCard Games",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "misc.html#random-stuff",
-    "href": "misc.html#random-stuff",
-    "title": "Miscellaneous",
-    "section": "Random stuff",
-    "text": "Random stuff\n\nMy favorite color is #2cb037!\nBearing the INFJ personality type\nI am a former debater! I used to specialize in Asian Parliamentary format with focus on English-based debates. This experience gives me a strong foundation of considering pros and cons of any topic making me highly-adaptable in terms of industry or Subject Matter Expertise",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "misc.html#non-codewriting-creations",
-    "href": "misc.html#non-codewriting-creations",
-    "title": "Miscellaneous",
-    "section": "Non-Code/Writing Creations",
-    "text": "Non-Code/Writing Creations\n\n\n\n\n\n\n\n\n\nFirst personal logo created in 2017 to be the icon for my first Tkinter app, a number guessing game. Have been used as personal logo since though new personal logo is planned.\n\n\n\n\n\n\n\nDocument cover created using CorelDRAW in 2016 for Project Xyba, a question solution sharing project, during bachelor studies. Corner art made by Mishima Kurone.",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "misc.html#full-name-with-honorifics",
-    "href": "misc.html#full-name-with-honorifics",
-    "title": "Miscellaneous",
-    "section": "Full Name with Honorifics",
-    "text": "Full Name with Honorifics\nR. Abyoso Hapsoro Nurhadi, S.Si., AWP\n\nR.: Raden → Hereditary Title indicating descendance of Javanese nobility (22 October 1998)\nS.Si.: Sarjana Sains → Indonesia equivalent of the Bachelor of Science title (27 July 2022)\nAWP: Associate Wealth Planner → Associate title awarded for junior financial planning expertise (15 January 2019)",
-    "crumbs": [
-      "Miscellaneous"
-    ]
-  },
-  {
-    "objectID": "projects/mlaids.html",
-    "href": "projects/mlaids.html",
-    "title": "ML, AI and DS projects",
-    "section": "",
-    "text": "Twitter Analytics Dashboard\n    Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.\n    Tech Stack: Python, HTML, Flask, scikit-learn\n     View Code\n    📅 November 2021\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Schizophrenia Early Detection Prototype\n    Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.\n    Tech Stack: Python, MATLAB, scikit-learn, scipy\n    📅 April 2019   \n    Note: Top image was edited from the linguistics of schizophrenia\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Quadcopter Flight Path Identification\n    Project for IT Today IPB 2019 Data Science Competition, hosted in Kaggle. Implemented a Regression Chain achieving 0.00317 mean haversine distance.\n    Tech Stack: Python, scikit-learn\n     View Code\n    📅 August 2019",
-    "crumbs": [
-      "Featured Projects",
-      "ML, AI and DS projects"
-    ]
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "Featured Projects",
-    "section": "",
-    "text": "This section highlights featured non-private projects. Most of these are taken from past-works. Some subsections are ‘U/C’ meaning they are still under construction.",
-    "crumbs": [
-      "Featured Projects"
     ]
   },
   {
@@ -277,11 +156,132 @@
     ]
   },
   {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Featured Projects",
+    "section": "",
+    "text": "This section highlights featured non-private projects. Most of these are taken from past-works. Some subsections are ‘U/C’ meaning they are still under construction.",
+    "crumbs": [
+      "Featured Projects"
+    ]
+  },
+  {
+    "objectID": "projects/mlaids.html",
+    "href": "projects/mlaids.html",
+    "title": "ML, AI and DS projects",
+    "section": "",
+    "text": "Twitter Analytics Dashboard\n    Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.\n    Tech Stack: Python, HTML, Flask, scikit-learn\n     View Code\n    📅 November 2021\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Schizophrenia Early Detection Prototype\n    Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.\n    Tech Stack: Python, MATLAB, scikit-learn, scipy\n    📅 April 2019   \n    Note: Top image was edited from the linguistics of schizophrenia\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Quadcopter Flight Path Identification\n    Project for IT Today IPB 2019 Data Science Competition, hosted in Kaggle. Implemented a Regression Chain achieving 0.00317 mean haversine distance.\n    Tech Stack: Python, scikit-learn\n     View Code\n    📅 August 2019",
+    "crumbs": [
+      "Featured Projects",
+      "ML, AI and DS projects"
+    ]
+  },
+  {
+    "objectID": "maintenance.html",
+    "href": "maintenance.html",
+    "title": "Aby's Portfolio",
+    "section": "",
+    "text": "Website currently under maintenance, sorry about that!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
+    "crumbs": [
+      "About me"
+    ]
+  },
+  {
+    "objectID": "misc.html#interests",
+    "href": "misc.html#interests",
+    "title": "Miscellaneous",
+    "section": "Interests",
+    "text": "Interests\n\nEnvironment Conservation\nAstrobiology\nAnimal Welfare\nMental Health\nFinancial Market Analysis",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#hobbies",
+    "href": "misc.html#hobbies",
+    "title": "Miscellaneous",
+    "section": "Hobbies",
+    "text": "Hobbies\n\nVideo Games\nChess\nAnime\nBoard Games\nWriting, with over 76 unpublished stories\nCard Games",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#random-stuff",
+    "href": "misc.html#random-stuff",
+    "title": "Miscellaneous",
+    "section": "Random stuff",
+    "text": "Random stuff\n\nMy favorite color is #2cb037!\nBearing the INFJ personality type\nI am a former debater! I used to specialize in Asian Parliamentary format with focus on English-based debates. This experience gives me a strong foundation of considering pros and cons of any topic making me highly-adaptable in terms of industry or Subject Matter Expertise",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#non-codewriting-creations",
+    "href": "misc.html#non-codewriting-creations",
+    "title": "Miscellaneous",
+    "section": "Non-Code/Writing Creations",
+    "text": "Non-Code/Writing Creations\n\n\n\n\n\n\n\n\n\nFirst personal logo created in 2017 to be the icon for my first Tkinter app, a number guessing game. Have been used as personal logo since though new personal logo is planned.\n\n\n\n\n\n\n\nDocument cover created using CorelDRAW in 2016 for Project Xyba, a question solution sharing project, during bachelor studies. Corner art made by Mishima Kurone.",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "misc.html#full-name-with-honorifics",
+    "href": "misc.html#full-name-with-honorifics",
+    "title": "Miscellaneous",
+    "section": "Full Name with Honorifics",
+    "text": "Full Name with Honorifics\nR. Abyoso Hapsoro Nurhadi, S.Si., AWP\n\nR.: Raden → Hereditary Title indicating descendance of Javanese nobility (22 October 1998)\nS.Si.: Sarjana Sains → Indonesia equivalent of the Bachelor of Science title (27 July 2022)\nAWP: Associate Wealth Planner → Associate title awarded for junior financial planning expertise (15 January 2019)",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "projects/others.html",
+    "href": "projects/others.html",
+    "title": "\nPage under construction, sorry about that!\n",
+    "section": "",
+    "text": "Page under construction, sorry about that!\n\nYou can explore Aby’s other projects in past-works.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "crumbs": [
+      "Featured Projects",
+      "Other projects (U/C)"
+    ]
+  },
+  {
+    "objectID": "retrospective/achievements.html",
+    "href": "retrospective/achievements.html",
+    "title": "Achievements",
+    "section": "",
+    "text": "*Experimental*\n\n  \n    Sort by ▼\n    \n      \n      Date\n      Placement\n    \n  \n\n\n\n\n  Featured\n  International\n  National\n  University\n  Faculty\n  Department\n\n\n\n\n\n\n\n  \n    \n      Prefinalist\n      Oct 2018\n    \n    International Youth Math Challenge 2018\n    International Youth Math Challenge\n    \n    \n      \n        Self\n        View Certificate\n      \n      Remote individual mathematics competition.\n      While I did pass the preliminary and qualified for the prefinals, I did not participate in it due to lack of resources to match the requirement at the time.\n    \n  \n\n  \n    \n      1st Winner\n      Sep 2018\n    \n    Mathematics Modeling Competition, MCF\n    Himatika, Bandung Institute of Technology\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Onsite team modeling competition. Team member of 3, programmer.\n      Implemented a time series trend seasonal model using Python and R to for product sales estimation and conclusive evidence on the order of profitable products.\n    \n  \n\n\n\n\n  \n    \n      Top 20\n      Aug 2022\n    \n    Kalibrr Code Festival 2022\n    Kalibrr\n    \n    \n      \n        Self\n        View Certificate\n      \n      Remote individual coding competitition.\n      Obtained highest placement (Top 20) out of 10000+ participants after 2 rounds using Go or JavaScript. The final round was held on HackerRank where I used Go for all problems. More info here.\n    \n  \n\n  \n    \n      4th Place\n      Oct 2019\n    \n    Data Analysis Competition, Informatics Festival 2019\n    Himatif, FMIPA, Padjadjaran University\n    \n  \n\n  \n    \n      Top 10 & Gold Level\n      Jun 2019\n    \n    International Quant Championship 2019\n    WorldQuant Virtual Research Center\n    \n  \n\n  \n    \n      3rd Winner\n      Apr 2019\n    \n    3rd Open Innovation, IMERI FK UI\n    Indonesia Medical Education and Research Institute\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Team innovation (product/prototype) competition presented onsite. Team member of 3, lead programmer.\n      Designed and implemented an early Schizophrenia factor determiner prototype using Python by syntactical analysis and speech semantics of human conversation.\n    \n  \n\n  \n    \n      Semifinalist\n      Sep 2018\n    \n    Calculus Cup X\n    BEM Matematika, Jakarta State University\n    \n    \n      \n        University of Indonesia\n        View Certificate\n      \n      Onsite team mathematics competition. Team member of 3.\n      Solved undergraduate level calculus problems with question material ranging from first year to third year, including topics in pure mathematics specialty.\n    \n  \n\n  \n    \n      Silver Award\n      August 2018\n    \n    Kontes Terbuka Olimpiade Matematika: July 2018\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      May 2018\n    \n    Kontes Terbuka Olimpiade Matematika: April 2018\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Jan 2018\n    \n    Kontes Terbuka Olimpiade Matematika: December 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Dec 2017\n    \n    Kontes Terbuka Olimpiade Matematika: November 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Aug 2017\n    \n    Kontes Terbuka Olimpiade Matematika: July 2017\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Jan 2017\n    \n    Kontes Terbuka Olimpiade Matematika: December 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Dec 2016\n    \n    Kontes Terbuka Olimpiade Matematika: November 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n  \n    \n      Bronze Award\n      Nov 2016\n    \n    Kontes Terbuka Olimpiade Matematika: October 2016\n    Indonesia Mathematics Olympiad Team\n    \n  \n\n\n\n\n  \n    \n      2nd Winner\n      Nov 2019\n    \n    Internal Problem Solving Contest 2019\n    Pekan Ristek, Fasilkom, University of Indonesia\n    \n    \n      \n        FMIPA UI\n        View Certificate\n      \n      Onsite team coding competition. Team leader of 3.\n      Solved four difficult problems on the topics of fractional part, constrained sums, substring manipulation and graph theory using preferred coding language of choice.\n    \n  \n\n  \n    \n      Honorable Mention\n      Nov 2017\n    \n    Internal Problem Solving Contest 2017\n    Pekan Ristek, Fasilkom, University of Indonesia\n    \n    \n      \n        FMIPA UI\n        View Certificate\n      \n      Onsite team coding competition. Joined as an individual.\n    \n  \n\n\n\n\n  \n    \n      Finalist\n      Mar 2019\n    \n    Most Outstanding Student Selection 2019, FMIPA UI\n    Dean of FMIPA, University of Indonesia\n    \n    \n      \n        Department of Mathematics, UI\n        View Certificate\n      \n      One of two selected finalists representing Department of Mathematics. Every participant has previously proven themselves through outstanding achievements. The selection evaluated based on several categories such as writing a scientific article, presentations and English speech.\n    \n  \n  \n  \n    \n      1st Winner\n      May 2018\n    \n    English Debating Competition, OIM FMIPA UI 2018\n    BEM FMIPA, University of Indonesia\n    \n  \n\n  \n    \n      1st Winner\n      May 2018\n    \n    PKM-AI, OIM FMIPA UI 2018\n    BEM FMIPA, University of Indonesia\n    \n  \n\n\n\n\n  \n    \n      2nd Winner\n      Nov 2018\n    \n    Code and Logic Competition, OIM Matek 2018\n    Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia\n    \n  \n\n  \n    \n      2nd Winner & Best of Batch 2016\n      Dec 2017\n    \n    Code and Logic Competition, OIM Matek 2017\n    Olimpiade Ilmiah Mahasiswa Matematika, University of Indonesia",
+    "crumbs": [
+      "Retrospective",
+      "Achievements"
+    ]
+  },
+  {
+    "objectID": "retrospective/cv.html",
+    "href": "retrospective/cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "General\n  Educator",
+    "crumbs": [
+      "Retrospective",
+      "Curriculum Vitae"
+    ]
+  },
+  {
     "objectID": "retrospective/experience.html",
     "href": "retrospective/experience.html",
     "title": "Experience",
     "section": "",
-    "text": "Featured\n  Core\n  Teaching\n  Research\n  Consulting\n  Others\n\n\n\n\n\n\n\n  \n    \n      Oct 2024 - Present\n      Linz, Austria\n    \n    Research and Development Engineer\n    Full-Time, Remote\n    Wako GmbH\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Dec 2023 - Jun 2024\n      Singapore\n    \n    Data Science Engineer\n    Full-Time, Remote\n    KiteSense\n    \n      NLP,\n      LLM,\n      RAG\n    \n    \n      Python,\n      PyTorch,\n      PostgreSQL,\n      AWS,\n      GCP,\n      Vertex AI,\n      GitHub,\n      LaTeX\n    \n    \n  \n\n  \n    \n      Sep 2022 - Sep 2023\n      Singapore\n    \n    Data Engineer\n    Full-Time, Remote\n    EdgeProp Singapore\n    \n      NLP,\n      LLM,\n      Chatbot,\n      Selenium,\n      API Crawling\n    \n    \n      Python,\n      PyTorch,\n      PHP,\n      MySQL,\n      MongoDB,\n      AWS,\n      Google Data Studio,\n      Postman API\n    \n    \n  \n\n  \n    \n      Jan 2019 - Jan 2020\n      West Java, Indonesia\n    \n    Head of Laboratory Assistants\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Team Management,\n      Curriculum Development,\n      Scheduling,\n      Server Maintenance\n    \n    \n      Python,\n      R\n    \n    \n  \n\n  \n    \n      Jul 2019 - Aug 2019\n      Jakarta, Indonesia\n    \n    Artificial Intelligence Engineeer Intern\n    Internship, Onsite\n    Konvergen AI\n    \n      CV,\n      Image Classification,\n      Object Detection,\n      OCR\n    \n    \n      Python,\n      PyTorch\n    \n    \n  \n\n\n\n\n  \n    \n      Oct 2024 - Present\n      West Java, Indonesia\n    \n    Mathematics Expert Teacher and Curriculum Advisor\n    Part-Time, Onsite\n    Sekolah Tinggi Ilmu Kesehatan Mitra Keluarga\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Jan 2023 - Jul 2023\n      West Java, Indonesia\n    \n    Machine Learning Instructor\n    Part-Time, Remote\n    Bangkit Academy\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Sep 2018 - Jan 2020\n      West Java, Indonesia\n    \n    Laboratory Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Aug 2018 - Aug 2019\n      Jakarta, Indonesia\n    \n    Mathematics Tutor\n    Part-Time, Onsite\n    Primagama Tutoring Agency\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Feb 2018 - Jun 2019\n      West Java, Indonesia\n    \n    Lecturer Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Jul 2017 - Jan 2018\n      West Java, Indonesia\n    \n    Laboratory Assistant Intern\n    Internship, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n\n\n\n  \n    \n      Nov 2019 - Dec 2019\n      Jakarta, Indonesia\n    \n    Research Associate Intern\n    Internship, Onsite\n    Indonesia Medical Education and Research Institute\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Apr 2019 - Jul 2019\n      Jakarta, Indonesia\n    \n    Research Assistant\n    Contract, Hybrid\n    Faculty of Medicine, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n\n\n\n  \n    \n      Feb 2019 - Jan 2020\n      West Java, Indonesia\n    \n    Data Consultant\n    Freelance, Hybrid\n    Klinik Data, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Sep 2018 - Jan 2020\n      West Java, Indonesia\n    \n    Mathematical Learning Center Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n\n\n\n  \n    \n      Oct 2024 - Present\n      West Java, Indonesia\n    \n    Private Tutor\n    Freelance, Onsite\n    Akademi Prestasi\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Sep 2023 - Dec 2023\n      Worldwide\n    \n    Freelance Machine Learning Engineer\n    Self-Employed, Remote\n    Upwork\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Jul 2018 - Aug 2018\n      Maharashtra, India\n    \n    Aptitude Content Verification Intern\n    Internship, Remote\n    Talent Battle\n    \n      TBA\n    \n    \n      TBA\n    \n    \n  \n\n  \n    \n      Jul 2017 - Aug 2017\n      West Java, Indonesia\n    \n    Sales Associate\n    Contract, Onsite\n    Superyogie Toys\n    \n      TBA\n    \n    \n      TBA",
+    "text": "Featured\n  Core\n  Teaching\n  Research\n  Consulting\n  Others\n\n\n\n\n\n\n\n  \n    \n      Oct 2024 - Present\n      Linz, Austria\n    \n    Research and Development Engineer\n    Full-Time, Remote\n    Wako GmbH\n    \n      3D Modeling,\n      Chatbot,\n      Mathematics,\n      Team Management\n    \n    \n      Python,\n      PHP,\n      Microsoft Azure,\n      PostgreSQL,\n      Flask,\n      Trimesh,\n      pyvista,\n      Docker,\n      LaTeX,\n      Git\n    \n    \n  \n\n  \n    \n      Dec 2023 - Jun 2024\n      Singapore\n    \n    Data Science Engineer\n    Full-Time, Remote\n    KiteSense\n    \n      Data Science,\n      Data Engineering,\n      NLP,\n      LLM,\n      RAG,\n      Mathematics\n    \n    \n      Python,\n      Go,\n      AWS,\n      GCP,\n      Vertex AI,\n      PostgreSQL,\n      PyTorch,\n      Microsoft Excel,\n      LaTeX\n    \n    \n  \n\n  \n    \n      Sep 2022 - Sep 2023\n      Singapore\n    \n    Data Engineer\n    Full-Time, Remote\n    EdgeProp Singapore\n    \n      Machine Learning,\n      Data Engineering,\n      NLP,\n      LLM,\n      Chatbot,\n      API Crawling\n    \n    \n      Python,\n      PHP,\n      AWS,\n      GCP,\n      Google Data Studio,\n      MySQL,\n      MongoDB,\n      PyTorch,\n      Microsoft Excel,\n      Postman API,\n      Git\n    \n    \n  \n\n  \n    \n      Jan 2019 - Jan 2020\n      West Java, Indonesia\n    \n    Head of Laboratory Assistants\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Team Management,\n      Curriculum Development,\n      Scheduling,\n      Server Maintenance\n    \n    \n      Microsoft Excel\n    \n    \n  \n\n  \n    \n      Jul 2019 - Aug 2019\n      Jakarta, Indonesia\n    \n    Artificial Intelligence Engineeer Intern\n    Internship, Onsite\n    Konvergen AI\n    \n      Machine Learning,\n      Computer Vision,\n      Image Classification,\n      Object Detection,\n      OCR\n    \n    \n      Python,\n      PyTorch\n    \n    \n  \n\n\n\n\n  \n    \n      Dec 2024 - Present\n      Jakarta, Indonesia\n    \n    Machine Learning Instructor\n    Part-Time, Remote\n    DBS Foundation's Coding Camp\n    \n      Machine Learning,\n      Computer Vision,\n      Image Classification,\n      NLP,\n      LLM,\n      Time Series\n    \n    \n      Python,\n      TensorFlow,\n      MySQL \n    \n    \n  \n\n  \n    \n      Oct 2024 - Present\n      West Java, Indonesia\n    \n    Mathematics Expert Teacher and Curriculum Advisor\n    Part-Time, Onsite\n    Sekolah Tinggi Ilmu Kesehatan Mitra Keluarga\n    \n      Data Analysis,\n      Mathematics,\n      Team Management,\n      Curriculum Development\n    \n    \n      Microsoft Excel\n    \n    \n  \n\n  \n    \n      Jan 2023 - Jul 2023\n      West Java, Indonesia\n    \n    Machine Learning Instructor\n    Part-Time, Remote\n    Bangkit Academy\n    \n      Machine Learning,\n      Data Analysis,\n      Computer Vision,\n      NLP,\n      Time Series\n    \n    \n      Python,\n      GCP,\n      TensorFlow,\n      Git\n    \n    \n  \n\n  \n    \n      Sep 2018 - Jan 2020\n      West Java, Indonesia\n    \n    Laboratory Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Object-Oriented Programming,\n      Mathematics\n    \n    \n      Python,\n      R,\n      Wolfram Mathematica,\n      Microsoft Excel,\n      LaTeX\n    \n    \n  \n\n  \n    \n      Aug 2018 - Aug 2019\n      Jakarta, Indonesia\n    \n    Mathematics Tutor\n    Part-Time, Onsite\n    Primagama Tutoring Agency\n    \n      Mathematics\n    \n    \n      N/A\n    \n    \n  \n\n  \n    \n      Feb 2018 - Jun 2019\n      West Java, Indonesia\n    \n    Lecturer Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Mathematics\n    \n    \n      Python\n    \n    \n  \n\n  \n    \n      Jul 2017 - Jan 2018\n      West Java, Indonesia\n    \n    Laboratory Assistant Intern\n    Internship, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Mathematics\n    \n    \n      Python,\n      R,\n      Wolfram Mathematica,\n      Microsoft Excel,\n      LaTeX\n    \n    \n  \n\n\n\n\n  \n    \n      Nov 2019 - Dec 2019\n      Jakarta, Indonesia\n    \n    Research Associate Intern\n    Internship, Onsite\n    Indonesia Medical Education and Research Institute\n    \n      Data Science,\n      Data Analysis,\n      NLP\n    \n    \n      Python,\n      Microsoft Excel\n    \n    \n  \n\n  \n    \n      Apr 2019 - Jul 2019\n      Jakarta, Indonesia\n    \n    Research Assistant\n    Contract, Hybrid\n    Faculty of Medicine, University of Indonesia\n    \n      Machine Learning,\n      Data Science,\n      Data Analysis\n    \n    \n      Python,\n      scikit-learn\n    \n    \n  \n\n\n\n\n  \n    \n      Feb 2019 - Jan 2020\n      West Java, Indonesia\n    \n    Data Consultant\n    Freelance, Hybrid\n    Klinik Data, University of Indonesia\n    \n      Machine Learning,\n      Data Science,\n      Data Analysis,\n      Mathematics\n    \n    \n      Python,\n      R,\n      scikit-learn,\n      Microsoft Excel\n    \n    \n  \n\n  \n    \n      Sep 2018 - Jan 2020\n      West Java, Indonesia\n    \n    Mathematical Learning Center Assistant\n    Part-Time, Onsite\n    Department of Mathematics, University of Indonesia\n    \n      Mathematics\n    \n    \n      Python\n    \n    \n  \n\n\n\n\n  \n    \n      Oct 2024\n      West Java, Indonesia\n    \n    Private Tutor\n    Freelance, Onsite\n    Akademi Prestasi\n    \n      Mathematics\n    \n    \n      N/A\n    \n    \n  \n\n  \n    \n      Sep 2023 - Dec 2023\n      Worldwide\n    \n    Freelance Machine Learning Engineer\n    Self-Employed, Remote\n    Upwork\n    \n      Machine Learning\n    \n    \n      Python,\n      TensorFlow,\n      PyTorch,\n      scikit-learn\n    \n    \n  \n\n  \n    \n      Jul 2018 - Aug 2018\n      Maharashtra, India\n    \n    Aptitude Content Verification Intern\n    Internship, Remote\n    Talent Battle\n    \n      N/A\n    \n    \n      Microsoft Excel\n    \n    \n  \n\n  \n    \n      Jul 2017 - Aug 2017\n      West Java, Indonesia\n    \n    Sales Associate\n    Contract, Onsite\n    Superyogie Toys\n    \n      Sales and Marketing\n    \n    \n      N/A",
     "crumbs": [
       "Retrospective",
       "Experience"
@@ -310,15 +310,5 @@
     "title": "Unpublished",
     "section": "",
     "text": "TBA"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Abyoso Hapsoro Nurhadi",
-    "section": "",
-    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.\n\n\n\n\n\n\n\nMy Availability\n\n\n\n\n\n❌ Not Available for Hire\n\n\n\n\n❌ Not Available to Teach\n\n\n\n\n🔬 Available for Research Collaborations\n\nOpen to international collaboration in research for almost any industry (my preferences)\n\n\n\n\nFeel free to drop a message!  My Mail  My LinkedIn\n\nYou can request my services through the contacts above or at Upwork\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nWebsite is currently optimized for desktop viewing and maximized window. There exists content which have display issues on mobile.",
-    "crumbs": [
-      "Homepage"
-    ]
   }
 ]
