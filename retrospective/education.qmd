@@ -13,7 +13,7 @@ date: "3 August 2024"
   <button class="tablinks" onclick="openEdu(event, 'others')">Others</button>
 </div>
 
-<!-- Featured Achievements -->
+<!-- Featured Education -->
 <div id="featrd" class="tabcontent"></div>
 
 <!-- Formal Education -->
