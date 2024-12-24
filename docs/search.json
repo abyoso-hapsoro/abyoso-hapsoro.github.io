@@ -1,12 +1,12 @@
 [
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Release Notes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abyoso Hapsoro Nurhadi",
     "section": "",
-    "text": "Website currently running on version 0.9.1\nMilestones\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.0\nRevamped website with interactive content\n\n\nv0.7.2b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.1\nPopulate topic and stacks in Experience subsection. Fix comments for featuring\n\n\nv0.9.0\nIntegrate searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.8.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.8.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.8.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.8.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.8.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.8.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.8.2\nCorrected typo in Education subsection\n\n\nv0.8.1b\nDeployment hotfix: rerender\n\n\nv0.8.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.8.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.7.2b\nDeployment hotfix: rerender\n\n\nv0.7.2\nCorrected typo in MLAIDS subsection\n\n\nv0.7.1\nDeployment hotfix: resolved multiple issues\n\n\nv0.7.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
+    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.\n\n\n\n\n\n\n\nMy Availability\n\n\n\n\n\n❌ Not Available for Hire\n\n\n\n\n❌ Not Available to Teach\n\n\n\n\n🔬 Available for Research Collaborations\n\nOpen to international collaboration in research for almost any industry (my preferences)\n\n\n\n\nFeel free to drop a message!  My Mail  My LinkedIn\n\nYou can request my services through the contacts above or at Upwork\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nWebsite is currently optimized for desktop viewing and maximized window. There exists content which have display issues on mobile.",
     "crumbs": [
-      "Release Notes"
+      "Homepage"
     ]
   },
   {
@@ -177,23 +177,6 @@
     ]
   },
   {
-    "objectID": "maintenance.html",
-    "href": "maintenance.html",
-    "title": "Aby's Portfolio",
-    "section": "",
-    "text": "Website currently under maintenance, sorry about that!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
-    "crumbs": [
-      "About me"
-    ]
-  },
-  {
     "objectID": "misc.html#interests",
     "href": "misc.html#interests",
     "title": "Miscellaneous",
@@ -241,6 +224,33 @@
     "text": "Full Name with Honorifics\nR. Abyoso Hapsoro Nurhadi, S.Si., AWP\n\nR.: Raden → Hereditary Title indicating descendance of Javanese nobility (22 October 1998)\nS.Si.: Sarjana Sains → Indonesia equivalent of the Bachelor of Science title (27 July 2022)\nAWP: Associate Wealth Planner → Associate title awarded for junior financial planning expertise (15 January 2019)",
     "crumbs": [
       "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
+    "crumbs": [
+      "About me"
+    ]
+  },
+  {
+    "objectID": "maintenance.html",
+    "href": "maintenance.html",
+    "title": "Aby's Portfolio",
+    "section": "",
+    "text": "Website currently under maintenance, sorry about that!"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Release Notes",
+    "section": "",
+    "text": "Website currently running on version 0.9.1b\nMilestones\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.0\nRevamped website with interactive content\n\n\nv0.7.2b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.9.1b\nDeployment hotfix: address missing resource\n\n\nv0.9.1\nPopulate topic and stacks in Experience subsection. Fix comments for featuring\n\n\nv0.9.0\nIntegrate searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.8.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.8.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.8.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.8.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.8.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.8.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.8.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.8.2\nCorrected typo in Education subsection\n\n\nv0.8.1b\nDeployment hotfix: rerender\n\n\nv0.8.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.8.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.7.2b\nDeployment hotfix: rerender\n\n\nv0.7.2\nCorrected typo in MLAIDS subsection\n\n\nv0.7.1\nDeployment hotfix: resolved multiple issues\n\n\nv0.7.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
+    "crumbs": [
+      "Release Notes"
     ]
   },
   {
