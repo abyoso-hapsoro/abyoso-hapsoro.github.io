@@ -77,7 +77,7 @@ First personal logo created in 2017 to be the icon for my first Tkinter app, a <
 
 ![](misc/Xyba_Project-Cover.jpg){width=350}
 
-Document cover created using CorelDRAW in 2016 for <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Mathematics%20(No%20Code)">Project Xyba</a>, a question solution sharing project, during bachelor studies. Corner art made by <a href="https://danbooru.donmai.us/posts?tags=mishima_kurone">Mishima Kurone</a>.
+Document cover created using CorelDRAW in 2016 for <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Mathematics%20(No%20Code)">Project Xyba</a>, a question solution sharing project, during bachelor studies. Corner art made by <a href="https://danbooru.donmai.us/posts/1033483?q=mishima_kurone">Mishima Kurone</a>.
 :::
 
 ## Full Name with Honorifics
