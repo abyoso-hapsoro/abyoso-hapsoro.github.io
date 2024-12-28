@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: "21 November 2024"
+date: "28 December 2024"
 ---
 
 ::: {.grid}
@@ -12,7 +12,7 @@ date: "21 November 2024"
 ::: {.g-col-8}
 26, Husband, Cat Parent and Visioner.
 
-Lifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from [University of Indonesia](https://www.ui.ac.id/en/) with a B.Sc. in Mathematics on 2022. Equipped with over 2.5 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.
+Lifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from [University of Indonesia](https://www.ui.ac.id/en/) with a B.Sc. in Mathematics on 2022. Equipped with over 3 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.
 
 Aspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.
 

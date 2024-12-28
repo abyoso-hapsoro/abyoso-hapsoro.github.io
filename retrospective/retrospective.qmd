@@ -1,31 +1,31 @@
 ---
 title: "Retrospective"
-date: "21 November 2024"
+date: "28 December 2024"
 ---
 
 This section features a retrospective of myself. Some subsections are marked 'U/C' meaning they are still under construction.
 
 <h2>My skillset</h2>
-The following is an overview of my skills in terms of YoE (Years of Experience) which summarize the subsections. Some skills can be expanded for more details.
+The following is an overview of my skills in terms of <b>YoE (Years of Experience)</b> which summarize the subsections. Some skills can be expanded for more details.
 ```{=html}
 <div class="skillset">
   <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)" id="defaultOpen">Python</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="5" style="max-width:100%"></div>
+      <div class="skill-yoe" yoe="6" style="max-width:100%"></div>
     </div>
     <div class="skill-dropdown">
       <div class="subskill-name">scikit-learn</div>
       <div class="subskill-bar">
-        <div class="subskill-yoe" yoe="3" style="max-width:60%"></div>
+        <div class="subskill-yoe" yoe="4" style="max-width:67%"></div>
       </div>
       <div class="subskill-name">TensorFlow <span title="Certified"><a href="certifications.qmd" style="cursor:pointer;text-decoration:none">⭐</a></span></div>
       <div class="subskill-bar">
-        <div class="subskill-yoe" yoe="2" style="max-width:40%"></div>
+        <div class="subskill-yoe" yoe="2" style="max-width:33%"></div>
       </div>
       <div class="subskill-name">PyTorch</div>
       <div class="subskill-bar">
-        <div class="subskill-yoe" yoe="2" style="max-width:40%"></div>
+        <div class="subskill-yoe" yoe="2" style="max-width:33%"></div>
       </div>
     </div>
   </div>
@@ -33,14 +33,14 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   <div class="skill">
     <div class="skill-name no-dropdown">R</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
+      <div class="skill-yoe" yoe="1" style="max-width:17%"></div>
     </div>
   </div>
 
   <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)">SQL</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="2" style="max-width:40%"></div>
+      <div class="skill-yoe" yoe="2" style="max-width:33%"></div>
     </div>
     <div class="skill-dropdown">
       <div class="subskill-name">MySQL</div>
@@ -65,7 +65,7 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)">Cloud</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="2" style="max-width:40%"></div>
+      <div class="skill-yoe" yoe="2" style="max-width:33%"></div>
     </div>
     <div class="skill-dropdown">
       <div class="subskill-name"><span title="Amazon Web Services">AWS</span></div>
@@ -90,7 +90,7 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)">PHP</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
+      <div class="skill-yoe" yoe="1" style="max-width:17%"></div>
     </div>
     <div class="skill-dropdown">
       <div class="subskill-name">MySQLi</div>
@@ -111,14 +111,14 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   <div class="skill">
     <div class="skill-name no-dropdown">Wolfram Mathematica</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="3" style="max-width:60%"></div>
+      <div class="skill-yoe" yoe="3" style="max-width:50%"></div>
     </div>
   </div>
 
   <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)">JavaScript</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="1" style="max-width:20%"></div>
+      <div class="skill-yoe" yoe="1" style="max-width:17%"></div>
     </div>
     <div class="skill-dropdown">
       <div class="subskill-name">HTML</div>
@@ -139,7 +139,7 @@ The following is an overview of my skills in terms of YoE (Years of Experience) 
   <div class="skill">
     <div class="skill-name no-dropdown">Go</div>
     <div class="skill-bar">
-      <div class="skill-yoe" yoe="<1" style="max-width:10%"></div>
+      <div class="skill-yoe" yoe="<1" style="max-width:8%"></div>
     </div>
   </div>
 </div>
