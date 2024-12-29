@@ -1,6 +1,6 @@
 ---
 title: "Achievements"
-date: "16 October 2024"
+date: "29 December 2024"
 ---
 
 ```{=html}
@@ -12,11 +12,11 @@ date: "16 October 2024"
     <div class="dropdown-content" id="dropdownContent">
       <!--
       <a href="#" onclick="resetSort()">Default</a>
-      <a href="#" onclick="sortAch('date', 'asc')">Date (Ascending)</a>
-      <a href="#" onclick="sortAch('placement', 'asc')">Placement (Ascending)</a>
+      <a href="#" onclick="sortAch(event, 'date', 'asc')">Date (Ascending)</a>
+      <a href="#" onclick="sortAch(event, 'placement', 'asc')">Placement (Ascending)</a>
       -->
-      <a href="#" onclick="sortAch('date', 'desc', event)">Date</a>
-      <a href="#" onclick="sortAch('placement', 'desc', event)">Placement</a>
+      <a href="#" onclick="sortAch(event, 'date', 'desc')">Date</a>
+      <a href="#" onclick="sortAch(event, 'placement', 'desc')">Placement</a>
     </div>
   </div>
 </div>
@@ -462,7 +462,7 @@ date: "16 October 2024"
     sortArrow.innerHTML = dropdownContent.classList.contains('show') ? '&#9650;' : '&#9660;';
   }
 
-  function sortAch(criteria, order, event) {
+  function sortAch(event, criteria, order) {
     // prevent opening a new tab when sorting
     event.preventDefault();
     
