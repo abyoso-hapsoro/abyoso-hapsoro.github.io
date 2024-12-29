@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-08-03">
+<meta name="dcterms.date" content="2024-12-29">
 
 <title>Education – Aby’s Portfolio</title>
 <style>
@@ -235,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">3 August 2024</p>
+      <p class="date">29 December 2024</p>
     </div>
   </div>
   
@@ -251,9 +251,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="tab">
   <button class="tablinks" onclick="openEdu(event, 'featrd')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
   <button class="tablinks" onclick="openEdu(event, 'formal')" id="formalTab">Formal</button>
-  <button class="tablinks" onclick="openEdu(event, 'smifrm')">Semi-Formal</button>
-  <button class="tablinks" onclick="openEdu(event, 'suplem')">Supplementary</button>
-  <button class="tablinks" onclick="openEdu(event, 'others')">Others</button>
+  <button class="tablinks" onclick="openEdu(event, 'smifrm')" id="smifrmTab">Semi-Formal</button>
+  <button class="tablinks" onclick="openEdu(event, 'suplem')" id="suplemTab">Supplementary</button>
+  <button class="tablinks" onclick="openEdu(event, 'others')" id="othersTab">Others</button>
 </div>
 
 <!-- Featured Education -->
@@ -317,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
       <span class="education-location">West Java, Indonesia</span>
     </div>
     <div class="education-concentration">Machine Learning</div>
-    <div class="education-detail">Remote external program, 20 credits earned without GPA accounted for <a href="javascript:void(0)" onclick="switchToFormalTab('bachelor')" style="color:blue">bachelor</a> studies</div>
+    <div class="education-detail">Remote external program, 20 credits earned without GPA accounted for <a href="javascript:void(0)" onclick="highlightCard(event, 'formalTab', 'bachelor')" style="color:blue">bachelor</a> studies</div>
     <div class="education-institution">Bangkit Academy</div>
     <div class="education-gpa">GPA: 4.00, Graduated with Distinction (Top 10%)</div>
     <img class="education-logo" src="../images/Bangkit.png">
@@ -491,8 +491,11 @@ ul.task-list li input[type="checkbox"] {
     });
   }
 
-  function switchToFormalTab(eduCard) {
-    document.getElementById("formalTab").click();
+  function highlightCard(event, tab, eduCard) {
+    // prevent opening a new tab when switching tabs
+    event.preventDefault();
+
+    document.getElementById(tab).click();
     
     var targetCard = document.getElementById(eduCard);
     targetCard.scrollIntoView({behavior: "smooth", block: "center"});

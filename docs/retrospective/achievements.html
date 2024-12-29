@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-10-16">
+<meta name="dcterms.date" content="2024-12-29">
 
 <title>Achievements – Aby’s Portfolio</title>
 <style>
@@ -235,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">16 October 2024</p>
+      <p class="date">29 December 2024</p>
     </div>
   </div>
   
@@ -255,11 +255,11 @@ ul.task-list li input[type="checkbox"] {
     <div class="dropdown-content" id="dropdownContent">
       <!--
       <a href="#" onclick="resetSort()">Default</a>
-      <a href="#" onclick="sortAch('date', 'asc')">Date (Ascending)</a>
-      <a href="#" onclick="sortAch('placement', 'asc')">Placement (Ascending)</a>
+      <a href="#" onclick="sortAch(event, 'date', 'asc')">Date (Ascending)</a>
+      <a href="#" onclick="sortAch(event, 'placement', 'asc')">Placement (Ascending)</a>
       -->
-      <a href="#" onclick="sortAch('date', 'desc', event)">Date</a>
-      <a href="#" onclick="sortAch('placement', 'desc', event)">Placement</a>
+      <a href="#" onclick="sortAch(event, 'date', 'desc')">Date</a>
+      <a href="#" onclick="sortAch(event, 'placement', 'desc')">Placement</a>
     </div>
   </div>
 </div>
@@ -705,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
     sortArrow.innerHTML = dropdownContent.classList.contains('show') ? '&#9650;' : '&#9660;';
   }
 
-  function sortAch(criteria, order, event) {
+  function sortAch(event, criteria, order) {
     // prevent opening a new tab when sorting
     event.preventDefault();
     
