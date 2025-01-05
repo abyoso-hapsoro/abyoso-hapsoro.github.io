@@ -1,6 +1,6 @@
 ---
 title: "Miscellaneous"
-date: "16 October 2024"
+date: "5 January 2025"
 ---
 
 <!-- EXPERIMENTAL: Background Music -->
@@ -66,7 +66,7 @@ date: "16 October 2024"
 
 ## Random stuff
 - My favorite color is <span style="background-color:#2cb037;">#2cb037</span>!
-- Bearing the INFJ personality type
+- Attributed with the INFJ personality type
 - I am a former debater! I used to specialize in Asian Parliamentary format with focus on English-based debates. This experience gives me a strong foundation of considering pros and cons of any topic making me highly-adaptable in terms of industry or Subject Matter Expertise
 
 ## Non-Code/Writing Creations

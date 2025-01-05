@@ -1,7 +1,7 @@
 ---
 title: "Abyoso Hapsoro Nurhadi"
 subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
-date: "16 October 2024"
+date: "5 January 2025"
 execute:
   echo: false
 ---
@@ -52,6 +52,8 @@ I am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced
 ::: {.callout-tip}
 ## My Availability
 
+As of 5 January 2025:
+
 <details>
   <summary>❌ Not Available for Hire</summary>
 </details>
@@ -65,15 +67,19 @@ I am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced
 :::
 
 <!-- Contact -->
-Feel free to drop a message!
-<br><i class="bi bi-envelope"></i> [My Mail](mailto:abyoso.hapsoro@alumni.ui.ac.id)
-<br><i class="bi bi-linkedin"></i> [My LinkedIn](https://linkedin.com/in/abyoso-hapsoro/)
+<p align="center">
+  Feel free to drop a message!
+  <br><i class="bi bi-envelope"></i> [My Mail](mailto:abyoso.hapsoro@alumni.ui.ac.id)
+  &nbsp;&nbsp;&nbsp;<i class="bi bi-linkedin"></i> [My LinkedIn](https://linkedin.com/in/abyoso-hapsoro/)
+  &nbsp;&nbsp;&nbsp;<i class="bi bi-discord"></i> [My Discord](https://discord.com/users/xybafenix)
+</p>
 
 <!-- Others -->
-You can request my services through the contacts above or at [Upwork](https://www.upwork.com/freelancers/~019ea8417195ee8d06)
+You may request my services through the contacts above or at [Upwork](https://www.upwork.com/freelancers/~019ea8417195ee8d06)
 
 <!-- Disclaimer -->
 ::: {.callout-warning}
 ## Disclaimer
 
 Website is currently optimized for desktop viewing and maximized window. There exists content which have display issues on mobile.
+:::

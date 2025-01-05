@@ -219,6 +219,19 @@ th, td {
   background-color: #78c2ad;
 }
 
+.tab button.featured-tab {
+  background-color: #5cbb82;
+}
+
+.tab button.featured-tab:hover {
+  background-color: lightgray;
+}
+
+.tab button.featured-tab.active {
+  color: #eeeeee;
+  background-color: #5cbb82;
+}
+
 .tabcontent {
   display: none;
   position: relative;
@@ -247,6 +260,11 @@ th, td {
 
 .education-card.visible {
   animation: floatIn 1s forwards;
+}
+
+.education-card.featured-card {
+  background-color: #5cbb82;
+  padding-bottom: 38px;
 }
 
 .education-header {
@@ -338,6 +356,11 @@ th, td {
 
 .experience-card.visible {
   animation: floatIn 1s forwards;
+}
+
+.experience-card.featured-card {
+  background-color: #5cbb82;
+  padding-bottom: 38px;
 }
 
 .experience-header {
@@ -460,6 +483,15 @@ th, td {
 
 .achievement-card.no-dropdown:hover {
   background-color: #78c2ad;
+}
+
+.achievement-card.featured-card {
+  background-color: #5cbb82;
+  padding-bottom: 38px;
+}
+
+.achievement-card.featured-card:hover:not(.active) {
+  background-color: lightgray;
 }
 
 .achievement-header {

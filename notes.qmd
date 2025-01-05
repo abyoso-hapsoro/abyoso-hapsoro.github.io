@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.4.1
+Website currently running on version 0.4.2
 
 ```{=html}
 <h2>Milestones</h2>
@@ -44,6 +44,20 @@ Website currently running on version 0.4.1
 
 <h2>Changelog</h2>
 <details open>
+  <summary>January 2025</summary>
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>v0.4.2</td>
+      <td>Fix hover styling bug, updated Education subsection, updated <span title="Home Page"><u>HP</u></span> and <span title="Miscellaneous"><u>Misc</u></span> sections</td>
+    </tr>
+  </table>
+</details>
+
+<details>
   <summary>December 2024</summary>
   <table>
     <tr>
