@@ -1,12 +1,12 @@
 ---
 title: "Education"
-date: "29 December 2024"
+date: "5 January 2025"
 ---
 
 ```{=html}
 <!-- Education Tabs -->
 <div class="tab">
-  <button class="tablinks" onclick="openEdu(event, 'featrd')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
+  <button class="tablinks featured-tab" onclick="openEdu(event, 'featrd')" id="defaultOpen">Featured</button>
   <button class="tablinks" onclick="openEdu(event, 'formal')" id="formalTab">Formal</button>
   <button class="tablinks" onclick="openEdu(event, 'smifrm')" id="smifrmTab">Semi-Formal</button>
   <button class="tablinks" onclick="openEdu(event, 'suplem')" id="suplemTab">Supplementary</button>
@@ -18,7 +18,18 @@ date: "29 December 2024"
 
 <!-- Formal Education -->
 <div id="formal" class="tabcontent" type="Formal">
-  <div class="education-card" id="bachelor" featured="true" feature-order="1">
+  <div class="education-card" featured="true" feature-order="1">
+    <div class="education-header">
+      <span class="education-daterange">Jan 2025 - Present</span>
+      <span class="education-location">Louisiana, USA</span>
+    </div>
+    <div class="education-degree">Master of Science</div>
+    <div class="education-specialization">Majoring in Financial Engineering</div>
+    <div class="education-institution">WorldQuant University</div>
+    <img class="education-logo" src="../images/WQU.png" style="top:12px">
+  </div>
+
+  <div class="education-card" id="bachelor" featured="true" feature-order="2">
     <div class="education-header">
       <span class="education-daterange">Jul 2016 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -57,7 +68,7 @@ date: "29 December 2024"
 
 <!-- Semi-Formal Education -->
 <div id="smifrm" class="tabcontent" type="Semi-Formal">
-  <div class="education-card" featured="true" feature-order="2">
+  <div class="education-card" featured="true" feature-order="3">
     <div class="education-header">
       <span class="education-daterange">Mar 2022 - Mar 2023</span>
       <span class="education-location">Louisiana, USA</span>
@@ -65,10 +76,10 @@ date: "29 December 2024"
     <div class="education-concentration">Applied Data Science</div>
     <div class="education-detail">Remote module featuring 8 end-to-end applied Data Science projects</div>
     <div class="education-institution">WorldQuant University</div>
-    <img class="education-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY1Gx3ClcyzzH0nKzdNyidO7ijjbx6oT2HHQ&s" style="top:12px">
+    <img class="education-logo" src="../images/WQU.png" style="top:12px">
   </div>
 
-  <div class="education-card" featured="true" feature-order="3">
+  <div class="education-card" featured="true" feature-order="4">
     <div class="education-header">
       <span class="education-daterange">Jan 2022 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -80,7 +91,7 @@ date: "29 December 2024"
     <img class="education-logo" src="../images/Bangkit.png">
   </div>
 
-  <div class="education-card" featured="true" feature-order="5">
+  <div class="education-card" featured="true" feature-order="6">
     <div class="education-header">
       <span class="education-daterange">Jun 2019 - Jul 2019</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -105,7 +116,7 @@ date: "29 December 2024"
     <img class="education-logo" src="https://dicoding-web-img.sgp1.digitaloceanspaces.com/original/jobs/dos:company_logo_dicoding_indonesia_050423140704.jpg" style="top:12px">
   </div>
 
-  <div class="education-card" featured="true" feature-order="4">
+  <div class="education-card" featured="true" feature-order="5">
     <div class="education-header">
       <span class="education-daterange">Sep 2022 - Oct 2022</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -152,7 +163,7 @@ date: "29 December 2024"
     <div class="education-detail">Onsite chess school recognized by <span title="Fédération Internationale des Échecs"><u style="cursor:help">FIDE</u></span> co-founded by Grand Master Utut Adianto</div>
     <div class="education-institution">Sekolah Catur Utut Adianto</div>
     <div class="education-gpa">16th in Under Age 8 group of the 7th ASEAN Age Group Chess Championship</div>
-    <img class="education-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCmBy1ycYtpwvxJZD_mSqAdxdgKBkxRRXWvg&s">
+    <img class="education-logo" src="../images/SCUA.png">
   </div>
 </div>
 
@@ -185,9 +196,8 @@ date: "29 December 2024"
       // Edit data in card
       if(card.hasAttribute('id')) {
         clone.removeAttribute('id');
-      } 
-      clone.style.backgroundColor = '#5cbb82';
-      clone.style.paddingBottom = '38px';
+      }
+      clone.classList.add('featured-card');
 
       // Add type to card
       const sourceDiv = document.createElement('div');

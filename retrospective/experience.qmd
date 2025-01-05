@@ -1,12 +1,12 @@
 ---
 title: "Experience"
-date: 24 December 2024"
+date: 5 January 2025"
 ---
 
 ```{=html}
 <!-- Experience Tabs -->
 <div class="tab">
-  <button class="tablinks" onclick="openExp(event, 'featrd')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
+  <button class="tablinks featured-tab" onclick="openExp(event, 'featrd')" id="defaultOpen">Featured</button>
   <button class="tablinks" onclick="openExp(event, 'corwrk')">Core</button>
   <button class="tablinks" onclick="openExp(event, 'teachn')">Teaching</button>
   <button class="tablinks" onclick="openExp(event, 'resrch')">Research</button>
@@ -423,7 +423,7 @@ date: 24 December 2024"
       PyTorch,
       scikit-learn
     </div>
-    <img class="experience-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewWviN7O6ryCUvog0cEtRDDVebtZrEPWt6A&s">
+    <img class="experience-logo" src="../images/Upwork.png">
   </div>
 
   <div class="experience-card">
@@ -488,8 +488,10 @@ date: 24 December 2024"
       const clone = card.cloneNode(true);
       
       // Edit data in card
-      clone.style.backgroundColor = '#5cbb82';
-      clone.style.paddingBottom = '38px';
+      if(card.hasAttribute('id')) {
+        clone.removeAttribute('id');
+      }
+      clone.classList.add('featured-card');
 
       // Add category to card
       const sourceDiv = document.createElement('div');

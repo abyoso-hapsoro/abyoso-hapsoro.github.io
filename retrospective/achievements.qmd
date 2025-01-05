@@ -1,6 +1,6 @@
 ---
 title: "Achievements"
-date: "29 December 2024"
+date: "5 January 2025"
 ---
 
 ```{=html}
@@ -23,7 +23,7 @@ date: "29 December 2024"
 
 <!-- Achievement Tabs -->
 <div class="tab">
-  <button class="tablinks" onclick="openAch(event, 'feature')" id="defaultOpen" style="background-color: #5cbb82">Featured</button>
+  <button class="tablinks featured-tab" onclick="openAch(event, 'feature')" id="defaultOpen">Featured</button>
   <button class="tablinks" onclick="openAch(event, 'intrntl')">International</button>
   <button class="tablinks" onclick="openAch(event, 'ntional')">National</button>
   <button class="tablinks" onclick="openAch(event, 'univsty')">University</button>
@@ -82,7 +82,7 @@ date: "29 December 2024"
     </div>
     <div class="achievement-event">Kalibrr Code Festival 2022</div>
     <div class="achievement-issuer">Kalibrr</div>
-    <img class="achievement-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmz0BPyUdwR2G8kBWRLlFTI4jN8qbUNftSig&s">
+    <img class="achievement-logo" src="../images/Kalibrr.png">
     <div class="achievement-dropdown">
       <div class="achievement-dropdown-header">
         <div class="achievement-representation" represent="self">Self</div>
@@ -366,8 +366,10 @@ date: "29 December 2024"
       const clone = card.cloneNode(true);
       
       // Edit data in card
-      clone.style.backgroundColor = '#5cbb82';
-      clone.style.paddingBottom = '38px';
+      if(card.hasAttribute('id')) {
+        clone.removeAttribute('id');
+      }
+      clone.classList.add('featured-card');
 
       // Add level to card
       const sourceDiv = document.createElement('div');
