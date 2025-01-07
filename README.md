@@ -2,7 +2,7 @@
 Website-based personal portfolio built with <a href="https://quarto.org/">Quarto</a> and deployed with GitHub Pages.
 
 ## Release Notes
-The release notes are accesible at [abyoso-hapsoro.github.io/notes.html](https://abyoso-hapsoro.github.io/notes.html), below is a preview of the webpage.
+The release notes are accessible at [abyoso-hapsoro.github.io/notes.html](https://abyoso-hapsoro.github.io/notes.html), below is a preview of the webpage.
 <p align="center">
   <a href="https://abyoso-hapsoro.github.io/notes.html">
     <img src="screenshot.png"/>
