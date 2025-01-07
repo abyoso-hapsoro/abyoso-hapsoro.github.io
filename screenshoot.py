@@ -70,7 +70,7 @@ def html2image(
     # Set browser options
     options = Options()
     options.add_argument("--headless")
-    options.add_argument(f"--window-size={window_size}")    
+    options.add_argument(f"--window-size={window_size}")
 
     try:
         # Start browser session

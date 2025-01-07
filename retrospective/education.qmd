@@ -1,6 +1,6 @@
 ---
 title: "Education"
-date: "5 January 2025"
+date: "7 January 2025"
 ---
 
 ```{=html}
@@ -18,7 +18,7 @@ date: "5 January 2025"
 
 <!-- Formal Education -->
 <div id="formal" class="tabcontent" type="Formal">
-  <div class="education-card" featured="true" feature-order="1">
+  <div class="education-card no-dropdown" featured="true" feature-order="1">
     <div class="education-header">
       <span class="education-daterange">Jan 2025 - Present</span>
       <span class="education-location">Louisiana, USA</span>
@@ -29,7 +29,7 @@ date: "5 January 2025"
     <img class="education-logo" src="../images/WQU.png" style="top:12px">
   </div>
 
-  <div class="education-card" id="bachelor" featured="true" feature-order="2">
+  <div class="education-card" onclick="toggleDropdown(this, 'bachelor-semester-7')" id="bachelor" featured="true" feature-order="2">
     <div class="education-header">
       <span class="education-daterange">Jul 2016 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -39,9 +39,195 @@ date: "5 January 2025"
     <div class="education-institution">University of Indonesia</div>
     <div class="education-gpa">GPA: 3.42/4.00, High Merit</div>
     <img class="education-logo" src="../images/University_of_Indonesia.png">
+    <div class="education-dropdown">
+      <div class="education-journey">
+        <div class="education-timeline">
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 1)">1</span>
+            <span class="education-node-label">3.43</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 2)">2</span>
+            <span class="education-node-label">3.5</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 3)">3</span>
+            <span class="education-node-label">3.45</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 4)">4</span>
+            <span class="education-node-label">3.41</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 4.5)">4.5</span>
+            <span class="education-node-label">3.4</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 5)">5</span>
+            <span class="education-node-label">3.42</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 6)">6</span>
+            <span class="education-node-label">3.39</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 7)">7</span>
+            <span class="education-node-label">3.42</span>
+          </div>
+          <div class="education-line"></div>
+          <div class="education-node">
+            <span class="education-node-point" onclick="toggleSemester(event, 'bachelor', 8)">8</span>
+            <span class="education-node-label">3.42</span>
+          </div>
+        </div>
+        <div id="education-report">
+          <div class="education-semester" id="bachelor-semester-1">
+            <div class="education-details">Credits Earned: 19/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-1-body">
+                <tr data-row="SCCH601101;Basic Chemistry               ;2;B "></tr>
+                <tr data-row="SCMA601100;Logic and Sets                ;3;A-"></tr>
+                <tr data-row="SCMA601200;Statistical Methods           ;2;A "></tr>
+                <tr data-row="UIGE600002;Scientific Mindset Foundations;6;B+"></tr>
+                <tr data-row="UIGE600003;English                       ;3;A-"></tr>
+                <tr data-row="UIGE600026;Comic Art                     ;1;A-"></tr>
+                <tr data-row="UIST601110;Calculus 1                    ;2;B-"></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-2">
+            <div class="education-details">Credits Earned: 36/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-2-body">
+                <tr data-row="SCBI601112;General Biology                      ;2;B-"></tr>
+                <tr data-row="SCMA601111;Calculus 2                           ;4;D "></tr>
+                <tr data-row="SCMA601123;Linear Algebra                       ;4;B+"></tr>
+                <tr data-row="SCMA601400;Algorithm and Programming            ;3;A "></tr>
+                <tr data-row="UIGE600001;Social Humanities Mindset Foundations;6;A-"></tr>
+                <tr data-row="UIGE600014;Buddhist Religious Instruction       ;2;A "></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-3">
+            <div class="education-details">Credits Earned: 57/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-3-body">
+                <tr data-row="SCFI601110;Basic Physics                  ;2;A-"></tr>
+                <tr data-row="SCMA602113;Calculus 3                     ;3;B "></tr>
+                <tr data-row="SCMA602122;Algebra                        ;4;B+"></tr>
+                <tr data-row="SCMA602151;Ordinary Differential Equations;4;A "></tr>
+                <tr data-row="SCMA602211;Mathematical Statistics 1      ;4;B "></tr>
+                <tr data-row="SCMA602402;Numerical Methods              ;4;B+"></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-4">
+            <div class="education-details">Credits Earned: 79/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-4-body">
+                <tr data-row="SCMA601111;Calculus 2                        ;4;B-"></tr>
+                <tr data-row="SCMA602005;Introduction to Probability Theory;2;A "></tr>
+                <tr data-row="SCMA602131;Real Analysis 1                   ;4;B-"></tr>
+                <tr data-row="SCMA602212;Mathematical Statistics 2         ;4;B-"></tr>
+                <tr data-row="SCMA602401;Discrete Mathematics              ;4;A "></tr>
+                <tr data-row="SCMA603533;Financial Mathematics             ;4;A "></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-4.5">
+            <div class="education-details">Credits Earned: 83/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-4.5-body">
+                <tr data-row="SCMA603132;Real Analysis 2;4;B+"></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-5">
+            <div class="education-details">Credits Earned: 105/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-5-body">
+                <tr data-row="SCAK603010;Microeconomic Theory  ;3;A-"></tr>
+                <tr data-row="SCMA603114;Vector Calculus       ;2;B-"></tr>
+                <tr data-row="SCMA603140;Analytic Geometry     ;3;B-"></tr>
+                <tr data-row="SCMA603162;Graph Theory          ;3;A "></tr>
+                <tr data-row="SCMA603403;Structural Computation;3;A "></tr>
+                <tr data-row="SCMA603901;Research Methods      ;2;A "></tr>
+                <tr data-row="SCST603011;Acturial Mathematics 1;3;B-"></tr>
+                <tr data-row="SCST603306;Data Mining           ;3;A "></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-6">
+            <div class="education-details">Credits Earned: 125/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-6-body">
+                <tr data-row="SCMA603133;Complex Functions                                ;4;C "></tr>
+                <tr data-row="SCMA603152;Mathematical Modeling                            ;4;A "></tr>
+                <tr data-row="SCMA603153;Partial Differential Equations and Boundary Value;3;B "></tr>
+                <tr data-row="SCMA603441;Algorithm Analysis and Design                    ;3;A-"></tr>
+                <tr data-row="SCMA604902;Special Topic 2: Web Mining                      ;3;A-"></tr>
+                <tr data-row="SCST603010;Regression Analysis 1                            ;3;B+"></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-7">
+            <div class="education-details">Credits Earned: 131/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-7-body">
+                <tr data-row="SCMA604000;Undergraduate Thesis;6;A"></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="education-semester" id="bachelor-semester-8">
+            <div class="education-details">Credits Earned: 155/144</div>
+            <table>
+              <thead>
+                <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              </thead>
+              <tbody id="semester-8-body">
+                <tr data-row="SCMA602311;Mathematical Programming; 4;B+"></tr>
+                <tr data-row="          ;Bangkit Academy         ;20;  "></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <img class="education-grading" src="../images/Grading_System-Bachelor.png">
+    </div>
   </div>
 
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">Jul 2013 - Jun 2016</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -53,7 +239,7 @@ date: "5 January 2025"
     <img class="education-logo" src="https://upload.wikimedia.org/wikipedia/id/3/33/Logo_11Jakarta.png">
   </div>
 
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">Jul 2010 - Jun 2013</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -68,7 +254,7 @@ date: "5 January 2025"
 
 <!-- Semi-Formal Education -->
 <div id="smifrm" class="tabcontent" type="Semi-Formal">
-  <div class="education-card" featured="true" feature-order="3">
+  <div class="education-card no-dropdown" featured="true" feature-order="3">
     <div class="education-header">
       <span class="education-daterange">Mar 2022 - Mar 2023</span>
       <span class="education-location">Louisiana, USA</span>
@@ -79,7 +265,7 @@ date: "5 January 2025"
     <img class="education-logo" src="../images/WQU.png" style="top:12px">
   </div>
 
-  <div class="education-card" featured="true" feature-order="4">
+  <div class="education-card no-dropdown" featured="true" feature-order="4">
     <div class="education-header">
       <span class="education-daterange">Jan 2022 - Jul 2022</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -91,7 +277,7 @@ date: "5 January 2025"
     <img class="education-logo" src="../images/Bangkit.png">
   </div>
 
-  <div class="education-card" featured="true" feature-order="6">
+  <div class="education-card no-dropdown" featured="true" feature-order="6">
     <div class="education-header">
       <span class="education-daterange">Jun 2019 - Jul 2019</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -105,7 +291,7 @@ date: "5 January 2025"
 
 <!-- Supplementary Education -->
 <div id="suplem" class="tabcontent" type="Supplementary">
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">Oct 2022 - Jan 2023</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -116,7 +302,7 @@ date: "5 January 2025"
     <img class="education-logo" src="https://dicoding-web-img.sgp1.digitaloceanspaces.com/original/jobs/dos:company_logo_dicoding_indonesia_050423140704.jpg" style="top:12px">
   </div>
 
-  <div class="education-card" featured="true" feature-order="5">
+  <div class="education-card no-dropdown" featured="true" feature-order="5">
     <div class="education-header">
       <span class="education-daterange">Sep 2022 - Oct 2022</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -127,7 +313,7 @@ date: "5 January 2025"
     <img class="education-logo" src="../images/AWS_Academy.png" style="top:12px">
   </div>
 
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">2010 - 2016</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -139,7 +325,7 @@ date: "5 January 2025"
     <img class="education-logo" src="../images/Primagama.png">
   </div>
 
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">2006 - 2009</span>
       <span class="education-location">Jakarta, Indonesia</span>
@@ -154,7 +340,7 @@ date: "5 January 2025"
 
 <!-- Other Education -->
 <div id="others" class="tabcontent" type="Other">
-  <div class="education-card">
+  <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">2004 - 2006</span>
       <span class="education-location">West Java, Indonesia</span>
@@ -209,6 +395,9 @@ date: "5 January 2025"
       featuredTab.appendChild(clone);
     });
 
+    // Populate tables
+    populateTableRows();
+
     // Open featured tab
     document.getElementById("defaultOpen").click();
   });
@@ -255,6 +444,83 @@ date: "5 January 2025"
     cards.forEach(card => {
       card.classList.remove('visible');
       observer.observe(card);
+    });
+  }
+
+  function toggleDropdown(cardElement, childDivId = null) {
+    // Close all other dropdowns
+    document.querySelectorAll(".education-card").forEach(card => {
+      if (card !== cardElement) {
+        card.classList.remove('active');
+      }
+    });
+
+    // Toggle the clicked dropdown
+    cardElement.classList.toggle('active');
+
+    // Activate the child div
+    if (childDivId) {
+      const childElement = document.getElementById(childDivId);
+      if (childElement) {
+        childElement.classList.toggle('active');
+        // Extract the unique identifier from the childDivId
+        const childIdSuffix = childDivId.split("-").pop();
+        // Dynamically find the corresponding node point
+        const targetNode = cardElement.querySelector(
+          `.education-node-point[onclick*="'bachelor', ${childIdSuffix}"]`
+        );
+        // Toggle active class on the node if found
+        if (targetNode) {
+          targetNode.classList.toggle('active');
+        }
+        console.log(childIdSuffix);
+        console.log(targetNode);
+      }
+    }
+  }
+
+  function toggleSemester(event, eduCard, semester) {
+    // Ensure dropdown stays open
+    event.stopPropagation();
+
+    // Hide all semester details
+    const allDetails = document.querySelectorAll(".education-semester");
+    allDetails.forEach((detail) => (detail.style.display = "none"));
+
+    // Show the selected semester's details
+    const selectedDetail = document.getElementById(`${eduCard}-semester-${semester}`);
+    if (selectedDetail) {
+      selectedDetail.style.display = "block";
+    }
+
+    // Highlight the active semester node
+    const allNodes = document.querySelectorAll(".education-node-point");
+    allNodes.forEach((node) => node.classList.remove('active'));
+
+    const selectedNode = event.target;
+    selectedNode.classList.add('active');
+  }
+
+  function populateTableRows() {
+    document.querySelectorAll("tr[data-row]").forEach((row) => {
+      // Extract row data
+      const [code, course, credit, grade] = row.getAttribute("data-row").split(";");
+      
+      // Apply red color for grades "D" or "E"
+      const formattedGrade = (grade.trim() === "D" || grade.trim() === "E") 
+        ? `<span style="color:red;">${grade}</span>` 
+        : grade;
+      
+      // Populate row data
+      row.innerHTML = `
+        <td>${code}</td>
+        <td>${course}</td>
+        <td>${credit}</td>
+        <td>${formattedGrade}</td>
+      `;
+      
+      // Clean up placeholder attribute
+      row.removeAttribute("data-row");
     });
   }
 

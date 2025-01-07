@@ -256,15 +256,36 @@ th, td {
   border-radius: 10px;
   padding: 20px;
   transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .education-card.visible {
   animation: floatIn 1s forwards;
 }
 
+.education-card:hover:not(.active) {
+  background-color: lightgray;
+}
+
+.education-card.no-dropdown {
+  cursor: default;
+}
+
+.education-card.no-dropdown:hover {
+  background-color: #78c2ad;
+}
+
 .education-card.featured-card {
   background-color: #5cbb82;
   padding-bottom: 38px;
+}
+
+.education-card.featured-card:hover:not(.active) {
+  background-color: lightgray;
+}
+
+.education-card.featured-card.no-dropdown:hover {
+  background-color: #5cbb82;
 }
 
 .education-header {
@@ -312,6 +333,117 @@ th, td {
   display: block;
   color: #111111;
   font-size: 0.9em;
+}
+
+.education-dropdown {
+  display: none;
+  width: 100%;
+  position: relative;
+  visibility: visible;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.education-journey {
+  text-align: center;
+  margin: 20px;
+}
+
+.education-timeline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+}
+
+.education-timeline::after {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  background: #ddd;
+  top: 50%;
+  left: 5%;
+  z-index: -1;
+}
+
+.education-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.education-node-point {
+  display: inline-block;
+  background: #ddd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.education-node-point:hover {
+  background: #78c2ad;
+  color: #eeeeee;
+}
+
+.education-node-point.active {
+  background-color: #78c2ad;
+  color: #eeeeee;
+}
+
+.education-node-label {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.education-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #ddd;
+  margin-bottom: 22px;
+}
+
+.education-details {
+  background-color: #c2ad78;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.education-semester {
+  display: none;
+  margin: 20px auto;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.education-semester.active {
+  display: block;
+}
+
+.education-grading {
+  display: block;
+  position: relative;
+  left: 20px;
+  width: 600px;
+}
+
+.education-card.active .education-dropdown {
+  display: block;
 }
 
 .education-logo {
@@ -492,6 +624,10 @@ th, td {
 
 .achievement-card.featured-card:hover:not(.active) {
   background-color: lightgray;
+}
+
+.achievement-card.featured-card.no-dropdown:hover {
+  background-color: #5cbb82;
 }
 
 .achievement-header {
