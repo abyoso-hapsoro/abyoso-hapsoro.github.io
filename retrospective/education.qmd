@@ -1,6 +1,6 @@
 ---
 title: "Education"
-date: "7 January 2025"
+date: "9 January 2025"
 ---
 
 ```{=html}
@@ -385,6 +385,15 @@ date: "7 January 2025"
       }
       clone.classList.add('featured-card');
 
+      // Update child data
+      const semesters = clone.querySelectorAll('.education-semester');
+      semesters.forEach((semester) => {
+        const originalId = semester.getAttribute('id');
+        if (originalId) {
+          semester.setAttribute('id', `${originalId}-featured`);
+        }
+      });
+
       // Add type to card
       const sourceDiv = document.createElement('div');
       sourceDiv.className = 'education-source';
@@ -458,11 +467,18 @@ date: "7 January 2025"
     // Toggle the clicked dropdown
     cardElement.classList.toggle('active');
 
-    // Activate the child div
+    // Process child div if specified
     if (childDivId) {
-      const childElement = document.getElementById(childDivId);
+      // Determine if card is featured
+      const isFeatured = cardElement.classList.contains('featured-card');
+      const childElementId = isFeatured ? `${childDivId}-featured` : childDivId;
+
+      // Get child element
+      const childElement = document.getElementById(childElementId);
       if (childElement) {
+        // Activate the child div
         childElement.classList.toggle('active');
+        childElement.style.display = "block";
         // Extract the unique identifier from the childDivId
         const childIdSuffix = childDivId.split("-").pop();
         // Dynamically find the corresponding node point
@@ -473,8 +489,6 @@ date: "7 January 2025"
         if (targetNode) {
           targetNode.classList.toggle('active');
         }
-        console.log(childIdSuffix);
-        console.log(targetNode);
       }
     }
   }
@@ -487,8 +501,14 @@ date: "7 January 2025"
     const allDetails = document.querySelectorAll(".education-semester");
     allDetails.forEach((detail) => (detail.style.display = "none"));
 
+    // Determine if card is featured
+    const isFeatured = event.target.closest('.education-card').classList.contains('featured-card');
+    const selectedDetailId = isFeatured
+      ? `${eduCard}-semester-${semester}-featured`
+      : `${eduCard}-semester-${semester}`;
+
     // Show the selected semester's details
-    const selectedDetail = document.getElementById(`${eduCard}-semester-${semester}`);
+    const selectedDetail = document.getElementById(selectedDetailId);
     if (selectedDetail) {
       selectedDetail.style.display = "block";
     }
@@ -496,7 +516,6 @@ date: "7 January 2025"
     // Highlight the active semester node
     const allNodes = document.querySelectorAll(".education-node-point");
     allNodes.forEach((node) => node.classList.remove('active'));
-
     const selectedNode = event.target;
     selectedNode.classList.add('active');
   }

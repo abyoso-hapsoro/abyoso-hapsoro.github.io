@@ -360,17 +360,6 @@ th, td {
   position: relative;
 }
 
-.education-timeline::after {
-  content: '';
-  position: absolute;
-  width: 90%;
-  height: 2px;
-  background: #ddd;
-  top: 50%;
-  left: 5%;
-  z-index: -1;
-}
-
 .education-node {
   display: flex;
   flex-direction: column;
