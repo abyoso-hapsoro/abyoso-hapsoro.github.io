@@ -409,7 +409,7 @@ th, td {
   color: #5a5a5a;
 }
 
-.education-semester {
+.education-report {
   display: none;
   margin: 20px auto;
   font-size: 16px;
@@ -420,7 +420,7 @@ th, td {
   border-radius: 5px;
 }
 
-.education-semester.active {
+.education-report.active {
   display: block;
 }
 

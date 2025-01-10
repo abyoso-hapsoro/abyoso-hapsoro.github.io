@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.4.4
+Website currently running on version 0.4.5
 
 ```{=html}
 <h2>Milestones</h2>
@@ -49,6 +49,10 @@ Website currently running on version 0.4.4
     <tr>
       <th></th>
       <th></th>
+    </tr>
+    <tr>
+      <td>v0.4.5</td>
+      <td>Added Bangkit grade data</td>
     </tr>
     <tr>
       <td>v0.4.4</td>
