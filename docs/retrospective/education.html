@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-11">
+<meta name="dcterms.date" content="2025-01-12">
 
 <title>Education – Aby’s Portfolio</title>
 <style>
@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">11 January 2025</p>
+      <p class="date">12 January 2025</p>
     </div>
   </div>
   
@@ -1076,14 +1076,27 @@ ul.task-list li input[type="checkbox"] {
       // Get child element
       const childElement = document.getElementById(childElementId);
       if (childElement) {
+        // Deactivate all child divs within the dropdown
+        cardElement.querySelectorAll(".education-report").forEach(child => {
+          child.classList.remove('active');
+          child.style.display = "none";
+        });
         // Activate the child div
         childElement.classList.toggle('active');
         childElement.style.display = "block";
+        // Stop processing nodeless dropdowns
+        if (!childDivId.includes("-semester-")) {
+          return;
+        }
         // Extract the unique identifier from the childDivId
-        const childIdSuffix = childDivId.split("-").pop();
+        const [childIdPrefix, childIdSuffix] = childDivId.split("-semester-");
+        // Deactivate all nodes within the dropdown
+        cardElement.querySelectorAll(".education-node-point").forEach(node => {
+          node.classList.remove('active');
+        });
         // Dynamically find the corresponding node point
         const targetNode = cardElement.querySelector(
-          `.education-node-point[onclick*="'bachelor', ${childIdSuffix}"]`
+          `.education-node-point[onclick*="'${childIdPrefix}', ${childIdSuffix}"]`
         );
         // Toggle active class on the node if found
         if (targetNode) {
@@ -1098,8 +1111,9 @@ ul.task-list li input[type="checkbox"] {
     event.stopPropagation();
 
     // Hide all semester details
-    const allDetails = document.querySelectorAll(".education-report");
-    allDetails.forEach((detail) => (detail.style.display = "none"));
+    document.querySelectorAll(".education-report").forEach(detail => {
+      detail.style.display = "none";
+    });
 
     // Determine if card is featured
     const isFeatured = event.target.closest('.education-card').classList.contains('featured-card');
@@ -1114,8 +1128,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     // Highlight the active semester node
-    const allNodes = document.querySelectorAll(".education-node-point");
-    allNodes.forEach((node) => node.classList.remove('active'));
+    document.querySelectorAll(".education-node-point").forEach(node => {
+      node.classList.remove('active');
+    });
     const selectedNode = event.target;
     selectedNode.classList.add('active');
   }
