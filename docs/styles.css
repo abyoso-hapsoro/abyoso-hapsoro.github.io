@@ -1,6 +1,15 @@
 /* Set table alignment */
 th, td {
+  vertical-align: middle;
   text-align: left;
+}
+
+th.center, td.center {
+  text-align: center;
+}
+
+th.right, td.right {
+  text-align: right;
 }
 
 /* Skill chart */
@@ -427,8 +436,8 @@ th, td {
 .education-grading {
   display: block;
   position: relative;
-  left: 20px;
-  width: 600px;
+  left: 3%;
+  width: 94%;
 }
 
 .education-card.active .education-dropdown {
@@ -491,8 +500,8 @@ th, td {
 }
 
 .experience-daterange, .experience-location {
-  display: inline-block;
   width: 50%;
+  display: inline-block;
   color: #111111;
   font-weight: bold;
 }

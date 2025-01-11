@@ -1,6 +1,6 @@
 ---
 title: "Education"
-date: "10 January 2025"
+date: "11 January 2025"
 ---
 
 ```{=html}
@@ -91,7 +91,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 19/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-1-body">
               <tr data-row="SCCH601101;Basic Chemistry               ;2;B "></tr>
@@ -108,7 +108,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 36/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-2-body">
               <tr data-row="SCBI601112;General Biology                      ;2;B-"></tr>
@@ -124,7 +124,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 57/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-3-body">
               <tr data-row="SCFI601110;Basic Physics                  ;2;A-"></tr>
@@ -140,7 +140,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 79/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-4-body">
               <tr data-row="SCMA601111;Calculus 2                        ;4;B-"></tr>
@@ -156,7 +156,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 83/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-4.5-body">
               <tr data-row="SCMA603132;Real Analysis 2;4;B+"></tr>
@@ -167,7 +167,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 105/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-5-body">
               <tr data-row="SCAK603010;Microeconomic Theory  ;3;A-"></tr>
@@ -185,7 +185,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 125/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-6-body">
               <tr data-row="SCMA603133;Complex Functions                                ;4;C "></tr>
@@ -201,7 +201,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 131/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-7-body">
               <tr data-row="SCMA604000;Undergraduate Thesis;6;A"></tr>
@@ -212,7 +212,7 @@ date: "10 January 2025"
           <div class="education-details">Credits Earned: 155/144</div>
           <table>
             <thead>
-              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+              <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
             </thead>
             <tbody id="semester-8-body">
               <tr data-row="SCMA602311;Mathematical Programming; 4;B+"></tr>
@@ -278,42 +278,42 @@ date: "10 January 2025"
         <div class="education-details">Credits Earned: 20</div>
         <table>
           <thead>
-            <tr><th>Code</th><th>Course</th><th>Credit</th><th>Grade</th></tr>
+            <tr><th>Code</th><th>Course</th><th class="center">Credit</th><th class="center">Grade</th></tr>
           </thead>
           <tbody>
             <tr>
               <td>B22MLDC07</td>
               <td>Python Programming Fundamentals</td>
-              <td rowspan="2" style="vertical-align:middle;">3</td>
-              <td>A</td>
+              <td rowspan="2" class="center">3</td>
+              <td class="center">A</td>
             </tr>
             <tr>
               <td>B22MLCR01</td>
               <td>IT Automation with Python</td>
-              <td>A</td>
+              <td class="center">A</td>
             </tr>
             <tr data-row="B22MLCR02;Mathematics for Machine Learning;1;A" style="background-color:#eeeeee;"></tr>
             <tr>
               <td>B22MLCR03</td>
               <td>TensorFlow Developer Professional Certificate</td>
-              <td rowspan="2" style="vertical-align:middle;">2</td>
-              <td>A</td>
+              <td rowspan="2" class="center">2</td>
+              <td class="center">A</td>
             </tr>
             <tr>
               <td>B22MLCR04</td>
               <td>Structuring Machine Learning Projects</td>
-              <td>A</td>
+              <td class="center">A</td>
             </tr>
             <tr>
               <td>B22MLCR05</td>
               <td>TensorFlow Data and Deployment</td>
-              <td rowspan="2" style="vertical-align:middle;">2</td>
-              <td>A</td>
+              <td rowspan="2" class="center">2</td>
+              <td class="center">A</td>
             </tr>
             <tr>
               <td>B22TDCP01</td>
               <td>Preparing for TensorFlow Developer Certification</td>
-              <td>A</td>
+              <td class="center">A</td>
             </tr>
             <tr data-row="B22CAPP01;Capstone / Final Project;6;A" style="background-color:#eeeeee;"></tr>
             <tr data-row="B22SSCE01;Soft Skill & Career Development;6;A" style="background-color:#eeeeee;"></tr>
@@ -581,8 +581,8 @@ date: "10 January 2025"
       row.innerHTML = `
         <td>${code}</td>
         <td>${course}</td>
-        <td>${credit}</td>
-        <td>${formattedGrade}</td>
+        <td class="center">${credit}</td>
+        <td class="center">${formattedGrade}</td>
       `;
       
       // Clean up placeholder attribute
