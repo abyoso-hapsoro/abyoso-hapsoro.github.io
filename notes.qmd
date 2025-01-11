@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.4.6
+Website currently running on version 0.4.7
 
 ```{=html}
 <h2>Milestones</h2>
@@ -51,8 +51,12 @@ Website currently running on version 0.4.6
       <th></th>
     </tr>
     <tr>
+      <td>v0.4.7</td>
+      <td>Fixed Education dropdown bugs</td>
+    </tr>
+    <tr>
       <td>v0.4.6</td>
-      <td>Improve table structure</td>
+      <td>Improved table structure</td>
     </tr>
     <tr>
       <td>v0.4.5</td>
@@ -60,15 +64,15 @@ Website currently running on version 0.4.6
     </tr>
     <tr>
       <td>v0.4.4</td>
-      <td>Fix dropdown bug</td>
+      <td>Fixed dropdown bug</td>
     </tr>
     <tr>
       <td>v0.4.3</td>
-      <td>Integrate dropdown to Education subsection, added bachelor grade data</td>
+      <td>Integrated dropdown to Education subsection, added bachelor grade data</td>
     </tr>
     <tr>
       <td>v0.4.2</td>
-      <td>Fix hover styling bug, updated Education subsection, updated <span title="Home Page"><u>HP</u></span> and <span title="Miscellaneous"><u>Misc</u></span> sections</td>
+      <td>Fixed hover styling bug, updated Education subsection, updated <span title="Home Page"><u>HP</u></span> and <span title="Miscellaneous"><u>Misc</u></span> sections</td>
     </tr>
   </table>
 </details>
@@ -82,11 +86,11 @@ Website currently running on version 0.4.6
     </tr>
     <tr>
       <td>v0.4.1</td>
-      <td>Fix bachelor link bug</td>
+      <td>Fixed bachelor link bug</td>
     </tr>
     <tr>
       <td>v0.4.0</td>
-      <td>Update Python experience</td>
+      <td>Updated Python experience</td>
     </tr>
     <tr>
       <td>v0.3.1b</td>
@@ -94,11 +98,11 @@ Website currently running on version 0.4.6
     </tr>
     <tr>
       <td>v0.3.1</td>
-      <td>Populate topic and stacks in Experience subsection. Fix comments for featuring</td>
+      <td>Populated topic and stacks in Experience subsection. Fixed comments for featuring</td>
     </tr>
     <tr>
       <td>v0.3.0</td>
-      <td>Integrate searching feature, added educator <span title="Curriculum Vitae"><u>CV</u></span></td>
+      <td>Integrated searching feature, added educator <span title="Curriculum Vitae"><u>CV</u></span></td>
     </tr>
   </table>
 </details>
