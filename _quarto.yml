@@ -75,6 +75,7 @@ format:
     # includes:
     #   in-header:
     #     - ./redirect.js
+    pre-render: deep-indexer.js
     highlight-style: solarized
     theme: minty
     css: styles.css

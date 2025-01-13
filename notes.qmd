@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.4.7
+Website currently running on version 0.4.8
 
 ```{=html}
 <h2>Milestones</h2>
@@ -49,6 +49,10 @@ Website currently running on version 0.4.7
     <tr>
       <th></th>
       <th></th>
+    </tr>
+    <tr>
+      <td>v0.4.8</td>
+      <td>Improved search functionality</td>
     </tr>
     <tr>
       <td>v0.4.7</td>
