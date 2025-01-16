@@ -1,6 +1,6 @@
 ---
 title: "Education"
-date: "12 January 2025"
+date: "17 January 2025"
 ---
 
 ```{=html}
@@ -271,7 +271,7 @@ date: "12 January 2025"
     <div class="education-concentration">Machine Learning</div>
     <div class="education-detail">Remote external program, 20 credits earned without GPA accounted for <a href="javascript:void(0)" onclick="highlightCard(event, 'formalTab', 'bachelor')" style="color:blue">bachelor</a> studies</div>
     <div class="education-institution">Bangkit Academy</div>
-    <div class="education-gpa">GPA: 4.00, Graduated with Distinction (Top 10%)</div>
+    <div class="education-gpa">GPA: 4.00/4.00, Graduated with Distinction (Top 10%)</div>
     <img class="education-logo" src="../images/Bangkit.png">
     <div class="education-dropdown">
       <div class="education-report" id="bangkit-report">
