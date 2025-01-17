@@ -98,4 +98,4 @@ def html2image(
 
 if __name__ == '__main__':
     # Screenshot the release notes
-    html2image("docs/notes.html", "screenshot.png")
+    html2image("./docs/notes.html", "./misc/screenshot.png")
