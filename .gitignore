@@ -1,6 +1,4 @@
 /.quarto/
-redirect.js
-maintenance.qmd
-docs/maintenance.html
+scripts/redirect.js
 writings/
 docs/writings
