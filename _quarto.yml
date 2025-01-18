@@ -53,8 +53,7 @@ website:
       - section: projects/projects.qmd
         contents:
           - projects/mlaids.qmd
-          - href: projects/others.qmd
-            text: Other projects (U/C)
+          - projects/others.qmd
       # - section: writings/writings.qmd
       #   contents:
       #     - writings/publications.qmd
@@ -62,9 +61,6 @@ website:
       #     - writings/unpublished.qmd
       - misc.qmd
       - notes.qmd
-
-      # When maintenance is required, comment the above from "home.qmd" to "notes.qmd" and uncomment the following
-      # - maintenance.qmd
 
 # Set default YAML options
 published-title: "Page Last Updated"

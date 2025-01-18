@@ -1,6 +1,6 @@
 ---
 title: "Featured Projects"
-date: "31 July 2024"
+date: "19 January 2024"
 ---
 
-This section highlights featured non-private projects. Most of these are taken from <a href="https://github.com/abyoso-hapsoro/past-works/">past-works</a>. Some subsections are 'U/C' meaning they are still under construction.
+This section highlights featured non-private projects. Most of these are taken from <a href="https://github.com/abyoso-hapsoro/past-works/">past-works</a>. The contents are still being actively populated.

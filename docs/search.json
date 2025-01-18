@@ -1,12 +1,13 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Abyoso Hapsoro Nurhadi",
+    "objectID": "projects/mlaids.html",
+    "href": "projects/mlaids.html",
+    "title": "ML, AI and DS projects",
     "section": "",
-    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.\n\n\n\n\n\n\n\nMy Availability\n\n\n\nAs of 5 January 2025:\n\n\n❌ Not Available for Hire\n\n\n\n\n❌ Not Available to Teach\n\n\n\n\n🔬 Available for Research Collaborations\n\nOpen to international collaboration in research for almost any industry (my preferences)\n\n\n\n\n\nFeel free to drop a message!  My Mail     My LinkedIn     My Discord\n\n\nYou may request my services through the contacts above or at Upwork\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nWebsite is currently optimized for desktop viewing and maximized window. There exists content which have display issues on mobile.",
+    "text": "Twitter Analytics Dashboard\n    Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.\n    Tech Stack: Python, HTML, Flask, scikit-learn\n     View Code\n    📅 Nov 2021\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Schizophrenia Early Detection Prototype\n    Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.\n    Tech Stack: Python, MATLAB, scikit-learn, scipy\n    📅 Apr 2019   \n    Note: Top image was edited from the linguistics of schizophrenia\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Hymenoptera Classification\n    Internship project to learn PyTorch. Trained a model to classify ants and bees with Transfer Learning from ResNet-18 achieving best train accuracy of 89.75% and best validation accuracy of 96.08%.\n    Tech Stack: Python, PyTorch\n     View Code\n    📅 Jul 2019\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Quadcopter Flight Path Identification\n    Project for IT Today IPB 2019 Data Science Competition, hosted in Kaggle. Implemented a Regression Chain achieving 0.00317 mean haversine distance.\n    Tech Stack: Python, scikit-learn\n     View Code\n    📅 Aug 2019",
     "crumbs": [
-      "Homepage"
+      "Featured Projects",
+      "ML, AI and DS projects"
     ]
   },
   {
@@ -160,20 +161,29 @@
     "href": "projects/projects.html",
     "title": "Featured Projects",
     "section": "",
-    "text": "This section highlights featured non-private projects. Most of these are taken from past-works. Some subsections are ‘U/C’ meaning they are still under construction.",
+    "text": "This section highlights featured non-private projects. Most of these are taken from past-works. The contents are still being actively populated.",
     "crumbs": [
       "Featured Projects"
     ]
   },
   {
-    "objectID": "projects/mlaids.html",
-    "href": "projects/mlaids.html",
-    "title": "ML, AI and DS projects",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Release Notes",
     "section": "",
-    "text": "Twitter Analytics Dashboard\n    Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.\n    Tech Stack: Python, HTML, Flask, scikit-learn\n     View Code\n    📅 November 2021\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Schizophrenia Early Detection Prototype\n    Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.\n    Tech Stack: Python, MATLAB, scikit-learn, scipy\n    📅 April 2019   \n    Note: Top image was edited from the linguistics of schizophrenia\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n    Quadcopter Flight Path Identification\n    Project for IT Today IPB 2019 Data Science Competition, hosted in Kaggle. Implemented a Regression Chain achieving 0.00317 mean haversine distance.\n    Tech Stack: Python, scikit-learn\n     View Code\n    📅 August 2019",
+    "text": "Website currently running on version 0.5.1\nMilestones\n\n  January 2025\n  \n\n\n\n\n\n\n\nv0.5.0\nRestructure repository\n\n\n\n\n\n\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.4.0\nRenew versioning convention\n\n\nv0.3.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.2.0\nRevamped website with interactive content\n\n\nv0.1.1b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  January 2025\n  \n\n\n\n\n\n\n\nv0.5.1\nUpdated Projects section and all its subsections\n\n\nv0.5.0\nImproved repository structure\n\n\nv0.4.9\nUpdated Retrospective section\n\n\nv0.4.8\nImproved search functionality\n\n\nv0.4.7\nFixed Education dropdown bugs\n\n\nv0.4.6\nImproved table structure\n\n\nv0.4.5\nAdded Bangkit grade data\n\n\nv0.4.4\nFixed dropdown bug\n\n\nv0.4.3\nIntegrated dropdown to Education subsection, added bachelor grade data\n\n\nv0.4.2\nFixed hover styling bug, updated Education subsection, updated HP and Misc sections\n\n\n\n\n\n\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.4.1\nFixed bachelor link bug\n\n\nv0.4.0\nUpdated Python experience\n\n\nv0.3.1b\nDeployment hotfix: address missing resource\n\n\nv0.3.1\nPopulated topic and stacks in Experience subsection. Fixed comments for featuring\n\n\nv0.3.0\nIntegrated searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.2.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.2.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.2.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.2.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.2.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.2.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.2.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.2.2\nCorrected typo in Education subsection\n\n\nv0.2.1b\nDeployment hotfix: rerender\n\n\nv0.2.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.2.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.1.1b\nDeployment hotfix: rerender\n\n\nv0.1.1\nCorrected typo in MLAIDS subsection\n\n\nv0.1.0b\nDeployment hotfix: resolved multiple issues\n\n\nv0.1.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
     "crumbs": [
-      "Featured Projects",
-      "ML, AI and DS projects"
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 3 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
+    "crumbs": [
+      "About me"
     ]
   },
   {
@@ -227,34 +237,14 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "26, Husband, Cat Parent and Visioner.\nLifelong Learner and Budding Researcher with focus in Machine Learning and Artificial Intelligence. Graduated from University of Indonesia with a B.Sc. in Mathematics on 2022. Equipped with over 3 years of professional experience and 2.5 years of entry-level experience with Python as main tool of choice.\nAspiring to be a Machine Learning Generalist / General Machine Learning Specialist. Aiming to be a university lecturer by 2036.\nAby aspires to be a better person every day who leverages his accrued knowledge for all living beings. Aby aligns with the concept, “You ultimately need to do what your heart feels is right” - Master of Masters, Kingdom Hearts.",
-    "crumbs": [
-      "About me"
-    ]
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Release Notes",
-    "section": "",
-    "text": "Website currently running on version 0.5.0\nMilestones\n\n  January 2025\n  \n\n\n\n\n\n\n\nv0.5.0\nRestructure repository\n\n\n\n\n\n\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.4.0\nRenew versioning convention\n\n\nv0.3.0\nLaunched search feature\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.2.0\nRevamped website with interactive content\n\n\nv0.1.1b\nReleased finalized first version of static website with limited content\n\n\n\n\n\n\nChangelog\n\n  January 2025\n  \n\n\n\n\n\n\n\nv0.5.0\nUpdated repository structure\n\n\nv0.4.9\nUpdated Retrospective section\n\n\nv0.4.8\nImproved search functionality\n\n\nv0.4.7\nFixed Education dropdown bugs\n\n\nv0.4.6\nImproved table structure\n\n\nv0.4.5\nAdded Bangkit grade data\n\n\nv0.4.4\nFixed dropdown bug\n\n\nv0.4.3\nIntegrated dropdown to Education subsection, added bachelor grade data\n\n\nv0.4.2\nFixed hover styling bug, updated Education subsection, updated HP and Misc sections\n\n\n\n\n\n\n\n  December 2024\n  \n\n\n\n\n\n\n\nv0.4.1\nFixed bachelor link bug\n\n\nv0.4.0\nUpdated Python experience\n\n\nv0.3.1b\nDeployment hotfix: address missing resource\n\n\nv0.3.1\nPopulated topic and stacks in Experience subsection. Fixed comments for featuring\n\n\nv0.3.0\nIntegrated searching feature, added educator CV\n\n\n\n\n\n\n\n  November 2024\n  \n\n\n\n\n\n\n\nv0.2.9\nUpdated CV, updated Retrospective section\n\n\n\n\n\n\n\n  October 2024\n  \n\n\n\n\n\n\n\nv0.2.8\nUpdated HP, populated Experience subsection, fixed sorting bug, added exp tags\n\n\n\n\n\n\n\n  August 2024\n  \n\n\n\n\n\n\n\nv0.2.7\nLinks now open in new tab, populated Achievements subsection, added exp BGM\n\n\nv0.2.6\nAdded featured tab in multiple Retrospective subsections, added exp sorting\n\n\nv0.2.5\nAdded Achievement subsection, added comments on multiple files\n\n\nv0.2.4\nPopulated Retrospective section, reorder CSS properties using concentric principles\n\n\n\n\n\n\n\n  July 2024\n  \n\n\n\n\n\n\n\nv0.2.3\nReword multiple files, created Retrospective skeleton, added some highlighting\n\n\nv0.2.2\nCorrected typo in Education subsection\n\n\nv0.2.1b\nDeployment hotfix: rerender\n\n\nv0.2.1\nAdded Experience subsection, populated Education subsection\n\n\nv0.2.0\nChanged website theme, centralized YAML options, added Education subsection\n\n\nv0.1.1b\nDeployment hotfix: rerender\n\n\nv0.1.1\nCorrected typo in MLAIDS subsection\n\n\nv0.1.0b\nDeployment hotfix: resolved multiple issues\n\n\nv0.1.0\nInitial release\n\n\n\n\n\n\nAddendum\nVersioning for this website (vX.Y.Z) is presented as follows:\n\n  X = major release, affects entire website\n  Y = minor release, affects features or elements\n  Z = release number, affects content",
-    "crumbs": [
-      "Release Notes"
-    ]
-  },
-  {
     "objectID": "projects/others.html",
     "href": "projects/others.html",
-    "title": "\nPage under construction, sorry about that!\n",
+    "title": "Other projects",
     "section": "",
-    "text": "Page under construction, sorry about that!\n\nYou can explore Aby’s other projects in past-works.\nEnjoy this cute animation in the meantime~\n\nSource",
+    "text": "Simple Timer GIF\n    A simple project for a simple timer GIF that counts down assisted by visual indicator.\n    Tech Stack: Python\n     View Code\n    📅 Dec 2024 - Jan 2025\n\n\n\n\n\n\n\n    \n\n\n\n\n    Lorenz Equation\n    Presentation project for Ordinary Differential Equations course. Tasked to cover a subchapter of Nonlinear Differential Equations and Stability from Elementary Differential Equations and Boundary Value Problems, 8th Ed.\n    Tech Stack: Python, scipy\n     View Code\n    📅 Nov 2017 - Dec 2017\n\n\n\n\n\n\n\n    \n\n\n\n\n    Lindenmayer Fractal\n    Homework project for Computation Theory course. Tasked to manually implement Lindenmayer Fractals procedurally generated from a ruleset input which is then visualized.\n    Tech Stack: Python\n     View Code\n    📅 Sep 2019 - Oct 2019",
     "crumbs": [
       "Featured Projects",
-      "Other projects (U/C)"
+      "Other projects"
     ]
   },
   {
@@ -313,5 +303,15 @@
     "title": "Unpublished",
     "section": "",
     "text": "TBA"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abyoso Hapsoro Nurhadi",
+    "section": "",
+    "text": "Hi, Aby here. You may also know me as Xyba or XybaFenix. よろしく~\nI am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced in building Machine Learning for research, products and various other applications.\n\n\n\n\n\n\n\nMy Availability\n\n\n\nAs of 5 January 2025:\n\n\n❌ Not Available for Hire\n\n\n\n\n❌ Not Available to Teach\n\n\n\n\n🔬 Available for Research Collaborations\n\nOpen to international collaboration in research for almost any industry (my preferences)\n\n\n\n\n\nFeel free to drop a message!  My Mail     My LinkedIn     My Discord\n\n\nYou may request my services through the contacts above or at Upwork\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nWebsite is currently optimized for desktop viewing and maximized window. There exists content which have display issues on mobile.",
+    "crumbs": [
+      "Homepage"
+    ]
   }
 ]

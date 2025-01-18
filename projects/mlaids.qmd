@@ -1,6 +1,6 @@
 ---
 title: "ML, AI and DS projects"
-date: "15 July 2024"
+date: "19 January 2024"
 ---
 
 ::: {layout="[25,75]"}
@@ -18,7 +18,7 @@ date: "15 July 2024"
     Real-Time Indonesian Tweets Sentiment Analytics Dashboard with Social Network Analysis, Word Cloud and Sentiment Analysis features. Implemented an optimized Stochastic Gradient Descent Classifier achieving 77.02% classification accuracy.<br><br>
     <b>Tech Stack</b>: Python, HTML, Flask, scikit-learn<br>
     <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/twitter-analytics-project">View Code</a></div>
-    <div style="width:150; float:right;">📅 November 2021</div>
+    <div style="width:150; float:right;">📅 Nov 2021</div>
 </div>
 <div style="clear: both;"></div>
 ```
@@ -35,8 +35,26 @@ date: "15 July 2024"
     <h2>Schizophrenia Early Detection Prototype</h2>
     Pyschosis prediction on clinical high-risk teenager group using Latent Semantic Analysis and Part-of-Speech Tagging. Manually implemented a 3D Convex Hull Classifier based on medical paper achieving 95.36% mean classification accuracy.<br><br>
     <b>Tech Stack</b>: Python, MATLAB, scikit-learn, scipy<br>
-    <div style="width:150; float:right;">📅 April 2019</div><br>   
+    <div style="width:150; float:right;">📅 Apr 2019</div><br>   
     <i>Note: Top image was edited from <a href="https://psycnet.apa.org/record/2015-41156-001">the linguistics of schizophrenia</a></i>
+</div>
+<div style="clear: both;"></div>
+```
+
+```{=html}
+<div class="image-container">
+    <img src="../images/Hymenoptera_Architecture.png" width=200 alt="Hymenoptera Architecture" title="ResNet-18 Transfer Learning"/>
+    <img src="../images/Hymenoptera_Predictions.png" width=200 alt="Hymenoptera Predictions" title="Hymenoptera Predictions"/>
+</div>
+```
+
+```{=html}
+<div style="width:300;">
+    <h2>Hymenoptera Classification</h2>
+    Internship project to learn PyTorch. Trained a model to classify ants and bees with Transfer Learning from ResNet-18 achieving best train accuracy of 89.75% and best validation accuracy of 96.08%.<br><br>
+    <b>Tech Stack</b>: Python, PyTorch<br>
+    <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Internship/Hands-On%20PyTorch">View Code</a></div>
+    <div style="width:150; float:right;">📅 Jul 2019</div>
 </div>
 <div style="clear: both;"></div>
 ```
@@ -54,7 +72,7 @@ date: "15 July 2024"
     Project for IT Today IPB 2019 Data Science Competition, hosted in <a href="https://kaggle.com/competitions/ittodaydsc2019">Kaggle</a>. Implemented a Regression Chain achieving 0.00317 mean haversine distance.<br><br>
     <b>Tech Stack</b>: Python, scikit-learn<br>
     <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Competition/Quadcopter%20Flight%20Path%20Identification">View Code</a></div>
-    <div style="width:150; float:right;">📅 August 2019</div>
+    <div style="width:150; float:right;">📅 Aug 2019</div>
 </div>
 <div style="clear: both;"></div>
 ```
