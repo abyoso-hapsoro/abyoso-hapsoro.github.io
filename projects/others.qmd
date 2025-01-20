@@ -1,6 +1,6 @@
 ---
 title: "Other projects"
-date: "19 January 2024"
+date: "21 January 2024"
 ---
 
 ::: {layout="[35,65]"}
@@ -18,40 +18,6 @@ date: "19 January 2024"
     <b>Tech Stack</b>: Python<br>
     <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/simple-timer-gif">View Code</a></div>
     <div style="width:150; float:right;">📅 Dec 2024 - Jan 2025</div>
-</div>
-<div style="clear: both;"></div>
-```
-
-```{=html}
-<div class="image-container">
-    <img src="../images/Lorenz_Equation.gif" width=280 alt="Lorenz Equation on Earth" title="Lorenz Equation on Earth"/>
-</div>
-```
-
-```{=html}
-<div style="width:260;">
-    <h2>Lorenz Equation</h2>
-    Presentation project for Ordinary Differential Equations course. Tasked to cover a subchapter of Nonlinear Differential Equations and Stability from <span title="Boyce and DiPrima (2012)"><u>Elementary Differential Equations and Boundary Value Problems, 8th Ed</u></span>.<br><br>
-    <b>Tech Stack</b>: Python, scipy<br>
-    <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Intermediate%20Python/Lorenz%20Equation">View Code</a></div>
-    <div style="width:150; float:right;">📅 Nov 2017 - Dec 2017</div>
-</div>
-<div style="clear: both;"></div>
-```
-
-```{=html}
-<div class="image-container">
-    <img src="../images/Lindenmayer_Fractal.png" width=280 alt="Lindenmayer Fractal" title="Lindenmayer Fractal"/>
-</div>
-```
-
-```{=html}
-<div style="width:260;">
-    <h2>Lindenmayer Fractal</h2>
-    Homework project for Computation Theory course. Tasked to manually implement Lindenmayer Fractals procedurally generated from a ruleset input which is then visualized.<br><br>
-    <b>Tech Stack</b>: Python<br>
-    <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Intermediate%20Python/Lindenmayer%20Fractal">View Code</a></div>
-    <div style="width:150; float:right;">📅 Sep 2019 - Oct 2019</div>
 </div>
 <div style="clear: both;"></div>
 ```

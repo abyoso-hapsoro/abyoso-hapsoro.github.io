@@ -2,7 +2,7 @@
 title: "Release Notes"
 ---
 
-Website currently running on version 0.5.1
+Website currently running on version 0.5.2
 
 ```{=html}
 <h2>Milestones</h2>
@@ -63,6 +63,10 @@ Website currently running on version 0.5.1
     <tr>
       <th></th>
       <th></th>
+    </tr>
+    <tr>
+      <td>v0.5.2</td>
+      <td>Add new Mathematics subsection</td>
     </tr>
     <tr>
       <td>v0.5.1</td>

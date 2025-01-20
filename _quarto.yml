@@ -53,6 +53,7 @@ website:
       - section: projects/projects.qmd
         contents:
           - projects/mlaids.qmd
+          - projects/mathematics.qmd
           - projects/others.qmd
       # - section: writings/writings.qmd
       #   contents:
