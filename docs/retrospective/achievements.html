@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-05">
+<meta name="dcterms.date" content="2025-01-22">
 
 <title>Achievements – Aby’s Portfolio</title>
 <style>
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../retrospective/organization.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Organization (U/C)</span></a>
+ <span class="menu-text">Organization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">5 January 2025</p>
+      <p class="date">22 January 2025</p>
     </div>
   </div>
   
@@ -285,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="feature" class="tabcontent"></div>
 
 <!-- Achievements at International/Multinational Level -->
-<div id="intrntl" class="tabcontent" level="International">
+<div id="intrntl" class="tabcontent" category="International">
   <div class="achievement-card" onclick="toggleDropdown(this)">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Prefinalist</div>
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Achievements at National Level -->
-<div id="ntional" class="tabcontent" level="National">
+<div id="ntional" class="tabcontent" category="National">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="4">
     <div class="achievement-header">
       <div class="achievement-placement" place="1st">Top 20</div>
@@ -481,7 +481,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Achievements at University Level -->
-<div id="univsty" class="tabcontent" level="University">
+<div id="univsty" class="tabcontent" category="University">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="5">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
@@ -519,7 +519,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Achievements at Faculty Level -->
-<div id="faculty" class="tabcontent" level="Faculty">
+<div id="faculty" class="tabcontent" category="Faculty">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="1">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Finalist</div>
@@ -559,7 +559,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Achievements at Department Level -->
-<div id="dprtmnt" class="tabcontent" level="Department">
+<div id="dprtmnt" class="tabcontent" category="Department">
   <div class="achievement-card no-dropdown">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
@@ -621,10 +621,10 @@ ul.task-list li input[type="checkbox"] {
       }
       clone.classList.add('featured-card');
 
-      // Add level to card
+      // Add category to card
       const sourceDiv = document.createElement('div');
       sourceDiv.className = 'achievement-source';
-      sourceDiv.textContent = `${card.parentElement.getAttribute('level')}`;
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
       clone.appendChild(sourceDiv);
 
       // Append clone to the featured tab

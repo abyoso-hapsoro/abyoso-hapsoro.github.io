@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-17">
+<meta name="dcterms.date" content="2025-01-22">
 
 <title>Education – Aby’s Portfolio</title>
 <style>
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../retrospective/organization.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Organization (U/C)</span></a>
+ <span class="menu-text">Organization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">17 January 2025</p>
+      <p class="date">22 January 2025</p>
     </div>
   </div>
   
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="featrd" class="tabcontent"></div>
 
 <!-- Formal Education -->
-<div id="formal" class="tabcontent" type="Formal">
+<div id="formal" class="tabcontent" category="Formal">
   <div class="education-card no-dropdown" featured="true" feature-order="1">
     <div class="education-header">
       <span class="education-daterange">Jan 2025 - Present</span>
@@ -788,7 +788,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Semi-Formal Education -->
-<div id="smifrm" class="tabcontent" type="Semi-Formal">
+<div id="smifrm" class="tabcontent" category="Semi-Formal">
   <div class="education-card no-dropdown" featured="true" feature-order="4">
     <div class="education-header">
       <span class="education-daterange">Mar 2022 - Mar 2023</span>
@@ -896,7 +896,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Supplementary Education -->
-<div id="suplem" class="tabcontent" type="Supplementary">
+<div id="suplem" class="tabcontent" category="Supplementary">
   <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">Oct 2022 - Jan 2023</span>
@@ -945,7 +945,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <!-- Other Education -->
-<div id="others" class="tabcontent" type="Other">
+<div id="others" class="tabcontent" category="Other">
   <div class="education-card no-dropdown">
     <div class="education-header">
       <span class="education-daterange">2004 - 2006</span>
@@ -1000,10 +1000,10 @@ ul.task-list li input[type="checkbox"] {
         }
       });
 
-      // Add type to card
+      // Add category to card
       const sourceDiv = document.createElement('div');
       sourceDiv.className = 'education-source';
-      sourceDiv.textContent = `${card.parentElement.getAttribute('type')}`;
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
       clone.appendChild(sourceDiv);
 
       // Append clone to the featured tab

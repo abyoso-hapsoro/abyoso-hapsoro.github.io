@@ -1,6 +1,6 @@
 ---
 title: "Achievements"
-date: "5 January 2025"
+date: "22 January 2025"
 ---
 
 ```{=html}
@@ -35,7 +35,7 @@ date: "5 January 2025"
 <div id="feature" class="tabcontent"></div>
 
 <!-- Achievements at International/Multinational Level -->
-<div id="intrntl" class="tabcontent" level="International">
+<div id="intrntl" class="tabcontent" category="International">
   <div class="achievement-card" onclick="toggleDropdown(this)">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Prefinalist</div>
@@ -74,7 +74,7 @@ date: "5 January 2025"
 </div>
 
 <!-- Achievements at National Level -->
-<div id="ntional" class="tabcontent" level="National">
+<div id="ntional" class="tabcontent" category="National">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="4">
     <div class="achievement-header">
       <div class="achievement-placement" place="1st">Top 20</div>
@@ -231,7 +231,7 @@ date: "5 January 2025"
 </div>
 
 <!-- Achievements at University Level -->
-<div id="univsty" class="tabcontent" level="University">
+<div id="univsty" class="tabcontent" category="University">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="5">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
@@ -269,7 +269,7 @@ date: "5 January 2025"
 </div>
 
 <!-- Achievements at Faculty Level -->
-<div id="faculty" class="tabcontent" level="Faculty">
+<div id="faculty" class="tabcontent" category="Faculty">
   <div class="achievement-card" onclick="toggleDropdown(this)" featured="true" feature-order="1">
     <div class="achievement-header">
       <div class="achievement-placement" place="Nth">Finalist</div>
@@ -309,7 +309,7 @@ date: "5 January 2025"
 </div>
 
 <!-- Achievements at Department Level -->
-<div id="dprtmnt" class="tabcontent" level="Department">
+<div id="dprtmnt" class="tabcontent" category="Department">
   <div class="achievement-card no-dropdown">
     <div class="achievement-header">
       <div class="achievement-placement" place="2nd">2nd Winner</div>
@@ -371,10 +371,10 @@ date: "5 January 2025"
       }
       clone.classList.add('featured-card');
 
-      // Add level to card
+      // Add category to card
       const sourceDiv = document.createElement('div');
       sourceDiv.className = 'achievement-source';
-      sourceDiv.textContent = `${card.parentElement.getAttribute('level')}`;
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
       clone.appendChild(sourceDiv);
 
       // Append clone to the featured tab

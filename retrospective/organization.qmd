@@ -1,7 +1,250 @@
-<h1>Page under construction, sorry about that!</h1>
+---
+title: "Organization"
+date: "22 January 2025"
+---
 
-Enjoy this cute animation in the meantime~
+```{=html}
+<!-- Organization Tabs -->
+<div class="tab">
+    <button class="tablinks featured-tab" onclick="openOrg(event, 'featrd')" id="defaultOpen">Featured</button>
+    <button class="tablinks" onclick="openOrg(event, 'intrnl')">International</button>
+    <button class="tablinks" onclick="openOrg(event, 'ntionl')">National</button>
+    <button class="tablinks" onclick="openOrg(event, 'univty')">University</button>
+    <button class="tablinks" onclick="openOrg(event, 'fculty')">Faculty</button>
+    <button class="tablinks" onclick="openOrg(event, 'dptmnt')">Department</button>
+    <button class="tablinks" onclick="openOrg(event, 'others')">Others</button>
+</div>
 
-![](../images/Piplup.gif){width=80%}
+<!-- Featured Organizations -->
+<div id="featrd" class="tabcontent"></div>
 
-<a href="https://www.youtube.com/watch?v=TUS6KQOzRVA">Source</a>
+<!-- International/Multinational Organizations -->
+<div id="intrnl" class="tabcontent" category="International">
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="mid">Volunteer</span>
+      <span class="organization-daterange">Jun 2023 - Jul 2023</span>
+    </div>
+    <div class="organization-role">AI Engineer Contributor</div>
+    <div class="organization-entity">FruitPunch AI</div>
+    <img class="organization-logo" src="../images/FruitPunch_AI.png">
+  </div>
+
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="mid">Volunteer</span>
+      <span class="organization-daterange">Mar 2022 - May 2022</span>
+    </div>
+    <div class="organization-role">MLOps Engineer Contributor</div>
+    <div class="organization-entity">FruitPunch AI</div>
+    <img class="organization-logo" src="../images/FruitPunch_AI.png">
+  </div>
+
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Ambassador</span>
+      <span class="organization-daterange">Feb 2019 - Jun 2019</span>
+    </div>
+    <div class="organization-role">Opportunity Outreacher</div>
+    <div class="organization-entity">International Astronomy and Astrophysics Competition</div>
+    <img class="organization-logo" src="https://iaac.space/src/logo_tt_black_transparent.png">
+  </div>
+
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Ambassador</span>
+      <span class="organization-daterange">Aug 2018 - Dec 2018</span>
+    </div>
+    <div class="organization-role">Opportunity Outreacher</div>
+    <div class="organization-entity">International Youth Math Challenge</div>
+    <img class="organization-logo" src="../images/IYMC.png">
+  </div>
+</div>
+
+<!-- National Organizations -->
+<div id="ntionl" class="tabcontent" category="National">
+  <div class="organization-card" featured="true" feature-order="2">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="high">Division Co-Lead</span>
+      <span class="organization-daterange">Jun 2017 - Feb 2018</span>
+    </div>
+    <div class="organization-role">Vice Person in Charge, Registration Division</div>
+    <div class="organization-entity"><span title="Mathematics Event and Competition"><u>LOGIKA</u></span> UI 2018</div>
+    <img class="organization-logo" src="../images/LOGIKA_UI-2018.png">
+  </div>
+</div>
+
+<!-- University Organizations -->
+<div id="univty" class="tabcontent" category="University">
+  <div class="organization-card" featured="true" feature-order="4">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Member</span>
+      <span class="organization-daterange">Sep 2016 - Jan 2020</span>
+    </div>
+    <div class="organization-role">Debater</div>
+    <div class="organization-entity">English Debating Society</div>
+    <img class="organization-logo" src="../images/EDS.png">
+  </div>
+
+  <div class="organization-card" featured="true" feature-order="5">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="mid">Mentor</span>
+      <span class="organization-daterange">Aug 2017 - Oct 2017</span>
+    </div>
+    <div class="organization-role">Freshman PKM Mentor</div>
+    <div class="organization-entity"><span title="Student Creativity Program"><u>PKM</u></span> Center</div>
+    <img class="organization-logo" src="../images/PKM-Center_UI.png">
+  </div>
+</div>
+
+<!-- Faculty Organizations -->
+<div id="fculty" class="tabcontent" category="Faculty">
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Member</span>
+      <span class="organization-daterange">Apr 2018 - Jan 2020</span>
+    </div>
+    <div class="organization-role">Workshop Staff</div>
+    <div class="organization-entity">Grafinity</div>
+    <img class="organization-logo" src="../images/Grafinity.png" style="top:40px">
+  </div>
+
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Member</span>
+      <span class="organization-daterange">Apr 2017 - Dec 2018</span>
+    </div>
+    <div class="organization-role">Intern</div>
+    <div class="organization-entity"><span title="Mathematics, Computation and Data Laboratory"><u>LabMaKA</u></span></div>
+    <img class="organization-logo" src="../images/LabMaKA.png" style="top:50px">
+  </div>
+</div>
+
+<!-- Department Organizations -->
+<div id="dptmnt" class="tabcontent" category="Department">
+  <div class="organization-card" featured="true" feature-order="3">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="mid">Member</span>
+      <span class="organization-daterange">Mar 2017 - Feb 2018</span>
+    </div>
+    <div class="organization-role">Staff, Knowledge Division</div>
+    <div class="organization-entity"><span title="Mathematics Students Association"><u>HMD Matematika</u></span> 2017</div>
+    <img class="organization-logo" src="../images/HMDM.png">
+  </div>
+
+  <div class="organization-card" featured="true" feature-order="1">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="high">Division Lead</span>
+      <span class="organization-daterange">May 2017 - Nov 2017</span>
+    </div>
+    <div class="organization-role">Person in Charge, Essay Competition</div>
+    <div class="organization-entity"><span title="Mathematics Students' Scientific Olympiad"><u>OIM Matek</u></span> 2017</div>
+    <img class="organization-logo" src="../images/OIM_Matek-2017.png">
+  </div>
+</div>
+
+<!-- Other Organizations -->
+<div id="others" class="tabcontent" category="Others">
+  <div class="organization-card">
+    <div class="organization-header">
+      <span class="organization-position" responsibility="low">Ambassador</span>
+      <span class="organization-daterange">2016 - 2017</span>
+    </div>
+    <div class="organization-role">Alumni Representative for <span title="University of Indonesia"><u>UI</u></span></div>
+    <div class="organization-entity">SMA Negeri 11 Jakarta</div>
+    <img class="organization-logo" src="https://upload.wikimedia.org/wikipedia/id/3/33/Logo_11Jakarta.png" style="top:13px">
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get featured tab to populate
+    const featuredTab = document.getElementById('featrd');
+    
+    // Select all tabcontent divs
+    const tabContents = document.querySelectorAll('.tabcontent');
+
+    // Collect all featured cards from all tab contents
+    const allFeaturedCards = [];
+
+    tabContents.forEach(content => {
+      // Select cards that should be featured within each tabcontent
+      const featuredCards = Array.from(content.querySelectorAll('.organization-card[featured="true"]'));
+      allFeaturedCards.push(...featuredCards);
+    });
+
+    // Sort all featured cards based on the feature-order attribute
+    allFeaturedCards.sort((a, b) => {
+      return parseInt(a.getAttribute('feature-order')) - parseInt(b.getAttribute('feature-order'));
+    });
+
+    allFeaturedCards.forEach(card => {
+      // Clone each featured card
+      const clone = card.cloneNode(true);
+      
+      // Edit data in card
+      if(card.hasAttribute('id')) {
+        clone.removeAttribute('id');
+      }
+      clone.classList.add('featured-card');
+
+      // Add category to card
+      const sourceDiv = document.createElement('div');
+      sourceDiv.className = 'organization-source';
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
+      clone.appendChild(sourceDiv);
+
+      // Append clone to the featured tab
+      featuredTab.appendChild(clone);
+    });
+
+    // Open featured tab
+    document.getElementById("defaultOpen").click();
+  });
+
+  function openOrg(event, orgCat) {
+    var idx, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (idx = 0; idx < tabcontent.length; idx++) {
+      tabcontent[idx].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (idx = 0; idx < tablinks.length; idx++) {
+      tablinks[idx].className = tablinks[idx].className.replace(' active', '');
+    }
+
+    document.getElementById(orgCat).style.display = 'block';
+    event.currentTarget.className += ' active';
+
+    // Reset the animation
+    resetAnimation(orgCat);
+  }
+
+  function resetAnimation(orgCat) {
+    const cards = document.querySelectorAll(`#${orgCat} .organization-card`);
+    let delay = 0;
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationDelay = `${delay}s`;
+          entry.target.classList.add('visible');
+          delay += 0.5; // Increment delay for the next card
+          observer.unobserve(entry.target); // Stop observing once it has been animated
+        } else {
+          delay = 0; // Reset delay for non-visible cards
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    cards.forEach(card => {
+      card.classList.remove('visible');
+      observer.observe(card);
+    });
+  }
+</script>
+```

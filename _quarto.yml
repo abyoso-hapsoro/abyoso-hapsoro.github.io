@@ -45,8 +45,7 @@ website:
           - retrospective/experience.qmd
           - href: retrospective/training.qmd
             text: Training (U/C)
-          - href: retrospective/organization.qmd
-            text: Organization (U/C)
+          - retrospective/organization.qmd
           - retrospective/cv.qmd
           - retrospective/certifications.qmd
           - retrospective/achievements.qmd

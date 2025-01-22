@@ -579,7 +579,99 @@ th.right, td.right {
 }
 
 /* Styling for Organization subsection */
+.organization-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  visibility: visible;
+  opacity: 0;
+  transform: translateY(20px);
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #78c2ad;
+  border-radius: 10px;
+  padding: 20px;
+}
 
+.organization-card.visible {
+  animation: floatIn 1s forwards;
+}
+
+.organization-card.featured-card {
+  background-color: #5cbb82;
+  padding-bottom: 38px;
+}
+
+.organization-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.organization-position, .organization-daterange {
+  width: 50%;
+  display: inline-block;
+  color: #111111;
+  font-weight: bold;
+}
+
+.organization-position[responsibility="highest"]::before {
+  content: '🐦‍🔥 ';
+}
+
+.organization-position[responsibility="high"]::before {
+  content: '🐦 ';
+}
+
+.organization-position[responsibility="mid"]::before {
+  content: '🐣 ';
+}
+
+.organization-position[responsibility="low"]::before {
+  content: '🪺 ';
+}
+
+.organization-daterange::before {
+  content: '📅 ';
+}
+
+.organization-role {
+  display: block;
+  color: #eeeeee;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.organization-entity {
+  display: block;
+  color: #111111;
+  font-size: 1.1em;
+}
+
+.organization-logo {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 88px;
+}
+
+.organization-source {
+  font-size: 0.9em;
+  color: #111111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
+
+.organization-source::before {
+  content: '📂 Category: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
 
 /* Styling for Achievements subsection */
 .achievement-card {
