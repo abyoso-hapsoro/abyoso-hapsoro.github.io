@@ -1,18 +1,18 @@
 ---
 title: "Organization"
-date: "22 January 2025"
+date: "24 January 2025"
 ---
 
 ```{=html}
 <!-- Organization Tabs -->
 <div class="tab">
-    <button class="tablinks featured-tab" onclick="openOrg(event, 'featrd')" id="defaultOpen">Featured</button>
-    <button class="tablinks" onclick="openOrg(event, 'intrnl')">International</button>
-    <button class="tablinks" onclick="openOrg(event, 'ntionl')">National</button>
-    <button class="tablinks" onclick="openOrg(event, 'univty')">University</button>
-    <button class="tablinks" onclick="openOrg(event, 'fculty')">Faculty</button>
-    <button class="tablinks" onclick="openOrg(event, 'dptmnt')">Department</button>
-    <button class="tablinks" onclick="openOrg(event, 'others')">Others</button>
+  <button class="tablinks featured-tab" onclick="openOrg(event, 'featrd')" id="defaultOpen">Featured</button>
+  <button class="tablinks" onclick="openOrg(event, 'intrnl')">International</button>
+  <button class="tablinks" onclick="openOrg(event, 'ntionl')">National</button>
+  <button class="tablinks" onclick="openOrg(event, 'univty')">University</button>
+  <button class="tablinks" onclick="openOrg(event, 'fculty')">Faculty</button>
+  <button class="tablinks" onclick="openOrg(event, 'dptmnt')">Department</button>
+  <button class="tablinks" onclick="openOrg(event, 'others')">Others</button>
 </div>
 
 <!-- Featured Organizations -->
@@ -148,7 +148,7 @@ date: "22 January 2025"
   <div class="organization-card">
     <div class="organization-header">
       <span class="organization-position" responsibility="low">Ambassador</span>
-      <span class="organization-daterange">2016 - 2017</span>
+      <span class="organization-daterange">Dec 2016 - Jan 2017</span>
     </div>
     <div class="organization-role">Alumni Representative for <span title="University of Indonesia"><u>UI</u></span></div>
     <div class="organization-entity">SMA Negeri 11 Jakarta</div>

@@ -1,9 +1,9 @@
 ---
 title: "Retrospective"
-date: "17 January 2024"
+date: "24 January 2025"
 ---
 
-This section features a retrospective of myself. Some subsections are marked 'U/C' meaning they are still under construction.
+This section features a retrospective of myself. The contents are still being actively populated.
 
 <h2>My skillset</h2>
 The following is an overview of my skills in terms of <b>YoE (Years of Experience)</b> which summarize the subsections. Some skills can be expanded for more details.
@@ -113,13 +113,6 @@ The following is an overview of my skills in terms of <b>YoE (Years of Experienc
   </div>
 
   <div class="skill">
-    <div class="skill-name no-dropdown">Wolfram Mathematica</div>
-    <div class="skill-bar">
-      <div class="skill-yoe" yoe="3.5" style="max-width:calc(3.5/6 * 100%)"></div>
-    </div>
-  </div>
-
-  <div class="skill">
     <div class="skill-name" onclick="toggleDropdown(this)">JavaScript</div>
     <div class="skill-bar">
       <div class="skill-yoe" yoe="1" style="max-width:calc(1/6 * 100%)"></div>
@@ -144,6 +137,13 @@ The following is an overview of my skills in terms of <b>YoE (Years of Experienc
     <div class="skill-name no-dropdown">Go</div>
     <div class="skill-bar">
       <div class="skill-yoe" yoe="<1" style="max-width:calc(0.5/6 * 100%)"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name no-dropdown">Wolfram Mathematica</div>
+    <div class="skill-bar">
+      <div class="skill-yoe" yoe="3.5" style="max-width:calc(3.5/6 * 100%)"></div>
     </div>
   </div>
 

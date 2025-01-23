@@ -578,6 +578,109 @@ th.right, td.right {
   color: #111111;
 }
 
+/* Styling for Training subsection */
+.training-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  visibility: visible;
+  opacity: 0;
+  transform: translateY(20px);
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #78c2ad;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.training-card.visible {
+  animation: floatIn 1s forwards;
+}
+
+.training-card.featured-card {
+  background-color: #5cbb82;
+  padding-bottom: 38px;
+}
+
+.training-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.training-daterange, .training-location {
+  width: 50%;
+  display: inline-block;
+  color: #111111;
+  font-weight: bold;
+}
+
+.training-daterange::before {
+  content: '📅 ';
+}
+
+.training-location::before {
+  content: '📌 ';
+}
+
+.training-event {
+  display: block;
+  color: #eeeeee;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.training-institute {
+  display: block;
+  color: #111111;
+  font-size: 1.1em;
+}
+
+.training-topics, .training-stack {
+  display: block;
+  color: #111111;
+  font-size: 0.9em;
+}
+
+.training-topics::before {
+  content: 'Topics: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
+.training-stack::before {
+  content: 'Stack: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
+.training-logo {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+.training-source {
+  font-size: 0.9em;
+  color: #111111;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
+
+.training-source::before {
+  content: '📂 Category: ';
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #111111;
+}
+
 /* Styling for Organization subsection */
 .organization-card {
   display: flex;

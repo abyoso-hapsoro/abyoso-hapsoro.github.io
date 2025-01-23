@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-23">
+<meta name="dcterms.date" content="2025-01-24">
 
-<title>training – Aby's Portfolio</title>
+<title>Training – Aby’s Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../retrospective/retrospective.html">Retrospective</a></li><li class="breadcrumb-item"><a href="../retrospective/training.html">Training (U/C)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../retrospective/retrospective.html">Retrospective</a></li><li class="breadcrumb-item"><a href="../retrospective/training.html">Training</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../retrospective/training.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Training (U/C)</span></a>
+ <span class="menu-text">Training</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -229,8 +229,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../retrospective/retrospective.html">Retrospective</a></li><li class="breadcrumb-item"><a href="../retrospective/training.html">Training (U/C)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../retrospective/retrospective.html">Retrospective</a></li><li class="breadcrumb-item"><a href="../retrospective/training.html">Training</a></li></ol></nav>
 <div class="quarto-title">
+<h1 class="title">Training</h1>
 </div>
 
 
@@ -241,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Page Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">23 January 2025</p>
+      <p class="date">24 January 2025</p>
     </div>
   </div>
   
@@ -253,12 +254,545 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<h1>
-Page under construction, sorry about that!
-</h1>
-<p>Enjoy this cute animation in the meantime~</p>
-<p><img src="../images/Piplup.gif" class="img-fluid" style="width:80.0%"></p>
-<p><a href="https://www.youtube.com/watch?v=TUS6KQOzRVA">Source</a></p>
+<!-- Training Tabs -->
+<div class="tab">
+  <button class="tablinks featured-tab" onclick="openTrn(event, 'feature')" id="defaultOpen">Featured</button>
+  <button class="tablinks" onclick="openTrn(event, 'bootcmp')">Bootcamp</button>
+  <button class="tablinks" onclick="openTrn(event, 'lecture')">Guest Lecture</button>
+  <button class="tablinks" onclick="openTrn(event, 'wrkshop')">Workshop</button>
+  <button class="tablinks" onclick="openTrn(event, 'madsmnr')">Seminar</button>
+  <button class="tablinks" onclick="openTrn(event, 'othsmnr')">Others</button>
+</div>
+
+<!-- Featured Trainings -->
+<div id="feature" class="tabcontent"></div>
+
+<!-- Bootcamps -->
+<div id="bootcmp" class="tabcontent" category="Bootcamp">
+  <div class="training-card" featured="true" feature-order="2">
+    <div class="training-header">
+      <span class="training-daterange">Apr 2017 - May 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Deep Dive into Data Analytics</div>
+    <div class="training-institute">Data Science Indonesia</div>
+    <div class="training-topics">
+      Machine Learning,
+      Data Analysis,
+      Web Crawling
+    </div>
+    <div class="training-stack">
+      Python,
+      scikit-learn,
+      R,
+      Tableau
+    </div>
+    <img class="training-logo" src="../images/DSI.png">
+  </div>
+
+  <div class="training-card" featured="true" feature-order="5">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2017 - Feb 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Machine Learning for Beginners</div>
+    <div class="training-institute">Pacmann AI</div>
+    <div class="training-topics">
+      Machine Learning
+    </div>
+    <div class="training-stack">
+      Python,
+      scikit-learn
+    </div>
+    <img class="training-logo" src="../images/Pacmann.png">
+  </div>
+</div>
+
+<!-- Guest Lectures -->
+<div id="lecture" class="tabcontent" category="Guest Lecture">
+  <div class="training-card" featured="true" feature-order="4">
+    <div class="training-header">
+      <span class="training-daterange">Aug 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Numerics for Reaction-Diffusion Equations</div>
+    <div class="training-institute">Universität Koblenz-Landau</div>
+    <div class="training-topics">
+      Mathematical Modeling
+    </div>
+    <div class="training-stack">
+      Python,
+      scipy,
+      MATLAB
+    </div>
+    <img class="training-logo" src="../images/UKL.png">
+  </div>
+</div>
+
+<!-- Workshops -->
+<div id="wrkshop" class="tabcontent" category="Workshop">
+  <div class="training-card" featured="true" feature-order="1">
+    <div class="training-header">
+      <span class="training-daterange">Nov 2021</span>
+      <span class="training-location">Remote</span>
+    </div>
+    <div class="training-event">3 Days to be Data Scientist</div>
+    <div class="training-institute">Sriwijaya University</div>
+    <div class="training-topics">
+      Data Science,
+      Web Crawling
+    </div>
+    <div class="training-stack">
+      Python,
+      scikit-learn,
+      Flask,
+      HTML
+    </div>
+    <img class="training-logo" src="https://upload.wikimedia.org/wikipedia/id/thumb/b/bc/Logo_Universitas_Sriwijaya.svg/1008px-Logo_Universitas_Sriwijaya.svg.png" style="top:30px">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">R You Ready for Better Future?</div>
+    <div class="training-institute"><span title="Mathematics Event and Competition"><u>LOGIKA</u></span> UI 2019</div>
+    <div class="training-topics">
+      Data Analysis
+    </div>
+    <div class="training-stack">
+      R
+    </div>
+    <img class="training-logo" src="../images/LOGIKA_UI-2019.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">How Digital Technology Embraces<br>the Future of Financial Planning</div>
+    <div class="training-institute">Financial Planning Standards Board Indonesia</div>
+    <div class="training-topics">
+      Finance
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="https://www.fpsbindonesia.org/medias/shortcuts/thumb-panel-1608035024.png" style="top:40px">
+  </div>
+
+  <div class="training-card" featured="true" feature-order="3">
+    <div class="training-header">
+      <span class="training-daterange">Nov 2018</span>
+      <span class="training-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="training-event">Text Mining to Sentimental Analysis</div>
+    <div class="training-institute">Tokopedia</div>
+    <div class="training-topics">
+      Machine Learning,
+      Sentiment Analysis,
+      Web Crawling
+    </div>
+    <div class="training-stack">
+      R
+    </div>
+    <img class="training-logo" src="https://cdn.freelogovectors.net/svg16/tokopedia_logo-freelogovectors.net.svg">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">May 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">LaTeX Training</div>
+    <div class="training-institute"><span title="Mathematics Students Association"><u>HMD Matematika</u></span></div>
+    <div class="training-topics">
+      N/A
+    </div>
+    <div class="training-stack">
+      LaTeX
+    </div>
+    <img class="training-logo" src="../images/HMDM.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Apr 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Data Visualization with R</div>
+    <div class="training-institute">IYKRA</div>
+    <div class="training-topics">
+      Data Analysis
+    </div>
+    <div class="training-stack">
+      R
+    </div>
+    <img class="training-logo" src="../images/IYKRA.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Introduction to Machine Learning</div>
+    <div class="training-institute"><span title="Mathematics Event and Competition"><u>LOGIKA</u></span> UI 2018</div>
+    <div class="training-topics">
+      Machine Learning
+    </div>
+    <div class="training-stack">
+      Python,
+      scikit-learn
+    </div>
+    <img class="training-logo" src="../images/LOGIKA_UI-2018.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Mathematics Software Training R</div>
+    <div class="training-institute"><span title="Mathematics Event and Competition"><u>LOGIKA</u></span> UI 2018</div>
+    <div class="training-topics">
+      Bioinformatics
+    </div>
+    <div class="training-stack">
+      R
+    </div>
+    <img class="training-logo" src="../images/LOGIKA_UI-2018.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Jan 2018</span>
+      <span class="training-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="training-event">Future Force Fair</div>
+    <div class="training-institute">IYKRA</div>
+    <div class="training-topics">
+      Machine Learning,
+      Computer Vision
+    </div>
+    <div class="training-stack">
+      Python,
+      TensorFlow,
+      R
+    </div>
+    <img class="training-logo" src="../images/IYKRA.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Aug 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Inferences vs Prediction</div>
+    <div class="training-institute">Pacmann AI</div>
+    <div class="training-topics">
+      Machine Learning
+    </div>
+    <div class="training-stack">
+      Python,
+      scikit-learn
+    </div>
+    <img class="training-logo" src="../images/Pacmann.png">
+  </div>
+</div>
+
+<!-- Machine Learning, Artificial Intelligence, Data Science Seminars -->
+<div id="madsmnr" class="tabcontent" category="Seminar">
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Artificial Intelligence: Mankind's Last Invention<br>That Changed The World</div>
+    <div class="training-institute">CompFest XI</div>
+    <div class="training-topics">
+      Machine Learning
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2018</span>
+      <span class="training-location">Jakarta, Indonesia</span>
+    </div>
+    <div class="training-event">The Other Side of Calculus</div>
+    <div class="training-institute"><span title="Jakarta State University"><u>UNJ</u></span></div>
+    <div class="training-topics">
+      Mathematics
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Lambang_baru_UNJ.png/300px-Lambang_baru_UNJ.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Apr 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Telling Powerful Stories with Data</div>
+    <div class="training-institute">IYKRA</div>
+    <div class="training-topics">
+      Data Analysis
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/IYKRA.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Understanding Human through Machine Learning:<br>How Recommendation Engine Works</div>
+    <div class="training-institute">CompFest IX</div>
+    <div class="training-topics">
+      Machine Learning,
+      Recommendation System
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Aug 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Two Cultures - Statistics vs Machine Learning</div>
+    <div class="training-institute">Pacmann AI</div>
+    <div class="training-topics">
+      Machine Learning
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/Pacmann.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Mar 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Data Science Practice and its Challenges</div>
+    <div class="training-institute">LabMaKA</div>
+    <div class="training-topics">
+      Data Science
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/LabMaKA.png" style="top:65px">
+  </div>
+</div>
+
+<!-- Other IT Seminars -->
+<div id="othsmnr" class="tabcontent" category="Others">
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">How Gamification Drive Better Business Outcome</div>
+    <div class="training-institute">CompFest XI</div>
+    <div class="training-topics">
+      N/A
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Cyber Security: How Secure and Valuable<br>is Your Data?</div>
+    <div class="training-institute">CompFest XI</div>
+    <div class="training-topics">
+      N/A
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2019</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Uncovered Massive Disruption from Blockchain</div>
+    <div class="training-institute">CompFest XI</div>
+    <div class="training-topics">
+      N/A
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2018</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Financial Technology for Indonesia</div>
+    <div class="training-institute"><span title="Bandung Institute of Technology"><u>ITB</u></span></div>
+    <div class="training-topics">
+      Finance
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="https://upload.wikimedia.org/wikipedia/id/thumb/9/95/Logo_Institut_Teknologi_Bandung.png/225px-Logo_Institut_Teknologi_Bandung.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Leveraging User Experience for Big Data</div>
+    <div class="training-institute">CompFest IX</div>
+    <div class="training-topics">
+      UI/UX
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png">
+  </div>
+
+  <div class="training-card">
+    <div class="training-header">
+      <span class="training-daterange">Sep 2017</span>
+      <span class="training-location">West Java, Indonesia</span>
+    </div>
+    <div class="training-event">Security Concerns for Start Up</div>
+    <div class="training-institute">CompFest IX</div>
+    <div class="training-topics">
+      N/A
+    </div>
+    <div class="training-stack">
+      N/A
+    </div>
+    <img class="training-logo" src="../images/CompFest.png">
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get featured tab to populate
+    const featuredTab = document.getElementById('feature');
+    
+    // Select all tabcontent divs
+    const tabContents = document.querySelectorAll('.tabcontent');
+
+    // Collect all featured cards from all tab contents
+    const allFeaturedCards = [];
+
+    tabContents.forEach(content => {
+      // Select cards that should be featured within each tabcontent
+      const featuredCards = Array.from(content.querySelectorAll('.training-card[featured="true"]'));
+      allFeaturedCards.push(...featuredCards);
+    });
+
+    // Sort all featured cards based on the feature-order attribute
+    allFeaturedCards.sort((a, b) => {
+      return parseInt(a.getAttribute('feature-order')) - parseInt(b.getAttribute('feature-order'));
+    });
+
+    allFeaturedCards.forEach(card => {
+      // Clone each featured card
+      const clone = card.cloneNode(true);
+      
+      // Edit data in card
+      if(card.hasAttribute('id')) {
+        clone.removeAttribute('id');
+      }
+      clone.classList.add('featured-card');
+
+      // Add category to card
+      const sourceDiv = document.createElement('div');
+      sourceDiv.className = 'training-source';
+      sourceDiv.textContent = `${card.parentElement.getAttribute('category')}`;
+      clone.appendChild(sourceDiv);
+
+      // Append clone to the featured tab
+      featuredTab.appendChild(clone);
+    });
+
+    // Open featured tab
+    document.getElementById("defaultOpen").click();
+  });
+
+  function openTrn(event, trnCat) {
+    var idx, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (idx = 0; idx < tabcontent.length; idx++) {
+      tabcontent[idx].style.display = 'none';
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (idx = 0; idx < tablinks.length; idx++) {
+      tablinks[idx].className = tablinks[idx].className.replace(' active', '');
+    }
+
+    document.getElementById(trnCat).style.display = 'block';
+    event.currentTarget.className += ' active';
+
+    // Reset the animation
+    resetAnimation(trnCat);
+  }
+
+  function resetAnimation(trnCat) {
+    const cards = document.querySelectorAll(`#${trnCat} .training-card`);
+    let delay = 0;
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationDelay = `${delay}s`;
+          entry.target.classList.add('visible');
+          delay += 0.5; // Increment delay for the next card
+          observer.unobserve(entry.target); // Stop observing once it has been animated
+        } else {
+          delay = 0; // Reset delay for non-visible cards
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    cards.forEach(card => {
+      card.classList.remove('visible');
+      observer.observe(card);
+    });
+  }
+</script>
 
 
 
@@ -692,7 +1226,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Abyoso Hapsoro Nurhadi, 2024</p>
+<p>© Abyoso Hapsoro Nurhadi, 2024-2025</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

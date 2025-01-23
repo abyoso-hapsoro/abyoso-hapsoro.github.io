@@ -10,6 +10,7 @@ retrospective/certifications.qmd linguist-language=JavaScript
 retrospective/achievements.qmd linguist-language=JavaScript
 projects/projects.qmd linguist-language=HTML
 projects/mlaids.qmd linguist-language=HTML
+projects/mathematics.qmd linguist-language=HTML
 projects/others.qmd linguist-language=HTML
 misc.qmd linguist-language=JavaScript
 notes.qmd linguist-language=JavaScript

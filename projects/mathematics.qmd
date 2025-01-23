@@ -1,6 +1,6 @@
 ---
 title: "Mathematics projects"
-date: "21 January 2024"
+date: "21 January 2025"
 ---
 
 ::: {layout="[35,65]"}

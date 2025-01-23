@@ -1,6 +1,6 @@
 ---
 title: "ML, AI and DS projects"
-date: "19 January 2024"
+date: "19 January 2025"
 ---
 
 ::: {layout="[25,75]"}

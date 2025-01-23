@@ -13,7 +13,7 @@ website:
 
   page-footer:
     right: "This page is built with 💚 using [Quarto](https://quarto.org/)."
-    left: "&copy; Abyoso Hapsoro Nurhadi, 2024"
+    left: "&copy; Abyoso Hapsoro Nurhadi, 2024-2025"
   
   sidebar:
     pinned: true
@@ -37,14 +37,13 @@ website:
     collapse-level: 2
     contents:
       - href: index.qmd
-        text: Homepage
+        text: Homepage  # 🏠︎ Homepage
       - about.qmd
       - section: retrospective/retrospective.qmd
         contents:
           - retrospective/education.qmd
           - retrospective/experience.qmd
-          - href: retrospective/training.qmd
-            text: Training (U/C)
+          - retrospective/training.qmd
           - retrospective/organization.qmd
           - retrospective/cv.qmd
           - retrospective/certifications.qmd
