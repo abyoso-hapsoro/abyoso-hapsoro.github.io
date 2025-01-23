@@ -1,5 +1,6 @@
 /.quarto/
 scripts/redirect.js
 images/
+!docs/images/
 writings/
 docs/writings
