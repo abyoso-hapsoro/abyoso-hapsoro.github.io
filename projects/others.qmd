@@ -1,6 +1,6 @@
 ---
 title: "Other projects"
-date: "21 January 2025"
+date: "28 January 2025"
 ---
 
 ::: {layout="[35,65]"}
@@ -18,6 +18,23 @@ date: "21 January 2025"
     <b>Tech Stack</b>: Python<br>
     <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/simple-timer-gif">View Code</a></div>
     <div style="width:150; float:right;">📅 Dec 2024 - Jan 2025</div>
+</div>
+<div style="clear: both;"></div>
+```
+
+```{=html}
+<div class="image-container">
+    <img src="https://raw.githubusercontent.com/abyoso-hapsoro/past-works/main/Basic%20Python/Guessing%20Game/Guessing%20Game%20v0.5.2.png" width=280 alt="Guessing Game" title="Guessing Game"/>
+</div>
+```
+
+```{=html}
+<div style="width:260;">
+    <h2>Guessing Game</h2>
+    A number guessing game with Tkinter GUI (Graphical User Interface). The number to guess each round is randomly generated.<br><br>
+    <b>Tech Stack</b>: Python<br>
+    <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Basic%20Python/Guessing%20Game">View Code</a></div>
+    <div style="width:150; float:right;">📅 Mar 2018</div>
 </div>
 <div style="clear: both;"></div>
 ```

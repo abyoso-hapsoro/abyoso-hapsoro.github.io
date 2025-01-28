@@ -1,6 +1,6 @@
 ---
 title: "Mathematics projects"
-date: "21 January 2025"
+date: "28 January 2025"
 ---
 
 ::: {layout="[35,65]"}
@@ -35,6 +35,23 @@ date: "21 January 2025"
     <b>Tech Stack</b>: Python<br>
     <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/tree/main/Intermediate%20Python/Lindenmayer%20Fractal">View Code</a></div>
     <div style="width:150; float:right;">📅 Sep 2019 - Oct 2019</div>
+</div>
+<div style="clear: both;"></div>
+```
+
+```{=html}
+<div class="image-container">
+    <img src="../images/Heart_Carlo.png" width=280 alt="Heart Carlo" title="Heart Carlo"/>
+</div>
+```
+
+```{=html}
+<div style="width:260;">
+    <h2>Volume Approximation of 3D Function with Monte Carlo</h2>
+    Homework project for Calculus 2 course. Using the Monte Carlo method, we can approximate the volume of 3D functions including those difficult or impossible to solve analytically.<br><br>
+    <b>Tech Stack</b>: Wolfram Mathematica<br>
+    <div style="width:150; float:left;"><i class="bi bi-github"></i> <a href="https://github.com/abyoso-hapsoro/past-works/blob/main/Wolfram%20Mathematica/Calculus%202/2018%20Homework%202.nb">View Code</a></div>
+    <div style="width:150; float:right;">📅 May 2018</div>
 </div>
 <div style="clear: both;"></div>
 ```
