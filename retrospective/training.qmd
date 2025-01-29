@@ -114,7 +114,7 @@ date: "24 January 2025"
     <div class="training-stack">
       R
     </div>
-    <img class="training-logo" src="../images/LOGIKA_UI-2019.png">
+    <img class="training-logo" src="../images/UI-LOGIKA-2019.png">
   </div>
 
   <div class="training-card">
@@ -164,7 +164,7 @@ date: "24 January 2025"
     <div class="training-stack">
       LaTeX
     </div>
-    <img class="training-logo" src="../images/HMDM.png">
+    <img class="training-logo" src="../images/UI_Math-HMDM.png">
   </div>
 
   <div class="training-card">
@@ -197,7 +197,7 @@ date: "24 January 2025"
       Python,
       scikit-learn
     </div>
-    <img class="training-logo" src="../images/LOGIKA_UI-2018.png">
+    <img class="training-logo" src="../images/UI-LOGIKA-2018.png">
   </div>
 
   <div class="training-card">
@@ -213,7 +213,7 @@ date: "24 January 2025"
     <div class="training-stack">
       R
     </div>
-    <img class="training-logo" src="../images/LOGIKA_UI-2018.png">
+    <img class="training-logo" src="../images/UI-LOGIKA-2018.png">
   </div>
 
   <div class="training-card">
@@ -268,7 +268,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png" style="top:40px">
   </div>
 
   <div class="training-card">
@@ -317,7 +317,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png" style="top:40px">
   </div>
 
   <div class="training-card">
@@ -349,7 +349,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/LabMaKA.png" style="top:65px">
+    <img class="training-logo" src="../images/UI_FMIPA-LabMaKA.png" style="top:65px">
   </div>
 </div>
 
@@ -368,7 +368,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png">
   </div>
 
   <div class="training-card">
@@ -384,7 +384,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png" style="top:40px">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png" style="top:40px">
   </div>
 
   <div class="training-card">
@@ -400,7 +400,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png">
   </div>
 
   <div class="training-card">
@@ -432,7 +432,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png">
   </div>
 
   <div class="training-card">
@@ -448,7 +448,7 @@ date: "24 January 2025"
     <div class="training-stack">
       N/A
     </div>
-    <img class="training-logo" src="../images/CompFest.png">
+    <img class="training-logo" src="../images/UI_Fasilkom-CompFest.png">
   </div>
 </div>
 

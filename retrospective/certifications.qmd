@@ -19,7 +19,7 @@ Issued by Pro5, formerly Mangtas<br>
 Issued: November 2023<br>
 📄 <a href="https://storage.mangtas.com/public/certificates/ML-cert-6755451-Abyoso_HapsoroNurhadi-11-11-23_11_37.pdf">View Certificate</a>
 
-![](../images/dicoding.jpeg){width=200}
+![](../images/Dicoding.png){width=200}
 
 ## Machine Learning Mastery Evaluation Certificate
 Issued by Dicoding Indonesia<br>
@@ -33,7 +33,7 @@ Issued by WorldQuant University<br>
 Issued: March 2023<br>
 🔰 <a href="https://www.credly.com/badges/1207fbc2-8c60-4488-8461-20ac1ef9c05a">View Badge</a>
 
-![](../images/Oracle_ML-2021.png){width=200}
+![](../images/Oracle_Academy-ML-2021.png){width=200}
 
 ## Oracle Machine Learning using Autonomous Database 2021 Certified Specialist
 Issued by Oracle<br>
