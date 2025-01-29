@@ -1,13 +1,13 @@
 ---
 title: "Abyoso Hapsoro Nurhadi"
 subtitle: "Machine Learning, Artificial Intelligence and Data Science Enthusiast"
-date: "5 January 2025"
+date: "29 January 2025"
 execute:
   echo: false
 ---
 
 <!-- Placeholder Banner -->
-![](images/Crystal_of_Knowledge.jpg){width=100%}
+![](images/UI-Crystal_of_Knowledge.png){width=100%}
 
 <!-- Animated Hello World -->
 ```{=html}
@@ -52,7 +52,7 @@ I am a medior-level developer based in West Java, Indonesia (UTC+7). Experienced
 ::: {.callout-tip}
 ## My Availability
 
-As of 5 January 2025:
+As of 29 January 2025:
 
 <details>
   <summary>❌ Not Available for Hire</summary>

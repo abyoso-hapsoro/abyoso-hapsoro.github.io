@@ -7,7 +7,7 @@ date: "28 January 2025"
 
 ```{=html}
 <div class="image-container">
-    <img src="../images/Lorenz_Equation.gif" width=280 alt="Lorenz Equation on Earth" title="Lorenz Equation on Earth"/>
+    <img src="../images/Project-Lorenz_Equation.gif" width=280 alt="Lorenz Equation on Earth" title="Lorenz Equation on Earth"/>
 </div>
 ```
 
@@ -24,7 +24,7 @@ date: "28 January 2025"
 
 ```{=html}
 <div class="image-container">
-    <img src="../images/Lindenmayer_Fractal.png" width=280 alt="Lindenmayer Fractal" title="Lindenmayer Fractal"/>
+    <img src="../images/Project-Lindenmayer_Fractal.png" width=280 alt="Lindenmayer Fractal" title="Lindenmayer Fractal"/>
 </div>
 ```
 
@@ -41,7 +41,7 @@ date: "28 January 2025"
 
 ```{=html}
 <div class="image-container">
-    <img src="../images/Heart_Carlo.png" width=280 alt="Heart Carlo" title="Heart Carlo"/>
+    <img src="../images/Project-Heart_Carlo.png" width=280 alt="Heart Carlo" title="Heart Carlo"/>
 </div>
 ```
 

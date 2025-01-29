@@ -6,7 +6,7 @@ date: "28 December 2024"
 ::: {.grid}
 
 ::: {.g-col-4}
-![](images/SEA-MLS.jpg){width=3in}
+![](images/SEA-MLS.png){width=3in}
 :::
 
 ::: {.g-col-8}

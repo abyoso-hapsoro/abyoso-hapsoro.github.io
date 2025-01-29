@@ -107,7 +107,7 @@ date: 5 January 2025"
       Postman API,
       Git
     </div>
-    <img class="experience-logo" src="../images/EdgeProp.jpeg">
+    <img class="experience-logo" src="../images/EdgeProp.png">
   </div>
 
   <div class="experience-card" featured="true" feature-order="7">
@@ -127,7 +127,7 @@ date: 5 January 2025"
     <div class="experience-stack">
       Microsoft Excel
     </div>
-    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+    <img class="experience-logo" style="top:50px" src="../images/UI_Math.png">
   </div>
 
   <div class="experience-card">
@@ -242,7 +242,7 @@ date: 5 January 2025"
       Microsoft Excel,
       LaTeX
     </div>
-    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+    <img class="experience-logo" style="top:50px" src="../images/UI_Math.png">
   </div>
 
   <div class="experience-card">
@@ -276,7 +276,7 @@ date: 5 January 2025"
     <div class="experience-stack">
       Python
     </div>
-    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+    <img class="experience-logo" style="top:50px" src="../images/UI_Math.png">
   </div>
 
   <div class="experience-card">
@@ -297,7 +297,7 @@ date: 5 January 2025"
       Microsoft Excel,
       LaTeX
     </div>
-    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+    <img class="experience-logo" style="top:50px" src="../images/UI_Math.png">
   </div>
 </div>
 
@@ -340,7 +340,7 @@ date: 5 January 2025"
       Python,
       scikit-learn
     </div>
-    <img class="experience-logo" src="../images/FKUI.png">
+    <img class="experience-logo" src="../images/UI_FK.png">
   </div>
 </div>
 
@@ -366,7 +366,7 @@ date: 5 January 2025"
       scikit-learn,
       Microsoft Excel
     </div>
-    <img class="experience-logo" src="../images/Klinik_Data.png">
+    <img class="experience-logo" src="../images/UI_FMIPA-Klinik_Data.png">
   </div>
 
   <div class="experience-card">
@@ -383,7 +383,7 @@ date: 5 January 2025"
     <div class="experience-stack">
       Python
     </div>
-    <img class="experience-logo" style="top:50px" src="../images/University_of_Indonesia-Department_of_Mathematics.png">
+    <img class="experience-logo" style="top:50px" src="../images/UI_Math.png">
   </div>
 </div>
 
@@ -403,7 +403,7 @@ date: 5 January 2025"
     <div class="experience-stack">
       N/A
     </div>
-    <img class="experience-logo" src="../images/Akademi_Prestasi.jpeg">
+    <img class="experience-logo" src="../images/Akademi_Prestasi.png">
   </div>
 
   <div class="experience-card">
