@@ -440,6 +440,11 @@ th.right, td.right {
   width: 94%;
 }
 
+.education-grading-notes {
+  border: 1px solid #000000;
+  text-align: center;
+}
+
 .education-card.active .education-dropdown {
   display: block;
 }

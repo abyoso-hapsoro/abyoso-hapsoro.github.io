@@ -1,6 +1,6 @@
 ---
 title: "Certifications"
-date: "4 August 2024"
+date: "5 March 2024"
 ---
 
 ::: {layout="[25,75]"}
@@ -44,7 +44,7 @@ Issued: February 2022, <span style="color:red;">Expired: February 2024</span><br
 
 ## IELTS Academic CEFR C1
 Issued by Indonesia Australia Language Foundation<br>
-Issued: February 2023, <span style="color:green;">Expires: February 2025</span><br>
+Issued: February 2023, <span style="color:red;">Expired: February 2025</span><br>
 📋 <a href="https://drive.google.com/file/d/1QLzKqE_PyYRjZM6_H_jBvCFi0rvyMDxC/view">View Report</a>
 
 ![](../images/PAI.png){width=200}

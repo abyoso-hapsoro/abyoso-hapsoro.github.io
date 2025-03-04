@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://abyoso-hapsoro.github.io/index.html</loc>
-    <lastmod>2025-01-29T00:37:55.452Z</lastmod>
+    <loc>https://abyoso-hapsoro.github.io/retrospective/education.html</loc>
+    <lastmod>2025-03-04T21:37:26.492Z</lastmod>
   </url>
   <url>
     <loc>https://abyoso-hapsoro.github.io/writings/writings.html</loc>
@@ -14,59 +14,55 @@
   </url>
   <url>
     <loc>https://abyoso-hapsoro.github.io/retrospective/training.html</loc>
-    <lastmod>2025-01-29T00:23:12.405Z</lastmod>
+    <lastmod>2025-01-29T01:20:05.087Z</lastmod>
   </url>
   <url>
     <loc>https://abyoso-hapsoro.github.io/retrospective/organization.html</loc>
-    <lastmod>2025-01-29T00:34:47.871Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/retrospective/education.html</loc>
-    <lastmod>2025-01-29T00:28:38.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/retrospective/certifications.html</loc>
-    <lastmod>2025-01-29T00:27:31.431Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/projects/projects.html</loc>
-    <lastmod>2025-01-23T11:42:10.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/projects/mlaids.html</loc>
-    <lastmod>2025-01-29T00:19:22.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/notes.html</loc>
-    <lastmod>2025-01-29T00:30:04.986Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/about.html</loc>
-    <lastmod>2025-01-28T23:58:02.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/misc.html</loc>
-    <lastmod>2025-01-05T12:52:05.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/projects/mathematics.html</loc>
-    <lastmod>2025-01-29T00:25:08.972Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/projects/others.html</loc>
-    <lastmod>2025-01-27T23:55:38.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://abyoso-hapsoro.github.io/retrospective/achievements.html</loc>
-    <lastmod>2025-01-29T00:27:12.571Z</lastmod>
+    <lastmod>2025-01-29T01:20:05.086Z</lastmod>
   </url>
   <url>
     <loc>https://abyoso-hapsoro.github.io/retrospective/cv.html</loc>
     <lastmod>2024-12-28T02:34:39.852Z</lastmod>
   </url>
   <url>
+    <loc>https://abyoso-hapsoro.github.io/retrospective/achievements.html</loc>
+    <lastmod>2025-01-29T01:20:05.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/projects/others.html</loc>
+    <lastmod>2025-01-27T23:55:38.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/projects/mathematics.html</loc>
+    <lastmod>2025-01-29T01:20:05.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/misc.html</loc>
+    <lastmod>2025-01-05T12:52:05.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/about.html</loc>
+    <lastmod>2025-03-04T21:42:38.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/notes.html</loc>
+    <lastmod>2025-03-04T06:01:41.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/projects/mlaids.html</loc>
+    <lastmod>2025-01-29T01:20:05.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/projects/projects.html</loc>
+    <lastmod>2025-01-23T11:42:10.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/retrospective/certifications.html</loc>
+    <lastmod>2025-03-04T04:40:46.542Z</lastmod>
+  </url>
+  <url>
     <loc>https://abyoso-hapsoro.github.io/retrospective/experience.html</loc>
-    <lastmod>2025-01-29T00:28:28.970Z</lastmod>
+    <lastmod>2025-03-04T05:11:15.012Z</lastmod>
   </url>
   <url>
     <loc>https://abyoso-hapsoro.github.io/retrospective/retrospective.html</loc>
@@ -79,5 +75,9 @@
   <url>
     <loc>https://abyoso-hapsoro.github.io/writings/unpublished.html</loc>
     <lastmod>2024-07-27T05:32:51.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abyoso-hapsoro.github.io/index.html</loc>
+    <lastmod>2025-01-29T01:20:05.063Z</lastmod>
   </url>
 </urlset>
